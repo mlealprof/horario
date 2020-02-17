@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
                                            /
                         _,.------....___,.' ',.-.
@@ -29,3 +30,12 @@
  `"^--'..'   '-`-^-'"--    `-^-'`.''"""""`.,^.`.--' mh
 
  pokemonzinho
+=======
+<<<<<<< HEAD
+
+=======
+Apaguei essa linha
+Oi essa é minha primeira alteração
+Adicionei mais uma linha
+>>>>>>> upstream/master
+>>>>>>> upstream/master
