@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Apaguei essa linha
 Oi essa é minha primeira alteração
 
@@ -5,3 +6,8 @@ Oi essa é minha primeira alteração
 
 
 uiuigado
+=======
+Apaguei essa linha
+Oi essa é minha primeira alteração
+Adicionei mais uma linha
+>>>>>>> upstream/master
