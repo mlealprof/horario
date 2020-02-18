@@ -1,5 +1,0 @@
-cd /c/xampp/htdocs/projeto/horario
-git fetch upstream
-git add .
-git commit -m "WyssAtualizando"
-git push
