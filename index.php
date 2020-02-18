@@ -4,6 +4,6 @@
 	<title>Página Inicial</title>
 </head>
 <body>
-  Esperando o Frond End.
+  Esperando o Frond End. 
 </body>
 </html>
