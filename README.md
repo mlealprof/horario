@@ -7,11 +7,12 @@ O web site irá possibilitar o cadastro de escolas públicas ou privadas, no qua
 Esse Quadro de horários poderá ser alterado manualmente. No entanto, não deixará que horários se choquem. 
 
 
-## Download do SQL banco de dados
+## Banco de dados - MySql
 
-SQL do banco de dados:
 
 Nome do Banco de Dados: bd_horario
+
+
 [Download SQL](https://github.com/mlealprof/horario/database/escola.sql)
 =========================================================================
 
