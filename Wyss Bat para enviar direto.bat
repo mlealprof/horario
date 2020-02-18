@@ -5,6 +5,6 @@ pause
 git commit -m "WyssAtualizando"
 pause
 git push
--------Arquivo enviado e atualizado------
-------------------WYSS-------------------
+echo -------Arquivo enviado e atualizado------
+echo ------------------WYSS-------------------
 pause
