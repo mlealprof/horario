@@ -5,7 +5,7 @@
 -- Host: 127.0.0.1
 
 -- Tempo de geração: 19-Fev-2020 às 00:40
-=======
+
 -- Tempo de geração: 19-Fev-2020 às 00:30
 
 -- Versão do servidor: 10.4.6-MariaDB
