@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 18-Fev-2020 às 22:40
+-- Tempo de geração: 19-Fev-2020 às 00:30
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -21,6 +21,17 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `bd_horario`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `disciplina`
+--
+
+CREATE TABLE `disciplina` (
+  `codigo` int(11) NOT NULL,
+  `nome` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -55,6 +66,12 @@ INSERT INTO `escola` (`codigo_escola`, `cnpj`, `nome`, `telefone`, `endereco`, `
 --
 
 --
+-- Índices para tabela `disciplina`
+--
+ALTER TABLE `disciplina`
+  ADD PRIMARY KEY (`codigo`);
+
+--
 -- Índices para tabela `escola`
 --
 ALTER TABLE `escola`
@@ -63,6 +80,12 @@ ALTER TABLE `escola`
 --
 -- AUTO_INCREMENT de tabelas despejadas
 --
+
+--
+-- AUTO_INCREMENT de tabela `disciplina`
+--
+ALTER TABLE `disciplina`
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `escola`
