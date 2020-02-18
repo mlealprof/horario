@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+
 -- Tempo de geração: 19-Fev-2020 às 00:40
+=======
+-- Tempo de geração: 19-Fev-2020 às 00:30
+
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -25,6 +29,19 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+
+
+-- Estrutura da tabela `disciplina`
+--
+
+CREATE TABLE `disciplina` (
+  `codigo` int(11) NOT NULL,
+  `nome` varchar(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+
 -- Estrutura da tabela `escola`
 --
 
@@ -50,6 +67,7 @@ CREATE TABLE `escola` (
 INSERT INTO `escola` (`codigo_escola`, `cnpj`, `nome`, `telefone`, `endereco`, `numero`, `cidade`, `estado`, `pais`, `cep`, `tipo_escola`, `tipo_ensino`) VALUES
 (1, '9884684798', 'skÃ§fdsaj', 'adfsaf', 'sdfg', 'dsfgs', 'df', 'dc', 'asdfj', 'dsfjo', 'sdljsao', 'sdfjo');
 
+
 -- --------------------------------------------------------
 
 --
@@ -68,12 +86,24 @@ CREATE TABLE `turma` (
 --
 
 --
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices para tabela `disciplina`
+--
+ALTER TABLE `disciplina`
+  ADD PRIMARY KEY (`codigo`);
+
+
+--
 -- Índices para tabela `escola`
 --
 ALTER TABLE `escola`
   ADD PRIMARY KEY (`codigo_escola`);
 
 --
+
 -- Índices para tabela `turma`
 --
 ALTER TABLE `turma`
@@ -83,17 +113,30 @@ ALTER TABLE `turma`
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
+-- AUTO_INCREMENT de tabelas despejadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `disciplina`
+--
+ALTER TABLE `disciplina`
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT;
+
+
 --
 -- AUTO_INCREMENT de tabela `escola`
 --
 ALTER TABLE `escola`
   MODIFY `codigo_escola` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
+
 --
 -- AUTO_INCREMENT de tabela `turma`
 --
 ALTER TABLE `turma`
   MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT;
+
+
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
