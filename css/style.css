@@ -12,7 +12,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: Marvel;
 }
 
 a {
@@ -199,11 +199,13 @@ h6 {
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
+  border-radius: 20px;
 }
 
 #intro .intro-content h2 span {
   color: #50d8af;
   text-decoration: underline;
+  border-radius: 20px;
 }
 
 #intro .intro-content .btn-get-started,
@@ -213,8 +215,8 @@ h6 {
   font-weight: bold;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 32px;
-  border-radius: 2px;
+  padding: 5px 10px;
+  border-radius: 20px;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
