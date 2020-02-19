@@ -4,7 +4,7 @@
   <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Reveal</strong>. All Rights Reserved
+        &copy; Copyright <strong>TimeTable</strong>. Todos os Direitos Reservados
       </div>
       <div class="credits">
         <!--
@@ -13,7 +13,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
         -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by T.I 2018</a>
       </div>
     </div>
   </footer><!-- #footer -->
