@@ -2,12 +2,6 @@
 -- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
-
--- Tempo de geração: 19-Fev-2020 às 00:40
-
--- Tempo de geração: 19-Fev-2020 às 00:30
-
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -30,7 +24,6 @@ SET time_zone = "+00:00";
 
 --
 
-
 -- Estrutura da tabela `disciplina`
 --
 
@@ -40,6 +33,7 @@ CREATE TABLE `disciplina` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
+
 
 
 -- Estrutura da tabela `escola`
@@ -71,6 +65,26 @@ INSERT INTO `escola` (`codigo_escola`, `cnpj`, `nome`, `telefone`, `endereco`, `
 -- --------------------------------------------------------
 
 --
+-- Estrutura da tabela `professor`
+--
+
+CREATE TABLE `professor` (
+  `codigo` int(11) NOT NULL,
+  `cpf` varchar(20) NOT NULL,
+  `nome` varchar(100) NOT NULL,
+  `telefone` varchar(20) NOT NULL,
+  `endereco` varchar(100) NOT NULL,
+  `numero` int(10) NOT NULL,
+  `cidade` varchar(30) NOT NULL,
+  `estado` varchar(5) NOT NULL,
+  `pais` varchar(50) NOT NULL,
+  `cep` varchar(15) NOT NULL,
+  `masp` varchar(15) NOT NULL
+=======
+
+-- --------------------------------------------------------
+
+--
 -- Estrutura da tabela `turma`
 --
 
@@ -79,6 +93,7 @@ CREATE TABLE `turma` (
   `nome` varchar(20) DEFAULT NULL,
   `qtd_horarios` varchar(20) DEFAULT NULL,
   `turno` varchar(20) DEFAULT NULL
+
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -97,6 +112,7 @@ ALTER TABLE `disciplina`
 
 
 --
+
 -- Índices para tabela `escola`
 --
 ALTER TABLE `escola`
@@ -104,9 +120,15 @@ ALTER TABLE `escola`
 
 --
 
+-- Índices para tabela `professor`
+--
+ALTER TABLE `professor`
+
+
 -- Índices para tabela `turma`
 --
 ALTER TABLE `turma`
+
   ADD PRIMARY KEY (`codigo`);
 
 --
@@ -123,6 +145,7 @@ ALTER TABLE `disciplina`
   MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT;
 
 
+
 --
 -- AUTO_INCREMENT de tabela `escola`
 --
@@ -131,10 +154,18 @@ ALTER TABLE `escola`
 
 
 --
+-- AUTO_INCREMENT de tabela `professor`
+--
+ALTER TABLE `professor`
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT;
+
+
+--
 -- AUTO_INCREMENT de tabela `turma`
 --
 ALTER TABLE `turma`
   MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT;
+
 
 
 COMMIT;
