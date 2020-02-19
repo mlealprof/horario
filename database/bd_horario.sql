@@ -80,7 +80,7 @@ CREATE TABLE `professor` (
   `pais` varchar(50) NOT NULL,
   `cep` varchar(15) NOT NULL,
   `masp` varchar(15) NOT NULL
-=======
+
 
 -- --------------------------------------------------------
 
