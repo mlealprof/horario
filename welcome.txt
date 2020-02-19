@@ -1,4 +1,0 @@
-Apaguei essa linha
-Oi essa é minha primeira alteração
-
-Segunda aula de git 
