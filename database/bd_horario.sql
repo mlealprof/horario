@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 19-Fev-2020 às 00:34
+-- Tempo de geração: 19-Fev-2020 às 00:57
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -21,6 +21,34 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `bd_horario`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `escola`
+--
+
+CREATE TABLE `escola` (
+  `codigo_escola` int(11) NOT NULL,
+  `cnpj` varchar(20) NOT NULL,
+  `nome` varchar(100) NOT NULL,
+  `telefone` varchar(20) NOT NULL,
+  `endereco` varchar(100) NOT NULL,
+  `numero` varchar(10) NOT NULL,
+  `cidade` varchar(50) NOT NULL,
+  `estado` varchar(2) NOT NULL,
+  `pais` varchar(20) NOT NULL,
+  `cep` varchar(10) NOT NULL,
+  `tipo_escola` varchar(20) NOT NULL,
+  `tipo_ensino` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `escola`
+--
+
+INSERT INTO `escola` (`codigo_escola`, `cnpj`, `nome`, `telefone`, `endereco`, `numero`, `cidade`, `estado`, `pais`, `cep`, `tipo_escola`, `tipo_ensino`) VALUES
+(1, '9884684798', 'skÃ§fdsaj', 'adfsaf', 'sdfg', 'dsfgs', 'df', 'dc', 'asdfj', 'dsfjo', 'sdljsao', 'sdfjo');
 
 -- --------------------------------------------------------
 
@@ -47,6 +75,12 @@ CREATE TABLE `professor` (
 --
 
 --
+-- Índices para tabela `escola`
+--
+ALTER TABLE `escola`
+  ADD PRIMARY KEY (`codigo_escola`);
+
+--
 -- Índices para tabela `professor`
 --
 ALTER TABLE `professor`
@@ -55,6 +89,12 @@ ALTER TABLE `professor`
 --
 -- AUTO_INCREMENT de tabelas despejadas
 --
+
+--
+-- AUTO_INCREMENT de tabela `escola`
+--
+ALTER TABLE `escola`
+  MODIFY `codigo_escola` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de tabela `professor`
