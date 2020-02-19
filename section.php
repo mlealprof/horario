@@ -9,7 +9,7 @@
       <h2>Com a TimeTable</h2>
       <div>
         <a href="model_cadastro.php" class="btn-get-started scrollto">Cadastro</a>
-        <a href="#portfolio" class="btn-projects scrollto">Login</a>
+        <a href="login.php" class="btn-projects scrollto">Login</a>
       </div>
     </div>
 
