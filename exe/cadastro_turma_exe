@@ -6,7 +6,6 @@
 	$nome = $_POST['nome'];
 	$qtd_horarios = $_POST['qtd_horarios'];
 	$turno = $_POST['turno'];
-	
 
 	// Inserindo dados na tabela
 	$inserir_professor = "INSERT INTO escola (nome, qtd_horarios,turno) VALUES ('$nome', '$qtd_horarios', '$turno')";
