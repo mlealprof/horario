@@ -4,13 +4,15 @@
 
 	// Pegando dados via POST
 	$nome = $_POST['nome'];
+	$qtd_horarios = $_POST['qtd_horarios'];
+	$turno = $_POST['turno'];
 
 	// Inserindo dados na tabela
-	$inserir_disciplina = "INSERT INTO disciplina (nome) VALUES ('$nome')";
+	$inserir_turma = "INSERT INTO turma (nome, qtd_horarios, turno) VALUES ('$nome', '$qtd_horarios', '$turno')";
 
-	if (mysqli_query($conexao, $inserir_disciplina)) {
+	if (mysqli_query($conexao, $inserir_turma)) {
 		echo '<script type="text/javascript">
-			alert("Disciplina cadastrada com sucesso!");
+			alert("Turma cadastrada com sucesso!");
 			window.location.href="../index.php";
 			</script>';
 	} else {
