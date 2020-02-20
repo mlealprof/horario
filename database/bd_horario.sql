@@ -111,7 +111,10 @@ CREATE TABLE `usuario` (
   `cod_usuario` int(20) NOT NULL,
   `usuario` varchar(100) NOT NULL,
   `senha` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `senha` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `tipo_usuario` varchar(50) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Índices para tabelas despejadas
