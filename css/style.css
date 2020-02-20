@@ -1140,9 +1140,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-
-
-/*----------------------------------edições do rafael--------------------------------------------*/
-
-.babado-container{
+.img{
+  background: url("../img/intro-carousel/1.jpg") no-repeat;
 }
+
