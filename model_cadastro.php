@@ -11,51 +11,46 @@ require ("header.php");
   
      <div class="container">
       
-        <form>          
-          <div class="form-group">
-            <label for="exampleInputEmail1">Codigo</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted"></small>
-          </div>
+        <form action="exe/cadastro_escola_exe.php" method="post">          
           <div class="form-group">
             <label for="exampleInputPassword1">CNPJ</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="cnpj">
           </div>
                 <div class="form-group">
             <label for="exampleInputPassword1">Nome</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="nome">
           </div>
                 <div class="form-group">
             <label for="exampleInputPassword1">Telefone</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1"  name="telefone">
           </div>
                 <div class="form-group">
             <label for="exampleInputPassword1">Endereço</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="endereco">
           </div>
                 <div class="form-group">
             <label for="exampleInputPassword1">Numero</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="numero">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Estado</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="estado">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Pais</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="pais">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Cep</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="cep">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Tipo_Escola</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="tipo_escola">
           </div>
           <div class="form-group">
             <label for="exampleInputPassword1">Tipo_curso</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <input type="text" class="form-control" id="exampleInputPassword1" name="tipo_ensino">
           </div>
          
           <br>
