@@ -8,6 +8,7 @@
       </div>
       <div class="credits">
         Designed by T.I 2018</a>
+
       </div>
     </div>
   </footer><!-- #footer -->
