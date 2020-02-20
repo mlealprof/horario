@@ -226,12 +226,6 @@ CREATE TABLE `turno` (
 
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Extraindo dados da tabela `turma`
---
-
-INSERT INTO `turma` (`cod_turma`, `nome`, `qtd_horarios`, `turno`) VALUES
-(1, '', '', '');
 
 -- --------------------------------------------------------
 
