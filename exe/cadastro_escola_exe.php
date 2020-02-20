@@ -12,11 +12,13 @@
 	$estado = $_POST['estado'];
 	$pais = $_POST['pais'];
 	$cep = $_POST['cep'];
-	$tipo_ensino = $_POST['tipo_ensino'];
 	$tipo_escola = $_POST['tipo_escola'];
+	$tipo_ensino = $_POST['tipo_ensino'];
+	$data_cadastro = $_POST['data_cadastro'];
+	$senha = md5($_POST['senha']);
 
 	// Inserindo dados na tabela
-	$inserir_escola = "INSERT INTO escola (cnpj, nome, telefone, endereco, numero, cidade, estado, pais, cep, tipo_ensino, tipo_escola) VALUES ('$cnpj', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$tipo_ensino', '$tipo_escola')";
+	$inserir_escola = "INSERT INTO escola (cnpj, nome, telefone, endereco, numero, cidade, estado, pais, cep, tipo_escola, tipo_ensino, data_cadastro, senha) VALUES ('$cnpj', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$tipo_escola', '$tipo_ensino', '$data_cadastro', '$senha')";
 
 	if (mysqli_query($conexao, $inserir_escola)) {
 		echo '<script type="text/javascript">
