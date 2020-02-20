@@ -10,8 +10,8 @@
 	$inserir_disciplina = "INSERT INTO disciplina (nome) VALUES ('$nome_disciplina')";
 	mysqli_query($conexao, $inserir_disciplina);
 
-<<<<<<< HEAD
-=======
+
+
 	if (mysqli_query($conexao, $inserir_disciplina)) {
 			echo '<script type="text/javascript">
 			  alert("Disciplina cadastrada com sucesso !");
@@ -23,5 +23,5 @@
 			  window.location.href="../cadastro_disciplina_exe.php"
 			  </script>';
 		}
->>>>>>> upstream/master
+
 ?>
