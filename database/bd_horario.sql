@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 19-Fev-2020 às 23:48
+-- Tempo de geração: 20-Fev-2020 às 00:25
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -101,6 +101,20 @@ CREATE TABLE `turma` (
   `turno` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `usuario`
+--
+
+CREATE TABLE `usuario` (
+  `cod_usuario` int(20) NOT NULL,
+  `usuario` varchar(100) NOT NULL,
+  `senha` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `tipo_usuario` varchar(50) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 --
 -- Índices para tabelas despejadas
 --
@@ -136,6 +150,12 @@ ALTER TABLE `turma`
   ADD PRIMARY KEY (`cod_turma`);
 
 --
+-- Índices para tabela `usuario`
+--
+ALTER TABLE `usuario`
+  ADD PRIMARY KEY (`cod_usuario`);
+
+--
 -- AUTO_INCREMENT de tabelas despejadas
 --
 
@@ -168,6 +188,12 @@ ALTER TABLE `professor`
 --
 ALTER TABLE `turma`
   MODIFY `cod_turma` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de tabela `usuario`
+--
+ALTER TABLE `usuario`
+  MODIFY `cod_usuario` int(20) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
