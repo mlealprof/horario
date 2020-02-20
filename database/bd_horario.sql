@@ -3,7 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 21-Fev-2020 às 00:25
+
+-- Tempo de geração: 21-Fev-2020 às 00:14
+
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -62,6 +64,18 @@ CREATE TABLE `disciplina` (
   `cod_escola` int(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Extraindo dados da tabela `disciplina`
+--
+
+INSERT INTO `disciplina` (`cod_disciplina`, `nome`) VALUES
+(1, ''),
+(2, ''),
+(3, ''),
+(4, ''),
+(5, ''),
+(6, 'MatemÃ¡tica');
+
 -- --------------------------------------------------------
 
 --
@@ -87,7 +101,7 @@ CREATE TABLE `escola` (
   `cnpj` varchar(20) NOT NULL,
   `nome` varchar(100) NOT NULL,
   `telefone` varchar(20) NOT NULL,
-  `endereço` varchar(80) NOT NULL,
+  `endereco` varchar(80) NOT NULL,
   `numero` varchar(10) NOT NULL,
   `cidade` varchar(20) NOT NULL,
   `estado` varchar(20) NOT NULL,
@@ -129,6 +143,15 @@ CREATE TABLE `indisponibilidade` (
   `descricao` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Extraindo dados da tabela `escola`
+--
+
+INSERT INTO `escola` (`cod_escola`, `cnpj`, `nome`, `telefone`, `endereco`, `numero`, `cidade`, `estado`, `pais`, `cep`, `tipo_escola`, `tipo_ensino`) VALUES
+(1, '', '', '', '', '', '', '', '', '', '', ''),
+(2, '123', '5432', '234', '', '', '', 'WER', '', '', '', ''),
+(3, '', '', '', '', '', '', '', '', '', '', '');
+
 -- --------------------------------------------------------
 
 --
@@ -166,6 +189,13 @@ CREATE TABLE `quadro` (
   `cod_professor` int(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Extraindo dados da tabela `professor`
+--
+
+INSERT INTO `professor` (`cod_professor`, `cpf`, `nome`, `telefone`, `endereco`, `numero`, `cidade`, `estado`, `pais`, `cep`, `masp`) VALUES
+(1, '', '', '', '', '', '', '', '', '', '');
+
 -- --------------------------------------------------------
 
 --
@@ -190,8 +220,18 @@ CREATE TABLE `turma` (
 CREATE TABLE `turno` (
   `cod_turno` int(50) NOT NULL,
   `cod_escola` int(20) DEFAULT NULL,
-  `descricao` varchar(100) NOT NULL
+  `descricao` varchar(100) NOT NULL,
+  `qtd_horarios` varchar(20) NOT NULL,
+  `turno` varchar(20) NOT NULL
+
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `turma`
+--
+
+INSERT INTO `turma` (`cod_turma`, `nome`, `qtd_horarios`, `turno`) VALUES
+(1, '', '', '');
 
 -- --------------------------------------------------------
 
@@ -303,7 +343,7 @@ ALTER TABLE `dias_da_semana`
 -- AUTO_INCREMENT de tabela `disciplina`
 --
 ALTER TABLE `disciplina`
-  MODIFY `cod_disciplina` int(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `cod_disciplina` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT de tabela `disciplina_por_turma`
@@ -315,7 +355,7 @@ ALTER TABLE `disciplina_por_turma`
 -- AUTO_INCREMENT de tabela `escola`
 --
 ALTER TABLE `escola`
-  MODIFY `cod_escola` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `cod_escola` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de tabela `horarios`
@@ -333,7 +373,7 @@ ALTER TABLE `indisponibilidade`
 -- AUTO_INCREMENT de tabela `professor`
 --
 ALTER TABLE `professor`
-  MODIFY `cod_professor` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `cod_professor` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de tabela `quadro`
@@ -345,7 +385,7 @@ ALTER TABLE `quadro`
 -- AUTO_INCREMENT de tabela `turma`
 --
 ALTER TABLE `turma`
-  MODIFY `cod_turma` int(10) NOT NULL AUTO_INCREMENT;
+  MODIFY `cod_turma` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de tabela `turno`
