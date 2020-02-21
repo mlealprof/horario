@@ -14,13 +14,20 @@
 	$cep = $_POST['cep'];
 	$tipo_escola = $_POST['tipo_escola'];
 	$tipo_ensino = $_POST['tipo_ensino'];
-	$data_cadastro = $_POST['data_cadastro'];
+
+	date_default_timezone_set('America/Sao_Paulo');
+	$data_cadastro = date("d/m/Y");
+
+	$usuario = $_POST['usuario'];
+	$senha = md5($_POST['senha']);
 
 	// Inserindo dados na tabela
 	$inserir_escola = "INSERT INTO escola (cnpj, nome, telefone, endereco, numero, cidade, estado, pais, cep, tipo_escola, tipo_ensino, data_cadastro) VALUES ('$cnpj', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$tipo_escola', '$tipo_ensino', '$data_cadastro')";
 
+	$inserir_usuario = "INSERT INTO usuario (usuario, senha) VALUES ('$usuario', '$senha')";
+
 	// Sucesso no cadastro
-	if (mysqli_query($conexao, $inserir_escola)) {
+	if (mysqli_query($conexao, $inserir_escola) and mysqli_query($conexao, $inserir_usuario)) {
 		echo '<script type="text/javascript">
 			alert("Escola cadastrada com sucesso!");
 			window.location.href="../index.php";
