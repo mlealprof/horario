@@ -33,6 +33,10 @@ require ("header.php");
             <input type="text" class="form-control" id="exampleInputPassword1" name="numero">
           </div>
           <div class="form-group">
+            <label for="exampleInputPassword1">Cidade</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" name="cidade">
+          </div>
+          <div class="form-group">
             <label for="exampleInputPassword1">Estado</label>
             <input type="text" class="form-control" id="exampleInputPassword1" name="estado">
           </div>
@@ -45,12 +49,20 @@ require ("header.php");
             <input type="text" class="form-control" id="exampleInputPassword1" name="cep">
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Tipo_Escola</label>
+            <label for="exampleInputPassword1">Tipo Escola</label>
             <input type="text" class="form-control" id="exampleInputPassword1" name="tipo_escola">
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Tipo_curso</label>
+            <label for="exampleInputPassword1">Tipo curso</label>
             <input type="text" class="form-control" id="exampleInputPassword1" name="tipo_ensino">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Data do cadastro</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" name="data_cadastro">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" name="senha">
           </div>
          
           <br>
