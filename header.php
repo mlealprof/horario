@@ -52,7 +52,7 @@
 
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
-r
+
       </div>
 
       <nav id="nav-menu-container">
@@ -60,11 +60,9 @@ r
           <li class="menu-active"></li>
           <li><a href="#about">Sobre Nós</a></li>
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
-
           <li><a href="login.php">Login</a></li>
 
           <li><a href="#contact">Conheça o Nosso Projet<a href="model_cad_prof.php">o</a></a></li>
-
 
           <li><a href="#contact">Conheça o Nosso Projeto</a></li>
 
