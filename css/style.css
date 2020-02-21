@@ -123,12 +123,18 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  padding: 20px 0;
+  padding: 60px 0;
   height: 84px;
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+#header #logo a img{
+  width: 130px;
+  height: 100px;
 }
 
 #header #logo h1 {
@@ -151,9 +157,13 @@ h6 {
 }
 
 #header #logo img {
-  padding: 0;
-  margin: 0;
+  margin-left: 200px;
+  margin-top: -50px;
+
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -336,6 +346,8 @@ h6 {
 #nav-menu-container {
   float: right;
   margin: 0;
+  
+
 }
 
 /* Nav Meu Styling */
@@ -1023,13 +1035,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer {
   background: #f2f5f8;
-  padding: 0 0 30px 0;
+  padding:  20px ;
   font-size: 14px;
 }
 
 #footer .copyright {
+  position-footer:;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 8px;
 }
 
 #footer .credits {
@@ -1140,7 +1153,36 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-.img{
-  background: url("../img/intro-carousel/1.jpg") no-repeat;
+.img_cadastros{ 
+  background-color:#D8D8D8;
+ 
 }
+.right_button{
+   text-align: right;
+}
+.center_button{
+   margin-left: 777px; 
+}
+.tamanho_button{
+    width: 120px;
+    height: 45px;
+    background-color: #43dadaf7;
+}
+.font{
+  font-size: 19px;
+  font-family: arial;
+}
+<<<<<<< HEAD
 
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+=======
+.tamanho_input{
+  width: 500px;
+  margin-left: 250px;
+}
+.tamanho_fontlabel label{
+  margin-left: 460px;
+  font-size: 20px;
+}
+>>>>>>> upstream/master

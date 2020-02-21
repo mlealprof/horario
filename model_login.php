@@ -4,19 +4,32 @@ require ("header.php");
 <!--==========================
   Área de Login
   ============================-->
-  <section id="intro">
+  <section class ="img_cadastros">
 
-    <div class="intro-content">
+    <div class="container">
     <!--==========================
   criar aki a Area de Login
   ============================-->
-      <div>
-        <!--==========================
-           Botoes para ser usado no Login
-         ============================-->
-        <a href="#about" class="btn-get-started scrollto">Entrar</a>
-        <a href="#portfolio" class="btn-projects scrollto">Cadastrar</a>
-      </div>
+     <form>
+          <br>
+          <br>
+          <div class="col tamanho_fontlabel">
+
+              <label for="exampleInputPassword1">Email</label>
+              <input type="text" class="form-control tamanho_input" placeholder="Digite o seu Email">
+          </div>
+          <br>
+          <div class="col tamanho_fontlabel">
+              <label for="exampleInputPassword1">Senha</label>
+              <input type="text" class="form-control tamanho_input" placeholder="Digite a sua Senha">
+          </div>
+          </div>
+        </form>
+        <br>
+        <br>
+          <div class="center_button">
+              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+          </div>
     </div>
 </section>
   </main>
