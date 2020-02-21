@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 21-Fev-2020 às 23:11
+-- Tempo de geração: 21-Fev-2020 às 23:55
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -87,7 +87,7 @@ CREATE TABLE `escola` (
   `cnpj` varchar(20) NOT NULL,
   `nome` varchar(100) NOT NULL,
   `telefone` varchar(20) NOT NULL,
-  `endereço` varchar(80) NOT NULL,
+  `endereco` varchar(80) NOT NULL,
   `numero` varchar(10) NOT NULL,
   `cidade` varchar(20) NOT NULL,
   `estado` varchar(20) NOT NULL,
