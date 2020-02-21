@@ -1157,8 +1157,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color:#D8D8D8;
  
 }
-.center_button{
+.right_button{
    text-align: right;
+}
+.center_button{
+   margin-left: 777px; 
 }
 .tamanho_button{
     width: 120px;
@@ -1169,6 +1172,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 19px;
   font-family: arial;
 }
+<<<<<<< HEAD
 
 
 /*-------------------------------------------------------------------------------------------------------------------------*/
+=======
+.tamanho_input{
+  width: 500px;
+  margin-left: 250px;
+}
+.tamanho_fontlabel label{
+  margin-left: 460px;
+  font-size: 20px;
+}
+>>>>>>> upstream/master
