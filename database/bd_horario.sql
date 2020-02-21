@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 21-Fev-2020 às 23:56
+-- Tempo de geração: 22-Fev-2020 às 00:12
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -215,7 +215,8 @@ CREATE TABLE `usuario` (
   `usuario` varchar(100) NOT NULL,
   `senha` varchar(100) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `tipo_usuario` varchar(50) NOT NULL
+  `tipo_usuario` varchar(50) NOT NULL,
+  `cod_escola` int(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
