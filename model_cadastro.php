@@ -37,7 +37,7 @@ require ("header.php");
         <form>
           <div class="row">
           <div class="col">
-              <label for="exampleInputPassword1">Enderço</label>
+              <label for="exampleInputPassword1">Endereço</label>
               <input type="text" class="form-control" placeholder="Digite seu Enderço">
           </div>
           <div class="col">
@@ -63,7 +63,7 @@ require ("header.php");
         <form>
           <div class="row">
           <div class="col">
-              <label for="exampleInputPassword1">Pais</label>
+              <label for="exampleInputPassword1">País</label>
               <input type="text" class="form-control" placeholder="Digite seu Pais">
           </div>
           <div class="col">
@@ -85,16 +85,17 @@ require ("header.php");
             </select>
           </div>
           <div class="col">
-            <label for="exampleFormControlSelect1">tipode Ensino</label>
+            <label for="exampleFormControlSelect1">Tipo de Ensino</label>
             <select class="form-control" id="exampleFormControlSelect1">
               <option>Escolher...</option>
-              <option>Fundamental-1</option>
-              <option>Fundamental-2</option>
+              <option>Fundamental 01</option>
+              <option>Fundamental 02</option>
               <option>Médio</option>
-              <option>Fundamental-2/Médio</option>
-              <option>Fundamental-1/Fundamental-2/Médio</option>
-              <option>Fundamental-1/Fundamental-2</option>
-
+              <option>Fundamental 02 / Médio</option>
+              <option>Fundamental 01 / Fundamental 02 / Médio</option>
+              <option>Fundamental 01 / Fundamental 02</option>
+              <option>Ensino Superior</option>
+              <option>Pós-Graduação</option>
               <option></option>
             </select>
           </div>
