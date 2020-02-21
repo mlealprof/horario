@@ -13,6 +13,7 @@
 	mysqli_query($conexao, $inserir_disciplina_turma);
 
 	if (mysqli_query($conexao, $inserir_disciplina_turma)) {
+
 			echo '<script type="text/javascript">
 			  alert("Disciplina por turma cadastrada com sucesso !");
 			  window.location.href="../index.php"
@@ -23,5 +24,4 @@
 			  window.location.href="../cadastro_disciplina_por_turma_exe.php"
 			  </script>';
 		}
-
   ?>
