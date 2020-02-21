@@ -5,10 +5,12 @@
 	// Pegando dados via POST
 	$usuario = $_POST['usuario'];
 	$senha = $_POST['senha'];
-	
+	$email = $_POST['email'];
+    $tipo_usuario = $_POST['tipo_usuario'];
+
 
 	// Inserindo dados na tabela
-	$inserir_usuario = "INSERT INTO usuario (usuario,senha,) VALUES ('$usuario', '$senha')";
+	$inserir_usuario = "INSERT INTO usuario (usuario,senha,email) VALUES ('$usuario', '$senha','$tipo_usuario')";
 
 	if (mysqli_query($conexao, $inserir_usuario)) {
 		echo '<script type="text/javascript">
