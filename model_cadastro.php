@@ -87,7 +87,7 @@ require ("header.php");
 
             <label for="exampleFormControlSelect1">Tipo de Ensino</label>
 
-            <select class="form-control" id="exampleFormControlSelect1" name="tipo_ensino">
+            <select class="form-control" id="exampleFormControlSelect1">
               <option>Escolher...</option>
               <option>Fundamental 01</option>
               <option>Fundamental 02</option>
