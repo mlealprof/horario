@@ -21,7 +21,7 @@ require ("header.php");
             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
           </div>
 
-        <form>
+  
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">CNPJ</label>
@@ -32,9 +32,9 @@ require ("header.php");
               <input type="text" class="form-control" placeholder="Digite seu Telefone">
           </div>
           </div>
-        </form>
+    
         <br>
-        <form>
+    
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">Endereço</label>
@@ -45,9 +45,9 @@ require ("header.php");
               <input type="text" class="form-control" placeholder="Digite o número da Residência">
           </div>
           </div>
-        </form>
+ 
         <br>
-        <form>
+
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">Cidade</label>
@@ -58,9 +58,9 @@ require ("header.php");
               <input type="text" class="form-control" placeholder="Digite seu Estado">
           </div>
           </div>
-        </form>
+   
         <br>
-        <form>
+
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">País</label>
@@ -71,9 +71,8 @@ require ("header.php");
               <input type="text" class="form-control" placeholder="Digite seu CEP">
           </div>
           </div>
-        </form>
-        <br>     
-        <form>
+      <br>     
+     
          <div class="row">
          <div class="col">
             <label for="exampleFormControlSelect1">Tipo de Escola</label>
@@ -103,7 +102,7 @@ require ("header.php");
           </div>
           </div>
 
-        </form>
+
          
           <br>
           <div class="right_button">
