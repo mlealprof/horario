@@ -44,7 +44,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#body" class="scrollto">Reve<span>al</span></a></h1>
+        <h1><a href="index.php" class="scrollto">Reve<span>al</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
@@ -53,8 +53,8 @@
         <ul class="nav-menu">
           <li class="menu-active"></li>
           <li><a href="#about">Sobre Nós</a></li>
-          <li><a href="#services">Cadastre sua Escola</a></li>
-          <li><a href="#services">Login</a></li>
+          <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
+          <li><a href="model_login.php">Login</a></li>
           <li><a href="#contact">Conheça o Nosso Projeto</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->

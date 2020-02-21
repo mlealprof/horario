@@ -6,7 +6,7 @@ require ("header.php");
   ============================-->
   
 
-
+    <br>
     <section class="img_cadastros">
   
      <div class="container font">
@@ -18,7 +18,7 @@ require ("header.php");
            
           <div class="form-group">
             <label for="exampleInputPassword1">Nome da Escola</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
           </div>
 
         <form>
@@ -85,7 +85,7 @@ require ("header.php");
             </select>
           </div>
           <div class="col">
-            <label for="exampleFormControlSelect1">tipode Ensino</label>
+            <label for="exampleFormControlSelect1">tipo de Ensino</label>
             <select class="form-control" id="exampleFormControlSelect1">
               <option>Escolher...</option>
               <option>Fundamental-1</option>
@@ -103,7 +103,7 @@ require ("header.php");
         </form>
          
           <br>
-          <div class="center_button">
+          <div class="right_button">
               <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
           </div>
           <br>

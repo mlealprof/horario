@@ -15,6 +15,17 @@
 	$masp = $_POST['masp'];
 
 	// Inserindo dados na tabela
-	$inserir_professor = "INSERT INTO escola (cpf, nome, telefone, endereco, numero, cidade, estado, pais, cep, masp) VALUES ('$cpf', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$masp')";
-	mysqli_query($conexao, $inserir_professor);
+	$inserir_professor = "INSERT INTO professor (cpf, nome, telefone, endereco, numero, cidade, estado, pais, cep, masp) VALUES ('$cpf', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$masp')";
+
+	if (mysqli_query($conexao, $inserir_professor)) {
+		echo '<script type="text/javascript">
+			alert("Professor cadastrado com sucesso!");
+			window.location.href="../index.php";
+			</script>';
+	} else {
+		echo '<script type="text/javascript">
+			alert("Falha no cadastro. Verifique os dados inseridos.");
+			window.location.href="../index.php";
+			</script>';
+	}
 ?>
