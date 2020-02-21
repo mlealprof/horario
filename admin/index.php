@@ -34,9 +34,8 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                      colocar aqui nome da escola ,nome do usuario
-                            </ul>
-              
+                      <?php echo $_SESSION['escola'], ", ", $_SESSION['usuario']; ?>
+                    </ul>
                 </div>
             </nav>
         </div>
