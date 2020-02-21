@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 21-Fev-2020 às 00:25
+-- Tempo de geração: 21-Fev-2020 às 23:02
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -94,7 +94,6 @@ CREATE TABLE `escola` (
   `pais` varchar(20) NOT NULL,
   `cep` varchar(10) NOT NULL,
   `tipo_escola` varchar(10) NOT NULL,
-  `tipo_ensino` varchar(20) NOT NULL,
   `data_cadastro` varchar(20) NOT NULL,
   `senha` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -164,6 +163,18 @@ CREATE TABLE `quadro` (
   `cod_turma` int(50) DEFAULT NULL,
   `cod_disciplina` int(50) DEFAULT NULL,
   `cod_professor` int(50) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `tipo_ensino`
+--
+
+CREATE TABLE `tipo_ensino` (
+  `cod_tipo_ensino` int(50) NOT NULL,
+  `cod_escola` int(100) DEFAULT NULL,
+  `tipo_ensino` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -266,6 +277,12 @@ ALTER TABLE `quadro`
   ADD PRIMARY KEY (`cod_quadro`);
 
 --
+-- Índices para tabela `tipo_ensino`
+--
+ALTER TABLE `tipo_ensino`
+  ADD PRIMARY KEY (`cod_tipo_ensino`);
+
+--
 -- Índices para tabela `turma`
 --
 ALTER TABLE `turma`
@@ -340,6 +357,12 @@ ALTER TABLE `professor`
 --
 ALTER TABLE `quadro`
   MODIFY `cod_quadro` int(50) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de tabela `tipo_ensino`
+--
+ALTER TABLE `tipo_ensino`
+  MODIFY `cod_tipo_ensino` int(50) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de tabela `turma`
