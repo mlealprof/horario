@@ -6,7 +6,7 @@ require ("header.php");
   ============================-->
   
 
-
+    <br>
     <section class="img_cadastros">
   
      <div class="container font">
@@ -18,7 +18,7 @@ require ("header.php");
            
           <div class="form-group">
             <label for="exampleInputPassword1">Nome da Escola</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
           </div>
 
         <form>
@@ -37,7 +37,7 @@ require ("header.php");
         <form>
           <div class="row">
           <div class="col">
-              <label for="exampleInputPassword1">Enderço</label>
+              <label for="exampleInputPassword1">Endereço</label>
               <input type="text" class="form-control" placeholder="Digite seu Enderço">
           </div>
           <div class="col">
@@ -63,7 +63,7 @@ require ("header.php");
         <form>
           <div class="row">
           <div class="col">
-              <label for="exampleInputPassword1">Pais</label>
+              <label for="exampleInputPassword1">País</label>
               <input type="text" class="form-control" placeholder="Digite seu Pais">
           </div>
           <div class="col">
@@ -85,16 +85,19 @@ require ("header.php");
             </select>
           </div>
           <div class="col">
-            <label for="exampleFormControlSelect1">tipode Ensino</label>
+
+            <label for="exampleFormControlSelect1">Tipo de Ensino</label>
+
             <select class="form-control" id="exampleFormControlSelect1">
               <option>Escolher...</option>
-              <option>Fundamental-1</option>
-              <option>Fundamental-2</option>
+              <option>Fundamental 01</option>
+              <option>Fundamental 02</option>
               <option>Médio</option>
-              <option>Fundamental-2/Médio</option>
-              <option>Fundamental-1/Fundamental-2/Médio</option>
-              <option>Fundamental-1/Fundamental-2</option>
-
+              <option>Fundamental 02 / Médio</option>
+              <option>Fundamental 01 / Fundamental 02 / Médio</option>
+              <option>Fundamental 01 / Fundamental 02</option>
+              <option>Ensino Superior</option>
+              <option>Pós-Graduação</option>
               <option></option>
             </select>
           </div>
@@ -103,7 +106,7 @@ require ("header.php");
         </form>
          
           <br>
-          <div class="center_button">
+          <div class="right_button">
               <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
           </div>
           <br>
