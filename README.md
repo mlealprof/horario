@@ -13,7 +13,7 @@ Esse Quadro de horários poderá ser alterado manualmente. No entanto, não deix
 Nome do Banco de Dados: bd_horario
 
 
-[Download SQL](https://github.com/mlealprof/horario/database/escola.sql)
+[Download SQL](https://github.com/mlealprof/horario/database/bd_horario.sql)
 =========================================================================
 
 Escola Estadual Dona Berenice de Magalhães Pinto

@@ -44,9 +44,13 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <h1><a href="index.php" class="scrollto">Reve<span>al</span></a></h1>
+
+        <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
+
+
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
+
       </div>
 
       <nav id="nav-menu-container">
@@ -55,7 +59,11 @@
           <li><a href="#about">Sobre Nós</a></li>
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
           <li><a href="login.php">Login</a></li>
+
+          <li><a href="#contact">Conheça o Nosso Projet<a href="model_cad_prof.php">o</a></a></li>
+
           <li><a href="#contact">Conheça o Nosso Projeto</a></li>
+
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
