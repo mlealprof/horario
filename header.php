@@ -60,7 +60,7 @@
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
           <li><a href="login.php">Login</a></li>
 
-          <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php">o</a></a></li>
+          <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php"></a></a></li>
 
           <li><a href="#contact"></a></li>
 
