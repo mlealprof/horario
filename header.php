@@ -45,10 +45,8 @@
 
       <div id="logo" class="pull-left">
 
-        <a href="#body"><img src="img/fada.png" alt="" title="" /></a>
+        <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
 
-
-        <h1><a href="index.php" class="scrollto">Time<span>I/O</span></a></h1>
 
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
