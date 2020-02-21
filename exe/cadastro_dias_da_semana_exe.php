@@ -3,17 +3,16 @@
 	require 'conexao_exe.php';
 
 	// Pegando dados via POST
-	$nome = $_POST['nome'];
-	$qtd_horarios = $_POST['qtd_horarios'];
-	$turno = $_POST['turno'];
+	$descricao = $_POST['descricao'];
+	$posicao = $_POST['posicao'];
 
 	// Inserindo dados na tabela
-	$inserir_turma = "INSERT INTO turma (nome, qtd_horarios, turno) VALUES ('$nome', '$qtd_horarios', '$turno')";
+	$inserir_dia_da_semana = "INSERT INTO dias_da_semana (descricao, posicao) VALUES ('$descricao', '$posicao')";
 
 	// Sucesso no cadastro
-	if (mysqli_query($conexao, $inserir_turma)) {
+	if (mysqli_query($conexao, $inserir_dia_da_semana)) {
 		echo '<script type="text/javascript">
-			alert("Turma cadastrada com sucesso!");
+			alert("Dia da semana cadastrada com sucesso!");
 			window.location.href="../index.php";
 			</script>';
 	} else { // Falha no cadastro

@@ -3,17 +3,15 @@
 	require 'conexao_exe.php';
 
 	// Pegando dados via POST
-	$nome = $_POST['nome'];
-	$qtd_horarios = $_POST['qtd_horarios'];
-	$turno = $_POST['turno'];
+	$descricao = $_POST['descricao'];
 
 	// Inserindo dados na tabela
-	$inserir_turma = "INSERT INTO turma (nome, qtd_horarios, turno) VALUES ('$nome', '$qtd_horarios', '$turno')";
+	$inserir_indisponibilidade = "INSERT INTO indisponibilidade (descricao, posicao) VALUES ('$descricao', '$posicao')";
 
 	// Sucesso no cadastro
-	if (mysqli_query($conexao, $inserir_turma)) {
+	if (mysqli_query($conexao, $inserir_indisponibilidade)) {
 		echo '<script type="text/javascript">
-			alert("Turma cadastrada com sucesso!");
+			alert("Indisponibilidade cadastrada com sucesso!");
 			window.location.href="../index.php";
 			</script>';
 	} else { // Falha no cadastro
