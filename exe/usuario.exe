@@ -5,26 +5,21 @@
 	// Pegando dados via POST
 	$usuario = $_POST['usuario'];
 	$senha = $_POST['senha'];
-	
+	$email = $_POST['email'];
 
-	// Consultando dados na tabela
-	$consulta = "SELECT usuario FROM usuario WHERE usuario = '$usuario',senha = '$senha'";
+	// Inserindo dados na tabela
 
-   $resultado = mysqli_query($conexao,$consulta);
-   
-   $array = mysqli_fetch_array($resultado);
+	$inserir_usuario = "INSERT INTO usuario (usuario,senha,email) VALUES ('$usuario','$senha','$email')";
+	mysqli_query($conexao, $inserir_usuario);
 
-   if ($array['usuario']==null){      
-      $insere = "INSERT INTO  (usuario,senha) VALUES ('$usuario','$senha')";
-      if(mysqli_query($conexao,$insere)){
-
-         echo '<script type="text/javascript">
-			alert("Usuário cadastrado com sucesso!");
-			window.location.href="../cpanel.php";
-			</script>';
-	} else {
-		echo '<script type="text/javascript">
-			alert("Falha no cadastro. Verifique os dados inseridos.");
-			window.location.href="../usuario.php";
-			</script>';
-	}
+	if (mysqli_query($conexao, $inserir_usuario)) {
+			echo '<script type="text/javascript">
+			  alert("Usuário cadastrado com sucesso !");
+			  window.location.href="../cpanel.php"
+			  </script>';
+		}else{
+			echo '<script type="text/javascript">
+			  alert("Erro ao cadastrar Usuário !");
+			  window.location.href="../usuario.exe.php"
+			  </script>';
+		}

@@ -18,7 +18,7 @@
 	} else {
 		echo '<script type="text/javascript">
 			alert("Falha no login. Verifique os dados inseridos.");
-			window.location.href="../usuario.php";
+			window.location.href="../cadastrar_usuario.exe.php";
 			</script>';
 	}
 ?>	
