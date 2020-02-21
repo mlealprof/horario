@@ -19,12 +19,13 @@
 	// Inserindo dados na tabela
 	$inserir_escola = "INSERT INTO escola (cnpj, nome, telefone, endereco, numero, cidade, estado, pais, cep, tipo_escola, tipo_ensino, data_cadastro) VALUES ('$cnpj', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$tipo_escola', '$tipo_ensino', '$data_cadastro')";
 
+	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_escola)) {
 		echo '<script type="text/javascript">
 			alert("Escola cadastrada com sucesso!");
 			window.location.href="../index.php";
 			</script>';
-	} else {
+	} else { // Falha no cadastro
 		echo '<script type="text/javascript">
 			alert("Falha no cadastro. Verifique os dados inseridos.");
 			window.location.href="../index.php";
