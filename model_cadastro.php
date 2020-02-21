@@ -18,18 +18,18 @@ require ("header.php");
            
           <div class="form-group">
             <label for="exampleInputPassword1">Nome da Escola</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
+            <input type="text" name="nome" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
           </div>
 
         <form>
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">CNPJ</label>
-              <input type="text" class="form-control" placeholder="Digite seu CNPJ">
+              <input type="text" name="cnpj" class="form-control" placeholder="Digite seu CNPJ">
           </div>
           <div class="col">
               <label for="exampleInputPassword1">Telefone</label>
-              <input type="text" class="form-control" placeholder="Digite seu Telefone">
+              <input type="text" name="telefone" class="form-control" placeholder="Digite seu Telefone">
           </div>
           </div>
         </form>
@@ -38,11 +38,11 @@ require ("header.php");
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">Endereço</label>
-              <input type="text" class="form-control" placeholder="Digite seu Enderço">
+              <input type="text" name="endereco" class="form-control" placeholder="Digite seu Enderço">
           </div>
           <div class="col">
               <label for="exampleInputPassword1">Nº</label>
-              <input type="text" class="form-control" placeholder="Digite o número da Residência">
+              <input type="text" name="numero" class="form-control" placeholder="Digite o número da Residência">
           </div>
           </div>
         </form>
@@ -51,11 +51,11 @@ require ("header.php");
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">Cidade</label>
-              <input type="text" class="form-control" placeholder="Digite sua Cidade">
+              <input type="text" name="cidade" class="form-control" placeholder="Digite sua Cidade">
           </div>
           <div class="col">
               <label for="exampleInputPassword1">Estado</label>
-              <input type="text" class="form-control" placeholder="Digite seu Estado">
+              <input type="text" name="estado" class="form-control" placeholder="Digite seu Estado">
           </div>
           </div>
         </form>
@@ -64,11 +64,11 @@ require ("header.php");
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">País</label>
-              <input type="text" class="form-control" placeholder="Digite seu Pais">
+              <input type="text" name="pais" class="form-control" placeholder="Digite seu Pais">
           </div>
           <div class="col">
               <label for="exampleInputPassword1">CEP</label> 
-              <input type="text" class="form-control" placeholder="Digite seu CEP">
+              <input type="text" name="cep" class="form-control" placeholder="Digite seu CEP">
           </div>
           </div>
         </form>
@@ -84,24 +84,7 @@ require ("header.php");
               
             </select>
           </div>
-          <div class="col">
-
-            <label for="exampleFormControlSelect1">Tipo de Ensino</label>
-
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Escolher...</option>
-              <option>Fundamental 01</option>
-              <option>Fundamental 02</option>
-              <option>Médio</option>
-              <option>Fundamental 02 / Médio</option>
-              <option>Fundamental 01 / Fundamental 02 / Médio</option>
-              <option>Fundamental 01 / Fundamental 02</option>
-              <option>Ensino Superior</option>
-              <option>Pós-Graduação</option>
-              <option></option>
-            </select>
-          </div>
-          </div>
+         
 
         </form>
          

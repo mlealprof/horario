@@ -8,10 +8,10 @@
 	   <form action="exe/login_exe.php" method="Post">
 		<div class="babado-container intro-content">
 			Usuário
-			<input type="text" name="email" size="20" maxlength="50"><br>
+			<input type="text" name="email" size="20" maxlength="50" placeholder="Seu email"><br>
 			
 			 <label for="exampleInputPassword1">Senha</label>
-              <input type="password" name="senha" maxlength="50" >
+              <input type="password" name="senha" maxlength="50"  >
 			<a href="">Esqueceu sua senha?</a><br>
 			<div>
 	        	 <button type="submit" class="btn btn-primary">Entrar</button>
