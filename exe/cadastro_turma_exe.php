@@ -37,12 +37,13 @@
 	// Inserindo dados na tabela
 	$inserir_turma = "INSERT INTO turma (nome, qtd_horarios, turno) VALUES ('$nome', '$qtd_horarios', '$turno')";
 
+	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_turma)) {
 		echo '<script type="text/javascript">
 			alert("Turma cadastrada com sucesso!");
 			window.location.href="../index.php";
 			</script>';
-	} else {
+	} else { // Falha no cadastro
 		echo '<script type="text/javascript">
 			alert("Falha no cadastro. Verifique os dados inseridos.");
 			window.location.href="../index.php";
