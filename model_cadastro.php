@@ -93,10 +93,6 @@ require ("header.php");
             </select>
           </div>
 
-         
-
-        </form>
-
           <div class="col">
 
             <label for="exampleFormControlSelect1">Tipo de Ensino</label>
