@@ -18,12 +18,13 @@
 	$data_cadastro = date("d/m/Y");
 
 	$usuario = $_POST['usuario'];
+	$email = $_POST['email'];
 	$senha = md5($_POST['senha']);
 
 	// Inserindo dados na tabela
 	$inserir_escola = "INSERT INTO escola (cnpj, nome, telefone, endereco, numero, cidade, estado, pais, cep, tipo_escola, data_cadastro) VALUES ('$cnpj', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$tipo_escola', '$data_cadastro')";
 
-	$inserir_usuario = "INSERT INTO usuario (usuario, senha) VALUES ('$usuario', '$senha')";
+	$inserir_usuario = "INSERT INTO usuario (usuario, email, senha) VALUES ('$usuario', '$email', '$senha')";
 
 	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_escola) and mysqli_query($conexao, $inserir_usuario)) {
