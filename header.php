@@ -45,11 +45,18 @@
 
       <div id="logo" class="pull-left">
 
+<<<<<<< HEAD
         <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
 
 
         <!-- Uncomment below if you prefer to use an image logo -->
 
+=======
+
+        <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
+
+
+>>>>>>> upstream/master
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
 
       </div>
@@ -60,9 +67,19 @@
           <li><a href="#about">Sobre Nós</a></li>
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
           <li><a href="login.php">Login</a></li>
+<<<<<<< HEAD
           <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php"></a></a></li>
 
           <li><a href="#contact"></a></li>
+=======
+
+
+          <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php"></a></a></li>
+
+          <li><a href="#contact"></a></li>
+
+
+>>>>>>> upstream/master
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
