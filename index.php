@@ -1,5 +1,9 @@
-<?php
-	require ("header.php");
-	require ("section.php");
-	require	("footer.php");
-?>	
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Página Inicial</title>
+</head>
+<body>
+  Esperando o Frond End. 
+</body>
+</html>
