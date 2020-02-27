@@ -45,7 +45,6 @@
 
       <div id="logo" class="pull-left">
 
-
         <a href="#body"><img src="img/fada.png" alt="" title="" /></a>
 
         <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
@@ -64,11 +63,9 @@
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
           <li><a href="login.php">Login</a></li>
 
-
           <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php"></a></a></li>
 
           <li><a href="#contact"></a></li>
-
 
         </ul>
       </nav><!-- #nav-menu-container -->
