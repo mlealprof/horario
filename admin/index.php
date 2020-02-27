@@ -101,7 +101,7 @@
                                             <a class="nav-link" href="pages/general.html">Cadastrar Cursos </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/carousel.html">Cadastrar Disciplinas</a>
+                                            <a class="nav-link" href="../exe/cadastro_disciplina_exe.php">Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/listgroup.html">Cadastrar Turmas </a>

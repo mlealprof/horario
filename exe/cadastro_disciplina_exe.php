@@ -9,15 +9,7 @@
 	// Inserindo dados na tabela
 	$inserir_disciplina = "INSERT INTO disciplina (nome) VALUES ('$nome')";
 
-<<<<<<< HEAD
-	$inserir_disciplina = "INSERT INTO disciplina (nome) VALUES ('$nome_disciplina')";
-	mysqli_query($conexao, $inserir_disciplina);
-
-
-
-=======
 	// Sucesso no cadastro
->>>>>>> upstream/master
 	if (mysqli_query($conexao, $inserir_disciplina)) {
 		echo '<script type="text/javascript">
 			alert("Disciplina cadastrada com sucesso!");
