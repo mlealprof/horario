@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>TimeTable</title>
+  <title>Reveal Bootstrap Template</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -45,14 +45,7 @@
 
       <div id="logo" class="pull-left">
 
-<<<<<<< HEAD
         <a href="#body"><img src="img/fada.png" alt="" title="" /></a>
-=======
-        <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
-
-
-        <!-- Uncomment below if you prefer to use an image logo -->
->>>>>>> upstream/master
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
 
       </div>
@@ -63,15 +56,7 @@
           <li><a href="#about">Sobre Nós</a></li>
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
           <li><a href="login.php">Login</a></li>
-<<<<<<< HEAD
-          <li><a href="#contact">Conheça o Nosso Projeto</a></li>
-=======
-
-          <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php"></a></a></li>
-
-          <li><a href="#contact"></a></li>
-
->>>>>>> upstream/master
+          <li><a href="#contact">Conheça o Nosso Projeto</a></li> 
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
