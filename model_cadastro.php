@@ -109,15 +109,15 @@ require ("header.php");
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">Nome de usuário</label>
-              <input type="text" class="form-control" placeholder="Digite seu nome de usuário" name="usuario">
+              <input type="text" class="form-control" placeholder="Digite seu nome de usuário" required="required" name="usuario">
           </div>
           <div class="col">
               <label for="exampleInputPassword1">Email</label>
-              <input type="text" class="form-control" placeholder="Digite seu email" name="email">
+              <input type="email" class="form-control" placeholder="Digite seu email" required="required" name="email">
           </div>
           <div class="col">
               <label for="exampleInputPassword1">Senha</label> 
-              <input type="password" class="form-control" placeholder="Digite sua senha" name="senha">
+              <input type="password" class="form-control" placeholder="Digite sua senha" required="required" name="senha">
           </div>
           </div>         
           <br>
