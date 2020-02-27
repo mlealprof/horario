@@ -153,25 +153,27 @@
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
                     <?php
-                        $tela = $_GET['tela'];
-                        switch ($tela) {
-                            case 'usuarios':
-                                include ('cadastro_usuario.php');
-                                break;
-                            case 'disciplinas':
-                                include ('cadastro_disciplina.php');
-                                break;
-                            case 'turmas':
-                                    include ('cadastro_turma.php');
+                        if (isset($_GET['tela'])) {
+                            $tela = $_GET['tela'];
+                            switch ($tela) {
+                                case 'usuarios':
+                                    include ('cadastro_usuario.php');
                                     break;
-                            case 'horarios':
-                                include ('cadastro_horario.php');
-                                break;
-                            case 'professores':
-                                include ('cadastro_professor.php');
-                                break;
-                            default:
-                                include ('cadastro_usuario.php');
+                                case 'disciplinas':
+                                    include ('cadastro_disciplina.php');
+                                    break;
+                                case 'turmas':
+                                        include ('cadastro_turma.php');
+                                        break;
+                                case 'horarios':
+                                    include ('cadastro_horario.php');
+                                    break;
+                                case 'professores':
+                                    include ('cadastro_professor.php');
+                                    break;
+                                default:
+                                    include ('cadastro_usuario.php');
+                            }
                         }
                     ?>
                 </div>
