@@ -110,12 +110,10 @@
                                             <a class="nav-link" href="?tela=horarios">Cadastrar Horarios</a>
                                         </li>
                                         <li class="nav-item">
-<<<<<<< HEAD
-                                            <a class="nav-link" href="../exe/cadastro_professor_exe.php">Cadastrar Professores</a>
-=======
+                           <a class="nav-link" href="../exe/cadastro_professor_exe.php">Cadastrar Professores</a>
+
                                             <a class="nav-link" href="?tela=professores">Cadastrar Professores</a>
->>>>>>> upstream/master
-                                        </li>
+                </li>
                                     </ul>
                                 </div>
                             </li>
