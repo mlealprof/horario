@@ -104,7 +104,7 @@
                                             <a class="nav-link" href="pages/carousel.html">Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/listgroup.html">Cadastrar Turmas </a>
+                                            <a class="nav-link" href="../exe/cadastro_turma_exe.php">Cadastrar Turmas </a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/typography.html">Cadastrar Horarios</a>
