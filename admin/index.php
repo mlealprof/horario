@@ -95,22 +95,22 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/cards.html">Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
+                                            <a class="nav-link" href="?tela=usuario">Cadastrar Usuario<span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/general.html">Cadastrar Cursos </a>
+                                            <a class="nav-link" href="?tela=usuarios">Cadastrar Cursos</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/carousel.html">Cadastrar Disciplinas</a>
+                                            <a class="nav-link" href="?tela=disciplinas">Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/listgroup.html">Cadastrar Turmas </a>
+                                            <a class="nav-link" href="?tela=turmas">Cadastrar Turmas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/typography.html">Cadastrar Horarios</a>
+                                            <a class="nav-link" href="?tela=horarios">Cadastrar Horarios</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/accordions.html">Cadastrar Professores</a>
+                                            <a class="nav-link" href="?tela=professores">Cadastrar Professores</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -152,7 +152,28 @@
          <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
-                    Teste
+                    <?php
+                        $tela = $_GET['tela'];
+                        switch ($tela) {
+                            case 'usuarios':
+                                include ('cadastro_usuario.php');
+                                break;
+                            case 'disciplinas':
+                                include ('cadastro_disciplina.php');
+                                break;
+                            case 'turmas':
+                                    include ('cadastro_turma.php');
+                                    break;
+                            case 'horarios':
+                                include ('cadastro_horario.php');
+                                break;
+                            case 'professores':
+                                include ('cadastro_professor.php');
+                                break;
+                            default:
+                                include ('cadastro_usuario.php');
+                        }
+                    ?>
                 </div>
                 </div>
             </div>
