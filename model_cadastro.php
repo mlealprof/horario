@@ -134,6 +134,7 @@ require ("header.php");
               <option>Fundamental 02 / Médio</option>
               <option>Fundamental 01 / Fundamental 02 / Médio</option>
               <option>Fundamental 01 / Fundamental 02</option>
+              <option>Técnico</option>
               <option>Ensino Superior</option>
               <option>Pós-Graduação</option>
               <option></option>
