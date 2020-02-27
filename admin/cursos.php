@@ -24,7 +24,7 @@
     <!-- ============================================================== -->
     <div class="dashboard-main-wrapper">
         <!-- ============================================================== -->
-        <!-- navbar -->
+        <!-- Barra de Navegação -->
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
@@ -34,17 +34,17 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                        NOme Escola,Usuario 
+                      colocar aqui nome da escola ,nome do usuario
                             </ul>
               
                 </div>
             </nav>
         </div>
         <!-- ============================================================== -->
-        <!-- end navbar -->
+        <!-- Final Barra Navegaçao -->
         <!-- ============================================================== -->
         <!-- ============================================================== -->
-        <!-- left sidebar -->
+        <!-- Barra Lateral -->
         <!-- ============================================================== -->
         <div class="nav-left-sidebar sidebar-dark">
             <div class="menu-list">
@@ -99,7 +99,7 @@
                                             <a class="nav-link" href="pages/cards.html">Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/general.html">Cadastrar Cursos </a>
+                                            <a class="nav-link" href="cursos.php">Cadastrar Cursos </a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/carousel.html">Cadastrar Disciplinas</a>
@@ -120,6 +120,9 @@
                                 <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Horarios</a>
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="pages/chart-c3.html">Quadro de Horarios</a>
+                                        </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-c3.html">Gerar Horarios</a>
                                         </li>
@@ -145,12 +148,48 @@
             </div>
         </div>
         <!-- ============================================================== -->
-        <!-- end left sidebar -->
+        <!-- Final Barra Lateral -->
         <!-- ============================================================== -->
          <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
-                    Teste
+
+<!--==========================
+  Cadastro de tipo de ensino
+  ============================-->
+  
+
+    <br>
+    <section class="img_cadastros">
+  
+     <div class="container font">
+
+
+      
+        <div class=" font">
+        <form>
+          <br><br><br>
+           
+          <div class="form-group">
+            <label for="exampleInputPassword1">Tipo de ensino</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite o tipo de ensino">
+          </div>
+          <br>
+
+          <div class="right_button">
+              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+          </div>
+          <br>
+        </div>
+
+        </form>
+      
+  </div>
+  </section>      
+ 
+  </main>
+
+
                 </div>
                 </div>
             </div>
@@ -174,16 +213,13 @@
                 </div>
             </div>
             <!-- ============================================================== -->
-            <!-- end footer -->
+            <!-- final footer -->
             <!-- ============================================================== -->
       
         <!-- ============================================================== -->
         <!-- end wrapper  -->
         <!-- ============================================================== -->
-    </div>
-    <!-- ============================================================== -->
-    <!-- end main wrapper  -->
-    <!-- ============================================================== -->
+  
     <!-- Optional JavaScript -->
     <!-- jquery 3.3.1 -->
     <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>

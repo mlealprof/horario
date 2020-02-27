@@ -2,7 +2,7 @@
 require ("header.php");
 ?>
 <!--==========================
-  Cadastro de Usuario
+  Cadastro de tipo de ensino
   ============================-->
   
 
