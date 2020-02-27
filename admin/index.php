@@ -110,7 +110,7 @@
                                             <a class="nav-link" href="pages/typography.html">Cadastrar Horarios</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/accordions.html">Cadastrar Professores</a>
+                                            <a class="nav-link" href="../exe/cadastro_professor_exe.php">Cadastrar Professores</a>
                                         </li>
                                     </ul>
                                 </div>
