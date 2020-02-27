@@ -101,11 +101,11 @@
                                             <a class="nav-link" href="?tela=usuarios">Cadastrar Cursos</a>
                                         </li>
                                         <li class="nav-item">
-<<<<<<< HEAD
+
                                             <a class="nav-link" href="../exe/cadastro_disciplina_exe.php">Cadastrar Disciplinas</a>
-=======
+
                                             <a class="nav-link" href="?tela=disciplinas">Cadastrar Disciplinas</a>
->>>>>>> upstream/master
+
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="?tela=turmas">Cadastrar Turmas</a>
