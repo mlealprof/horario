@@ -13,7 +13,6 @@
 	$pais = $_POST['pais'];
 	$cep = $_POST['cep'];
 	$tipo_escola = $_POST['tipo_escola'];
-	$tipo_ensino = $_POST['tipo_ensino'];
 
 	date_default_timezone_set('America/Sao_Paulo');
 	$data_cadastro = date("d/m/Y");
@@ -22,7 +21,7 @@
 	$senha = md5($_POST['senha']);
 
 	// Inserindo dados na tabela
-	$inserir_escola = "INSERT INTO escola (cnpj, nome, telefone, endereco, numero, cidade, estado, pais, cep, tipo_escola, tipo_ensino, data_cadastro) VALUES ('$cnpj', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$tipo_escola', '$tipo_ensino', '$data_cadastro')";
+	$inserir_escola = "INSERT INTO escola (cnpj, nome, telefone, endereco, numero, cidade, estado, pais, cep, tipo_escola, data_cadastro) VALUES ('$cnpj', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$tipo_escola', '$data_cadastro')";
 
 	$inserir_usuario = "INSERT INTO usuario (usuario, senha) VALUES ('$usuario', '$senha')";
 
