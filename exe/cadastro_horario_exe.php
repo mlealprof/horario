@@ -8,7 +8,7 @@
 	$descricao = $_POST['descricao'];
 
 	// Inserindo dados na tabela
-	$inserir_horario = "INSERT INTO horario (ordem, posicao, descricao) VALUES ('$ordem', '$posicao', '$descricao')";
+	$inserir_horario = "INSERT INTO horarios (ordem, posicao, descricao) VALUES ('$ordem', '$posicao', '$descricao')";
 
 	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_horario)) {

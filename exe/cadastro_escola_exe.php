@@ -3,16 +3,16 @@
 	require 'conexao_exe.php';
 
 	// Pegando dados via POST
-	$cnpj = $_POST['cnpj'];
-	$nome = $_POST['nome'];
-	$telefone = $_POST['telefone'];
-	$endereco = $_POST['endereco'];
-	$numero = $_POST['numero'];
-	$cidade = $_POST['cidade'];
-	$estado = $_POST['estado'];
-	$pais = $_POST['pais'];
-	$cep = $_POST['cep'];
-	$tipo_escola = $_POST['tipo_escola'];
+	$cnpj = '1';
+	$nome = '2';
+	$telefone = '3';
+	$endereco = '4';
+	$numero = '5';
+	$cidade = '6';
+	$estado = '7';
+	$pais = '8';
+	$cep = '9';
+	$tipo_escola = '10';
 
 	date_default_timezone_set('America/Sao_Paulo');
 	$data_cadastro = date("d/m/Y");
