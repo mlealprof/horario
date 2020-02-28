@@ -1,6 +1,4 @@
-<?php
-require ("../header.php");
-?>
+
 <!--==========================
   Cadastro de Turma
   ============================-->
@@ -20,7 +18,6 @@ require ("../header.php");
 
           </div>
 
-  
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">Nome</label>
@@ -63,18 +60,12 @@ require ("../header.php");
         <br>
         <br>
         <br> 
-
   </div>
           <tr><div class="right_button">
              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
           </div>
           </tr>
-        <br>
-        <br>
-        <br>
   </section>      
 
   </main>
-<?php
-require ("../footer.php");
-?>
+

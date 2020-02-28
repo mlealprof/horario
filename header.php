@@ -49,6 +49,9 @@
         <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
 
 
+
+        <!-- Uncomment below if you prefer to use an image logo -->
+
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
 
       </div>
