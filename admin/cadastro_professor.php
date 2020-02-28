@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 require ("../header.php");
 ?>
@@ -5,6 +6,8 @@ require ("../header.php");
 <!--==========================
   Cadastro de Professor
   ============================-->
+=======
+>>>>>>> upstream/master
 
   
 

@@ -1,6 +1,9 @@
+<<<<<<< HEAD:admin/cadastro_horarios.php
 <?php
 require ("../header.php");
 ?>
+=======
+>>>>>>> upstream/master:admin/cadastro_horario.php
 <!--==========================
   Cadastro de Horarios
   ============================-->
@@ -55,6 +58,10 @@ require ("../header.php");
   </section>      
  
   </main>
+<<<<<<< HEAD:admin/cadastro_horarios.php
 <?php
 require ("../footer.php");
 ?>
+=======
+
+>>>>>>> upstream/master:admin/cadastro_horario.php
