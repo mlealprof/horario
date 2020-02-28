@@ -19,8 +19,8 @@
 	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_turma)) {
 		echo '<script type="text/javascript">
-						alert("Turma cadastrada com sucesso!");
-						window.location.href="../admin/index.php";
+						
+						window.location.href="../admin/index.php?tela=turmas";
 					</script>';
 	} else { // Falha no cadastro
 		echo '<script type="text/javascript">
