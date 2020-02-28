@@ -1,5 +1,5 @@
 <!--==========================
-  Cadastro de Usuario
+  Cadastro de Horarios
   ============================-->
   
 
@@ -46,12 +46,13 @@
         <br>
         <br>
         <div class="center_button">
-              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+              <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
    <br> <br>  </div>
   </div>
   </section>      
  
   </main>
+
    <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -84,5 +85,4 @@
     </tr>
   </tbody>
 </table>
-
 
