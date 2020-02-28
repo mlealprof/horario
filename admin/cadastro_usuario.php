@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!doctype html>
 <html lang="en">
  
@@ -16,7 +15,7 @@
     <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css">
     <link rel="stylesheet" href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
-    <title>TimeTable</title>
+    <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
 </head>
 
 <body>
@@ -25,27 +24,27 @@
     <!-- ============================================================== -->
     <div class="dashboard-main-wrapper">
         <!-- ============================================================== -->
-        <!-- Barra de Navegação -->
+        <!-- navbar -->
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="index.php">TimeTable</a>
+                <a class="navbar-brand" href="index.html">TimeTable</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                      <?php echo $_SESSION['cod_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
-                    </ul>
-
+                        NOme Escola,Usuario 
+                            </ul>
+              
                 </div>
             </nav>
         </div>
         <!-- ============================================================== -->
-        <!-- Final Barra Navegaçao -->
+        <!-- end navbar -->
         <!-- ============================================================== -->
         <!-- ============================================================== -->
-        <!-- Barra Lateral -->
+        <!-- left sidebar -->
         <!-- ============================================================== -->
         <div class="nav-left-sidebar sidebar-dark">
             <div class="menu-list">
@@ -65,26 +64,26 @@
                                     <ul class="nav flex-column">
                                        
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-finance.html"><i class="fa fa-fw fa-bars"></i>Dados Usuário</a>
+                                            <a class="nav-link" href="dashboard-finance.html">Dados Usuario</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-sales.html"><i class="fa fa-fw fa-edit"></i>Editar Dados do Usuário</a>
+                                            <a class="nav-link" href="dashboard-sales.html">Editar Dados do Usuario</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-university"></i>Escola</a>
+                                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">Escola</a>
                                             <div id="submenu-1-1" class="collapse submenu" style="">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="dashboard-influencer.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-users"></i>Turmas</a>
+                                                        <a class="nav-link" href="dashboard-influencer.html">Turmas</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-book"></i>Disciplínas</a>
+                                                        <a class="nav-link" href="influencer-profile.html">Disciplínas</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-finder.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-graduation-cap"></i>Professores</a>
+                                                        <a class="nav-link" href="influencer-finder.html">Professores</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-clock"></i>Horários</a>
+                                                        <a class="nav-link" href="influencer-profile.html">Horarios</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -97,22 +96,22 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=usuarios"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
+                                            <a class="nav-link" href="pages/cards.html">Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=cursos"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
+                                            <a class="nav-link" href="pages/general.html">Cadastrar Cursos </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=disciplinas"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
+                                            <a class="nav-link" href="pages/carousel.html">Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=turmas"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
+                                            <a class="nav-link" href="pages/listgroup.html">Cadastrar Turmas </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=horarios"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
+                                            <a class="nav-link" href="pages/typography.html">Cadastrar Horarios</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=professores"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
+                                            <a class="nav-link" href="pages/accordions.html">Cadastrar Professores</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -122,19 +121,16 @@
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-c3.html">Quadro de Horários</a>
+                                            <a class="nav-link" href="pages/chart-c3.html">Gerar Horarios</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-calendar-plus"></i>Gerar Horário</a>
+                                            <a class="nav-link" href="pages/chart-chartist.html">Buscar Horarios</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-chartist.html"><i class="fa fa-fw fa-search"></i>Buscar Horários</a>
+                                            <a class="nav-link" href="pages/chart-charts.html">Editar Horarios</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-charts.html"><i class="fa fa-fw fa-edit"></i>Editar Horários</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-morris.html"><i class="fa fa-fw fa-trash"></i>Excluir Horários</a>
+                                            <a class="nav-link" href="pages/chart-morris.html">Excluir Horarios</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -149,12 +145,12 @@
             </div>
         </div>
         <!-- ============================================================== -->
-        <!-- Final Barra Lateral -->
+        <!-- end left sidebar -->
         <!-- ============================================================== -->
          <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
-                    
+                    Teste
                 </div>
                 </div>
             </div>
@@ -178,13 +174,16 @@
                 </div>
             </div>
             <!-- ============================================================== -->
-            <!-- final footer -->
+            <!-- end footer -->
             <!-- ============================================================== -->
       
         <!-- ============================================================== -->
         <!-- end wrapper  -->
         <!-- ============================================================== -->
-  
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+    <!-- ============================================================== -->
     <!-- Optional JavaScript -->
     <!-- jquery 3.3.1 -->
     <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>

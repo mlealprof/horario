@@ -24,14 +24,23 @@
 	// Inserindo dados na tabela
 	$inserir_escola = "INSERT INTO escola (cnpj, nome, telefone, endereco, numero, cidade, estado, pais, cep, tipo_escola, data_cadastro) VALUES ('$cnpj', '$nome', '$telefone', '$endereco', '$numero', '$cidade', '$estado', '$pais', '$cep', '$tipo_escola', '$data_cadastro')";
 
-	$inserir_usuario = "INSERT INTO usuario (usuario, email, senha) VALUES ('$usuario', '$email', '$senha')";
-
 	// Sucesso no cadastro
-	if (mysqli_query($conexao, $inserir_escola) and mysqli_query($conexao, $inserir_usuario)) {
-		echo '<script type="text/javascript">
+	if (mysqli_query($conexao, $inserir_escola)) {
+		$selecionar_escola = "SELECT cod_escola FROM escola WHERE nome = '$nome'";
+		$resultado = mysqli_query($conexao, $selecionar_escola);
+		$array = mysqli_fetch_array($resultado);
+		$cod_escola = $array['cod_escola'];
+		
+		$inserir_usuario = "INSERT INTO usuario (usuario, email, senha, tipo_usuario, cod_escola) VALUES ('$usuario', '$email', '$senha', 'Administrador', '$cod_escola')";
+
+		if (mysqli_query($conexao, $inserir_usuario)) {
+			echo '<script type="text/javascript">
 			alert("Escola cadastrada com sucesso!");
 			window.location.href="../index.php";
 			</script>';
+		}
+
+			
 	} else { // Falha no cadastro
 		echo '<script type="text/javascript">
 			alert("Falha no cadastro. Verifique os dados inseridos.");
