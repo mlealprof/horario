@@ -21,7 +21,7 @@
            //errou
          echo '<script type="text/javascript">
             alert("Usuário e/ou Senha Inválidos!");
-            window.location.href="../login.php/"
+            window.location.href="../login.php"
             </script>'; 
        }else{
             //logou
@@ -37,7 +37,7 @@
 
              echo '<script type="text/javascript">
             
-            window.location.href="../admin/";
+            window.location.href="../admin";
             </script>'; 
         }
 

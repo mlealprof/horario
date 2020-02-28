@@ -1,9 +1,6 @@
-<?php
-require ("header.php");
-?>
-<!--==========================
-  Cadastro de Usuario
-  ============================-->
+=========================
+  Cadastro de Professor
+  ============================
   
 
 
@@ -115,6 +112,3 @@ require ("header.php");
   </section>      
  
   </main>
-<?php
-require ("footer.php");
-?>
