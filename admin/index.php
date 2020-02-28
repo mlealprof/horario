@@ -110,15 +110,14 @@
                                             <a class="nav-link" href="pages/typography.html"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
                                         </li>
                                         <li class="nav-item">
-<<<<<<< HEAD
-                           <a class="nav-link" href="../exe/cadastro_professor_exe.php">Cadastrar Professores</a>
 
-                                            <a class="nav-link" href="?tela=professores">Cadastrar Professores</a>
-                </li>
-=======
+                       
+
+                                           
+
                                             <a class="nav-link" href="pages/accordions.html"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
                                         </li>
->>>>>>> upstream/master
+
                                     </ul>
                                 </div>
                             </li>

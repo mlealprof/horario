@@ -49,10 +49,9 @@
         <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
 
 
-<<<<<<< HEAD
+
         <!-- Uncomment below if you prefer to use an image logo -->
-=======
->>>>>>> upstream/master
+
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
 
       </div>
