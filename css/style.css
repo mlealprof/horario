@@ -1162,6 +1162,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .center_button{
    margin-left: 777px; 
+   text-align:right;
 }
 .tamanho_button{
     width: 120px;
