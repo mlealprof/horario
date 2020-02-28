@@ -5,3 +5,4 @@
 5 - Na aba cadastro de escola erro no texto digite seu "PAÍS" sem acento.
 6 - Na aba cadastro de escola está faltantando um imput "BAIRRO".
 8 - Pagina Principal está faltando acento em "HORÁRIOS".
+9
