@@ -1,9 +1,9 @@
 
 <!--==========================
-  Cadastro de Usuario
+  Cadastro de Disciplina
   ============================-->
   
-
+    <h1> Cadastro de Disciplina</h1>
     <br>
     <section class="img_cadastros">
   
