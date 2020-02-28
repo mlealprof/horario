@@ -3,6 +3,8 @@
   Cadastro de Turma
   ============================-->
   
+<?php require '../exe/conexao_exe.php'; ?>
+
 
     <br>
     <section class="img_cadastros">
@@ -70,3 +72,27 @@
   </section>      
 
   </main>
+<<<<<<< HEAD
+=======
+  <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Ação</th>  
+    </tr>
+  </thead>
+  <tbody>
+    <?php 
+      $consulta = "SELECT * FROM turma";
+      $resultado = mysqli_query($conexao, $consulta);
+      while ($array = mysqli_fetch_assoc($resultado)) { ?>
+      <tr>
+        <td><?php echo $array['cod_turma'] ?></td>
+        <td><?php echo $array['nome'] ?></td> 
+        <td><button type="button" class="btn btn-danger">Excluir</button></td>
+      </tr>
+    <?php } ?>
+  </tbody>
+</table>
+>>>>>>> upstream/master
