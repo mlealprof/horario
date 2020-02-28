@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 
 <!--==========================
   Cadastro de Professor
   ============================-->
+=======
+=========================
+  Cadastro de Professor
+  ============================
+>>>>>>> upstream/master
   
 
 
@@ -113,6 +119,9 @@
   </section>      
  
   </main>
+<<<<<<< HEAD
 <?php
 require ("../footer.php");
 ?>
+=======
+>>>>>>> upstream/master

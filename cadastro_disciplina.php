@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 <?php
-require ("../header.php");
+require ("header.php");
 ?>
-=======
-
->>>>>>> upstream/master
 <!--==========================
   Cadastro de Usuario
   ============================-->
@@ -67,9 +63,6 @@ require ("../header.php");
  
   </main>
 
-<<<<<<< HEAD
 <?php
-require ("../footer.php");
+require ("footer.php");
 ?>
-=======
->>>>>>> upstream/master

@@ -11,13 +11,11 @@
 
 
        // Consulta a tabela 
-       $consulta = "SELECT email,senha FROM usuario WHERE email='$email' AND senha='$senha'" ;
+       $consulta = "SELECT * FROM usuario WHERE email='$email' AND senha='$senha'" ;
 
        $resultado = mysqli_query($conexao,$consulta);
    
        $array = mysqli_fetch_array($resultado);
-
-       var_dump($array);
        
         if ($array['email']==null){
            //errou
@@ -27,11 +25,15 @@
             </script>'; 
        }else{
             //logou
-           
             $_SESSION['email'] = $array['email'];
             $_SESSION['tipo_usuario'] = $array['tipo_usuario'];
-            $_SESSION['cod_escola'] = $array['cod_escola'];
             $_SESSION['usuario'] = $array['usuario'];
+
+            $cod_escola = $array['cod_escola'];
+            $consulta = "SELECT nome FROM escola WHERE cod_escola = '$cod_escola'";
+            $resultado = mysqli_query($conexao,$consulta);
+            $array = mysqli_fetch_array($resultado);
+            $_SESSION['cod_escola'] = $array['nome'];
 
              echo '<script type="text/javascript">
             
