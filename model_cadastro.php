@@ -40,7 +40,7 @@ require ("header.php");
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">Endereço</label>
-              <input type="text" class="form-control" placeholder="Digite seu Enderço" name="endereco">
+              <input type="text" class="form-control" placeholder="Digite seu Endereço" name="endereco">
           </div>
           <div class="col">
               <label for="exampleInputPassword1">Nº</label>
@@ -101,7 +101,7 @@ require ("header.php");
           <div class="col">
               <label for="exampleInputPassword1">País</label>
 
-              <input type="text" class="form-control" placeholder="Digite seu Pais" name="pais">
+              <input type="text" class="form-control" placeholder="Digite seu País" name="pais">
           </div>
           <div class="col">
               <label for="exampleInputPassword1">CEP</label> 
