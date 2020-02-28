@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!doctype html>
 <html lang="en">
  
@@ -34,9 +35,8 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                      colocar aqui nome da escola ,nome do usuario
-                            </ul>
-              
+                      <?php echo $_SESSION['cod_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
+                    </ul>
                 </div>
             </nav>
         </div>
@@ -64,26 +64,26 @@
                                     <ul class="nav flex-column">
                                        
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-finance.html">Dados Usuario</a>
+                                            <a class="nav-link" href="dashboard-finance.html"><i class="fa fa-fw fa-bars"></i>Dados Usuario</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-sales.html">Editar Dados do Usuario</a>
+                                            <a class="nav-link" href="dashboard-sales.html"><i class="fa fa-fw fa-edit"></i>Editar Dados do Usuario</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">Escola</a>
+                                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-university"></i>Escola</a>
                                             <div id="submenu-1-1" class="collapse submenu" style="">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="dashboard-influencer.html">Turmas</a>
+                                                        <a class="nav-link" href="dashboard-influencer.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-users"></i>Turmas</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">Disciplínas</a>
+                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-book"></i>Disciplínas</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-finder.html">Professores</a>
+                                                        <a class="nav-link" href="influencer-finder.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-graduation-cap"></i>Professores</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">Horarios</a>
+                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-clock"></i>Horarios</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -96,22 +96,22 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/cards.html">Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
+                                            <a class="nav-link" href="?tela=usuarios"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/general.html">Cadastrar Cursos </a>
+                                            <a class="nav-link" href="?tela=cursos"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/carousel.html">Cadastrar Disciplinas</a>
+                                            <a class="nav-link" href="?tela=disciplinas"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/listgroup.html">Cadastrar Turmas </a>
+                                            <a class="nav-link" href="?tela=turmas"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/typography.html">Cadastrar Horarios</a>
+                                            <a class="nav-link" href="?tela=horarios"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/accordions.html">Cadastrar Professores</a>
+                                            <a class="nav-link" href="?tela=professores"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -146,20 +146,19 @@
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-c3.html">Quadro de Horarios</a>
+                                            <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-table"></i>Quadro de Horarios</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-c3.html">Gerar Horarios</a>
+                                            <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-calendar-plus"></i>Gerar Horário</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-chartist.html">Buscar Horarios</a>
+                                            <a class="nav-link" href="pages/chart-chartist.html"><i class="fa fa-fw fa-search"></i>Buscar Horários</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-charts.html">Editar Horarios</a>
+                                            <a class="nav-link" href="pages/chart-charts.html"><i class="fa fa-fw fa-edit"></i>Editar Horários</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-morris.html">Excluir Horarios</a>
-                                        </li>
+                                            <a class="nav-link" href="pages/chart-morris.html"><i class="fa fa-fw fa-trash"></i>Excluir Horários</a>
                                     </ul>
                                 </div>
                             </li>
@@ -178,7 +177,30 @@
          <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
-                    Teste
+                    <?php
+                        if (isset($_GET['tela'])) {
+                            $tela = $_GET['tela'];
+                            switch ($tela) {
+                                case 'usuarios':
+                                    include ('cadastro_usuario.php');
+                                    break;
+                                case 'disciplinas':
+                                    include ('cadastro_disciplina.php');
+                                    break;
+                                case 'turmas':
+                                        include ('cadastro_turma.php');
+                                        break;
+                                case 'horarios':
+                                    include ('cadastro_horario.php');
+                                    break;
+                                case 'professores':
+                                    include ('cadastro_professor.php');
+                                    break;
+                                default:
+                                    include ('cadastro_usuario.php');
+                            }
+                        }
+                    ?>
                 </div>
                 </div>
             </div>
