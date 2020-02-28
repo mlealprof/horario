@@ -46,7 +46,7 @@
         <br>
         <br>
         <div class="center_button">
-              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+              <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
    <br> <br>  </div>
   </div>
   </section>      
