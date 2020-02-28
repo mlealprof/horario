@@ -17,13 +17,13 @@
 	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_disciplina)) {
 		echo '<script type="text/javascript">
-				alert("Disciplina cadastrada com sucesso!");
-				window.location.href="../admin/index.php?tela=disciplinas";
-			</script>';
+						alert("Disciplina cadastrada com sucesso!");
+						window.location.href="../admin/index.php";
+					</script>';
 	} else { // Falha no cadastro
 		echo '<script type="text/javascript">
-				alert("Falha no cadastro. Verifique os dados inseridos.");
-				window.location.href="../admin/index.php?tela=disciplinas";
-			</script>';
+						alert("Falha no cadastro. Verifique os dados inseridos.");
+						window.location.href="../admin/index.php?tela=disciplinas";
+					</script>';
 	}
 ?>
