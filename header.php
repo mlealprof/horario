@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="utf-8">
   <title>TimeTable</title>
@@ -45,10 +45,10 @@
 
       <div id="logo" class="pull-left">
 
+
         <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
 
 
-        <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
 
       </div>
@@ -60,9 +60,11 @@
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
           <li><a href="login.php">Login</a></li>
 
+
           <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php"></a></a></li>
 
           <li><a href="#contact"></a></li>
+
 
         </ul>
       </nav><!-- #nav-menu-container -->
