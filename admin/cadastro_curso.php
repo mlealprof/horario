@@ -1,6 +1,4 @@
-<?php
-require ("header.php");
-?>
+
 <!--==========================
   Cadastro de tipo de ensino
   ============================-->
@@ -35,6 +33,4 @@ require ("header.php");
   </section>      
  
   </main>
-<?php
-require ("footer.php");
-?>
+
