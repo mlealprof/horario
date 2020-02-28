@@ -51,7 +51,6 @@
         <td><?php echo $array['cod_disciplina'] ?></td>
         <td><?php echo $array['nome'] ?></td> 
         <td><button type="button" class="btn btn-danger">Excluir</button></td>
-        <td>Teste</td>
       </tr>
     <?php } ?>
   </tbody>
