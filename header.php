@@ -49,12 +49,7 @@
         <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
 
 
-<<<<<<< HEAD
-        <!-- Uncomment below if you prefer to use an image logo -->
 
-=======
->>>>>>> upstream/master
-        <!-- <a href="#body"><img src="img/logo.png" alt="" title="" /></a>-->
 
       </div>
 
@@ -65,10 +60,7 @@
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
           <li><a href="login.php">Login</a></li>
 
-<<<<<<< HEAD
 
-=======
->>>>>>> upstream/master
 
           <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php"></a></a></li>
 
