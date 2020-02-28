@@ -3,8 +3,6 @@
   Cadastro de Turma
   ============================-->
   
-<?php require '../exe/conexao_exe.php'; ?>
-
 
     <br>
     <section class="img_cadastros">
@@ -64,7 +62,8 @@
         <br> 
 
   </div>
-          <tr><div class="right_button">
+          <tr>
+            <div class="right_button">
              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
           </div>
           </tr>
@@ -72,27 +71,38 @@
   </section>      
 
   </main>
-<<<<<<< HEAD
-=======
-  <table class="table">
+  <br>
+        <br>
+        
+<table class="table">
   <thead class="thead-dark">
     <tr>
       <th scope="col">#</th>
+      <th scope="col">Codigo</th>
       <th scope="col">Descrição</th>
-      <th scope="col">Ação</th>  
+      <th scope="col">Ação</th>    
     </tr>
   </thead>
   <tbody>
-    <?php 
-      $consulta = "SELECT * FROM turma";
-      $resultado = mysqli_query($conexao, $consulta);
-      while ($array = mysqli_fetch_assoc($resultado)) { ?>
-      <tr>
-        <td><?php echo $array['cod_turma'] ?></td>
-        <td><?php echo $array['nome'] ?></td> 
-        <td><button type="button" class="btn btn-danger">Excluir</button></td>
-      </tr>
-    <?php } ?>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td><button type="button" class="btn btn-danger">Excluir</button></td>
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td><button type="button" class="btn btn-danger">Excluir</button></td>
+
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td><button type="button" class="btn btn-danger">Excluir</button></td>
+    </tr>
   </tbody>
 </table>
->>>>>>> upstream/master
