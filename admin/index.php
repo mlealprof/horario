@@ -28,14 +28,15 @@
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="primeirapaginateste.php">TimeTable</a>
+                <a class="navbar-brand" href="index.php">TimeTable</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                      <?php echo $_SESSION['escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
-                    </ul>
+                      colocar aqui nome da escola ,nome do usuario
+                            </ul>
+              
                 </div>
             </nav>
         </div>
@@ -104,11 +105,6 @@
                                             <a class="nav-link" href="pages/carousel.html"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-
-                                            <a class="nav-link" href="../exe/cadastro_turma_exe.php">Cadastrar Turmas </a>
-
-                                            <a class="nav-link" href="?tela=turmas">Cadastrar Turmas</a>
-
                                             <a class="nav-link" href="pages/listgroup.html"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
                                         </li>
                                         <li class="nav-item">
@@ -125,7 +121,7 @@
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-table"></i>Quadro de Horarios</a>
+                                            <a class="nav-link" href="pages/chart-c3.html">Quadro de Horarios</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-calendar-plus"></i>Gerar Horário</a>
@@ -138,6 +134,7 @@
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-morris.html"><i class="fa fa-fw fa-trash"></i>Excluir Horários</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
@@ -156,30 +153,7 @@
          <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
-                    <?php
-                        if (isset($_GET['tela'])) {
-                            $tela = $_GET['tela'];
-                            switch ($tela) {
-                                case 'usuarios':
-                                    include ('cadastro_usuario.php');
-                                    break;
-                                case 'disciplinas':
-                                    include ('cadastro_disciplina.php');
-                                    break;
-                                case 'turmas':
-                                        include ('cadastro_turma.php');
-                                        break;
-                                case 'horarios':
-                                    include ('cadastro_horario.php');
-                                    break;
-                                case 'professores':
-                                    include ('cadastro_professor.php');
-                                    break;
-                                default:
-                                    include ('cadastro_usuario.php');
-                            }
-                        }
-                    ?>
+                    Teste
                 </div>
                 </div>
             </div>
