@@ -49,3 +49,9 @@ Documentação de toda criação do projeto
   Relatório Back-end
   ============================-->
   Alunos responsaveis: Willian, Lucas, Antônio, Miguel, Mateus, Fabiano, Vilmar, Pierre e Gustavo.
+
+## Front-end
+<!--==========================
+  Relatório Front-end
+  ============================-->
+  Alunos responsaveis: Laura, Raynna, Rudson, Paulo Cesar, Sergio, Rafael e João Paulo.
