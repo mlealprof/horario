@@ -1,6 +1,6 @@
 <?php session_start(); ?>
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-br">
  
 <head>
     <!-- Required meta tags -->
@@ -35,7 +35,7 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                      <?php echo $_SESSION['cod_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
+                      <?php echo $_SESSION['nome_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
                     </ul>
                 </div>
             </nav>
