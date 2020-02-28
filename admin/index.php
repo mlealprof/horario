@@ -104,15 +104,12 @@
                                             <a class="nav-link" href="pages/carousel.html"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-<<<<<<< HEAD
-<<<<<<< HEAD
+
                                             <a class="nav-link" href="../exe/cadastro_turma_exe.php">Cadastrar Turmas </a>
-=======
+
                                             <a class="nav-link" href="?tela=turmas">Cadastrar Turmas</a>
->>>>>>> upstream/master
-=======
+
                                             <a class="nav-link" href="pages/listgroup.html"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
->>>>>>> upstream/master
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/typography.html"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
