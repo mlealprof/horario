@@ -1,10 +1,8 @@
-<<<<<<< HEAD
+
 <?php
 require ("../header.php");
 ?>
-=======
 
->>>>>>> upstream/master
 <!--==========================
   Cadastro de Usuario
   ============================-->
