@@ -1,9 +1,9 @@
 <?php require '../exe/conexao_exe.php'; ?>
-<!--==========================
-  Cadastro de disciplina
-  ============================-->
-  
 
+  Cadastro de Disciplina
+
+  
+    <h1> Cadastro de Disciplina</h1>
     <br>
     <section class="img_cadastros">
   
