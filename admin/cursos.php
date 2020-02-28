@@ -171,7 +171,7 @@
           <br><br><br>
            
           <div class="form-group">
-            <label for="exampleInputPassword1">Tipo de ensino</label>
+            <label for="exampleInputPassword1">TIPO DE ENSINO:</label>
             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite o tipo de ensino">
           </div>
           <br>
