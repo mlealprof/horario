@@ -1,12 +1,9 @@
-cd /c/xampp/htdocs/projeto/horario
-pause
+﻿cd /c/xampp/htdocs/projeto/horario
 git fetch upstream
-pause
-git merge upstream/master
 pause
 git add .
 pause
-git commit -m "Artualização direta do repositório"
+git commit -m "comando direto"
 pause
 git push
 echo ###Arquivo enviado e atualizado###
