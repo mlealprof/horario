@@ -1,10 +1,5 @@
 # Projeto Horário Escolar
 Projeto de montagem de horários escolares de forma automática
-<<<<<<< HEAD
-Sr.Madruga
-La conspiracion bolivariana estas presente en nuetros dias 
-
-=======
 
 # Descrição
 O web site irá possibilitar o cadastro de escolas públicas ou privadas, no qual, poderão cadastrar suas turmas, professores, disciplinas, e administradores. Por fim, com as indisponibilidades de cada professor, será gerado um quadro de horários.

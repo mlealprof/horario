@@ -1,6 +1,7 @@
-0<!doctype html>
-<html lang="en">
- 
+
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -28,13 +29,13 @@
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="primeirapaginateste.php">TimeTable</a>
+                <a class="navbar-brand" href="index.php">TimeTable</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                      <?php echo $_SESSION['escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
+                      <?php echo $_SESSION['nome_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
                     </ul>
                 </div>
             </nav>
@@ -95,22 +96,22 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/cards.html"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
+                                            <a class="nav-link" href="?tela=usuarios"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/general.html"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
+                                            <a class="nav-link" href="?tela=cursos"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/carousel.html"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
+                                            <a class="nav-link" href="?tela=disciplinas"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/listgroup.html"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
+                                            <a class="nav-link" href="?tela=turmas"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/typography.html"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
+                                            <a class="nav-link" href="?tela=horarios"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/accordions.html"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
+                                            <a class="nav-link" href="?tela=professores"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
                                         </li>
                                     </ul>
                                 </div>
