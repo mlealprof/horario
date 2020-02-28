@@ -1,6 +1,3 @@
-<?php
-require ("header.php");
-?>
 <!--==========================
   Cadastro de Usuario
   ============================-->
@@ -55,6 +52,4 @@ require ("header.php");
   </section>      
  
   </main>
-<?php
-require ("footer.php");
-?>
+

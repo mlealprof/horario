@@ -12,7 +12,7 @@
 
       
         <div class=" font">
-        <form action="exe/cadastro_escola_exe.php" method="post">
+        <form action="../exe/cadastro_disciplina_exe.php" method="post">
            
           <div class="form-group">
             <label for="exampleInputPassword1">Código da Disciplina</label>
