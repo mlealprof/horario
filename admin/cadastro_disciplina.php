@@ -1,13 +1,10 @@
 <?php require '../exe/conexao_exe.php'; ?>
 
-  Cadastro de Disciplina
 
-  
-    <h1> Cadastro de Disciplina</h1>
-    <br>
-    <section class="img_cadastros">
-  
-     <div class="container font">
+
+
+
+
 
 <h1 align="center">Cadastro Disciplina</h1>
       
