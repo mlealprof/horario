@@ -1,6 +1,4 @@
-<?php
-require ("header.php");
-?>
+
 <!--==========================
   Cadastro de Usuario
   ============================-->
@@ -63,6 +61,3 @@ require ("header.php");
  
   </main>
 
-<?php
-require ("footer.php");
-?>
