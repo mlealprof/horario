@@ -1,5 +1,5 @@
 <?php
-require ("header.php");
+require ("../header.php");
 ?>
 <!--==========================
   Cadastro de Turma
@@ -14,7 +14,7 @@ require ("header.php");
 
       
         <div class=" font">
-        <form action="exe/cadastro_escola_exe.php" method="post">
+        <form action="" method="post">
            
           <div class="form-group">
             <label for="exampleInputPassword1">Código de Turma</label>
