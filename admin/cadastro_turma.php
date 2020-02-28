@@ -11,8 +11,6 @@ require ("../header.php");
   
      <div class="container font">
 
-
-      
         <div class=" font">
         <form action="" method="post">
            
@@ -78,5 +76,5 @@ require ("../header.php");
 
   </main>
 <?php
-require ("footer.php");
+require ("../footer.php");
 ?>
