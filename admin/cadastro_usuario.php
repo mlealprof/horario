@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
  
 <head>
@@ -24,27 +24,27 @@
     <!-- ============================================================== -->
     <div class="dashboard-main-wrapper">
         <!-- ============================================================== -->
-        <!-- Barra de Navegação -->
+        <!-- navbar -->
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <a class="navbar-brand" href="primeirapaginateste.php">TimeTable</a>
+                <a class="navbar-brand" href="index.html">TimeTable</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-                      colocar aqui nome da escola ,nome do usuario
+                        NOme Escola,Usuario 
                             </ul>
               
                 </div>
             </nav>
         </div>
         <!-- ============================================================== -->
-        <!-- Final Barra Navegaçao -->
+        <!-- end navbar -->
         <!-- ============================================================== -->
         <!-- ============================================================== -->
-        <!-- Barra Lateral -->
+        <!-- left sidebar -->
         <!-- ============================================================== -->
         <div class="nav-left-sidebar sidebar-dark">
             <div class="menu-list">
@@ -121,9 +121,6 @@
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-c3.html">Quadro de Horarios</a>
-                                        </li>
-                                        <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-c3.html">Gerar Horarios</a>
                                         </li>
                                         <li class="nav-item">
@@ -148,7 +145,7 @@
             </div>
         </div>
         <!-- ============================================================== -->
-        <!-- Final Barra Lateral -->
+        <!-- end left sidebar -->
         <!-- ============================================================== -->
          <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
@@ -177,13 +174,16 @@
                 </div>
             </div>
             <!-- ============================================================== -->
-            <!-- final footer -->
+            <!-- end footer -->
             <!-- ============================================================== -->
       
         <!-- ============================================================== -->
         <!-- end wrapper  -->
         <!-- ============================================================== -->
-  
+    </div>
+    <!-- ============================================================== -->
+    <!-- end main wrapper  -->
+    <!-- ============================================================== -->
     <!-- Optional JavaScript -->
     <!-- jquery 3.3.1 -->
     <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
