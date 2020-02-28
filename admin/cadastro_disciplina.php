@@ -1,6 +1,6 @@
 <?php require '../exe/conexao_exe.php'; ?>
 <!--==========================
-  Cadastro de Usuario
+  Cadastro de disciplina
   ============================-->
   
 
@@ -9,7 +9,7 @@
   
      <div class="container font">
 
-
+<h1 align="center">Cadastro Disciplina</h1>
       
         <div class=" font">
         <form action="../exe/cadastro_disciplina_exe.php" method="post">
