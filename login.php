@@ -15,7 +15,7 @@
 			<a href="">Esqueceu sua senha?</a><br>
 			<div>
 	        	 <button type="submit" class="btn btn-primary">Entrar</button>
-	        	<a href="model_adastro.php" class="btn-projects scrollto" >Cadastrar</a>
+	        	<a href="model_cadastro.php" class="btn-projects scrollto" >Cadastrar</a>
 	      </div>
 	    </div>
        </form>
