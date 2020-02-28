@@ -29,15 +29,7 @@
         <!-- ============================================================== -->
         <div class="dashboard-header">
             <nav class="navbar navbar-expand-lg bg-white fixed-top">
-<<<<<<< HEAD
-<<<<<<< HEAD:admin/index.html
-                <a class="navbar-brand" href="index.html">TimeTable</a>
-=======
                 <a class="navbar-brand" href="index.php">TimeTable</a>
->>>>>>> upstream/master:admin/index.php
-=======
-                <a class="navbar-brand" href="primeirapaginateste.php">TimeTable</a>
->>>>>>> upstream/master
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -107,19 +99,7 @@
                                             <a class="nav-link" href="?tela=usuarios"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD:admin/index.html
-                                            <a class="nav-link" href="cursos.php">Cadastrar Cursos </a>
-=======
                                             <a class="nav-link" href="?tela=cursos"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
->>>>>>> upstream/master:admin/index.php
-=======
-                                            <a class="nav-link" href="cursos.php"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
->>>>>>> upstream/master
-=======
-                                            <a class="nav-link" href="?tela=cursos"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
->>>>>>> upstream/master
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="?tela=disciplinas"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>

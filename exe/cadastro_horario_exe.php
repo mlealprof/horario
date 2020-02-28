@@ -3,12 +3,12 @@
 	require 'conexao_exe.php';
 
 	// Pegando dados via POST
-	$ordem = '1';
-	$posicao = '2';
-	$descricao = 'teste';
+	$ordem = $_POST['ordem'];
+	$posicao = $_POST['posicao'];
+	$descricao = $_POST['descricao'];
 
 	// Inserindo dados na tabela
-	$inserir_horario = "INSERT INTO horarios (ordem, posicao, descricao) VALUES ('$ordem', '$posicao', '$descricao')";
+	$inserir_horario = "INSERT INTO horario (ordem, posicao, descricao) VALUES ('$ordem', '$posicao', '$descricao')";
 
 	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_horario)) {

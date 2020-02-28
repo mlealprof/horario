@@ -1,26 +1,20 @@
 
 <!--==========================
-  Cadastro de Turma
+  Cadastro de Turmas
   ============================-->
   
+<?php require '../exe/conexao_exe.php'; ?>
+
 
     <br>
     <section class="img_cadastros">
   
      <div class="container font">
 
-
+        <h1 align="center">Cadastro de Turmas</h1>
       
         <div class=" font">
         <form action="../exe/cadastro_turma_exe.php" method="post">
-           
-          <div class="form-group">
-            <label for="exampleInputPassword1">Código de Turma</label>
-            <input type="text" name="nome" class="form-control" id="exampleInputPassword1" placeholder="Digite o Código de Turma">
-
-          </div>
-
-  
           <div class="row">
           <div class="col">
               <label for="exampleInputPassword1">Nome</label>
@@ -33,38 +27,22 @@
 
           </div>
           </div>
-    
-        <br>
-    
-          <div class="row">
+    <br>
           <div class="col">
-              <label for="exampleInputPassword1">Turno</label>
+          <label for="exampleInputPassword1" >Turno</label>
+                <select name="estado" id="inputEstado" class="form-control">
 
-              <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
-          </div>
-          <div class="col">
-              <label for="exampleInputPassword1">Código de Turno</label>
-              <input type="text" class="form-control" placeholder="Digite o Código de Turno" name="cod_turno">
-
-          </div>
-          </div>
- 
-        <br>
-
-          <div class="row">
-          <div class="col">
-              <label for="exampleInputPassword1">Código de Escola</label>
-
-              <input type="text" class="form-control" placeholder="Digite o Código de Escola" name="cod_escola">
-          </div>
-          <br>
-          <br>
-          <br>
-          <br> 
+                         <option selected>Turnos
+                         <!-- criar aki seletor dinamico-->
+                         </option>
+                         <option>
+                         </option>
+                      </select>
 
           </div>
           <tr><div class="right_button">
-             <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+            <br>
+             <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
           </div>
           </tr>
         </form>
@@ -75,3 +53,24 @@
   </section>      
 
   </main>
+  <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Ação</th>  
+    </tr>
+  </thead>
+  <tbody>
+    <?php 
+      $consulta = "SELECT * FROM turma";
+      $resultado = mysqli_query($conexao, $consulta);
+      while ($array = mysqli_fetch_assoc($resultado)) { ?>
+      <tr>
+        <td><?php echo $array['cod_turma'] ?></td>
+        <td><?php echo $array['nome'] ?></td> 
+        <td><button type="button" class="btn btn-danger">Excluir</button></td>
+      </tr>
+    <?php } ?>
+  </tbody>
+</table>
