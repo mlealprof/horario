@@ -1,5 +1,5 @@
 <!--==========================
-  Cadastro de Usuario
+  Cadastro de Horarios
   ============================-->
   
 
@@ -52,6 +52,7 @@
   </section>      
  
   </main>
+
    <table class="table">
   <thead class="thead-dark">
     <tr>
@@ -84,5 +85,4 @@
     </tr>
   </tbody>
 </table>
-
 
