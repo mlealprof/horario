@@ -1,4 +1,0 @@
-1 - Erro no botão entra na pagina de login.
-2 - Ambas partes do cadastre sua escola e login não estão centralizadas fora do padrão .CSS.
-3 - Input do login está com uma fonte diferente da aba cadastre sua escola saindo do padrão do site
-4 - Esqueceu senha não funciona.
