@@ -1,4 +1,6 @@
 1 - Erro no botão entra na pagina de login.
 2 - ambas partes do cadastre sua escola e login não estão centralizadas fora do padrão .CSS.
-3 - Input do login está com uma fonte diferente da aba cadastre sua escola saindon do padrão do site
+3 - Input do login está com uma fonte diferente da aba cadastre sua escola saindo do padrão do site
 4 - Esqueceu senha não funciona.
+5 - Na aba cadastro de escola erro no texto digite seu "PAÍS" sem acento.
+6 - Na aba cadastro de escola está faltantando um imput "BAIRRO".
