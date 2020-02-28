@@ -220,13 +220,13 @@ h6 {
 
 #intro .intro-content .btn-get-started,
 #intro .intro-content .btn-projects {
-  font-family: "Raleway", sans-serif;
+  font-family: Marvel;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
   display: inline-block;
   padding: 5px 10px;
-  border-radius: 20px;
+  border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
@@ -243,8 +243,14 @@ h6 {
 }
 
 #intro .intro-content .btn-projects {
+<<<<<<< HEAD
   background: #2be7c5;
   border: 2px solid #2be7c5;
+=======
+  border: 2px solid #50d8af;
+  background-color: #007bff;
+  border-color: #007bff;
+>>>>>>> f2e2001653413887bd51aaed0ca6e64aff51af58
 }
 
 #intro .intro-content .btn-projects:hover {

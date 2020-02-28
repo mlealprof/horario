@@ -1,13 +1,13 @@
 <?php require '../exe/conexao_exe.php'; ?>
 
-  Cadastro de Disciplina
+<!--==========================
+  Cadastro de Usuario
+  ============================-->
 
-  
-    <h1> Cadastro de Disciplina</h1>
-    <br>
-    <section class="img_cadastros">
-  
-     <div class="container font">
+
+
+
+
 
 <h1 align="center">Cadastro Disciplina</h1>
       
@@ -23,7 +23,7 @@
           </div>
           <br>
           <div class="right_button">
-              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+              <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
           </div>
           <br>
         </div>
@@ -55,5 +55,6 @@
     <?php } ?>
   </tbody>
 </table>
+
 
 

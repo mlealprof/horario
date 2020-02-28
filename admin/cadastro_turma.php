@@ -44,6 +44,12 @@
               <input type="text" class="form-control" placeholder="Digite o Código de Turno" name="cod_turno">
 
           </div>
+<<<<<<< HEAD
+=======
+          <tr><div class="right_button">
+            <br>
+             <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
+>>>>>>> upstream/master
           </div>
  
         <br>
