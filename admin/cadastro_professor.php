@@ -5,6 +5,7 @@
 
   
 
+<h1 align="center">Cadastro Professores</h1>
 
     <section class="img_cadastros">
   

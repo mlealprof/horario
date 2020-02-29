@@ -2,6 +2,7 @@
   Cadastro de Horarios
   ============================-->
   
+<h1 align="center">Cadastro de Horário</h1>
 
 
     <section class="img_cadastros">
