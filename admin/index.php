@@ -1,7 +1,7 @@
+
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
- 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -161,6 +161,9 @@
                                     break;
                                 case 'disciplinas':
                                     include ('cadastro_disciplina.php');
+                                    break;
+                                case 'cursos':
+                                    include ('cadastro_curso.php');
                                     break;
                                 case 'turmas':
                                         include ('cadastro_turma.php');
