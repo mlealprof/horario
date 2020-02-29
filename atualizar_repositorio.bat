@@ -1,9 +1,6 @@
 ﻿cd /c/xampp/htdocs/projeto/horario
-
 pause
-
-git fetch upstream
-
+git status
 pause
 git add .
 
@@ -15,6 +12,6 @@ pause
 
 git push
 
-echo ###Arquivo enviado e atualizado###
+echo ###Arquivo Enviado###
 
 pause
