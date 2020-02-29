@@ -162,6 +162,9 @@
                                 case 'disciplinas':
                                     include ('cadastro_disciplina.php');
                                     break;
+                                case 'cursos':
+                                    include ('cadastro_curso.php');
+                                    break;
                                 case 'turmas':
                                         include ('cadastro_turma.php');
                                         break;
