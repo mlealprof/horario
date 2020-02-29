@@ -23,6 +23,12 @@ Escola Estadual Dona Berenice de Magalhães Pinto
 ## Banco de Dados
 Praticando criação e manipulação de banco dados, usando comandos SQL.
 
+<!--==========================
+  Relatório banco de dados
+  ============================-->
+O aluno Salatiel ficou encarregado da parte de banco de dados.
+Foi criado um Banco de dados com o nome de "bd_horario",contendo 13 tabelas, as quais são:"aulas; dias_da_semana; disciplina; disciplina_por_turma; escola; horarios; indisponibilidade; professor; quadro; tipo_ensino; turma; turno; usuario".
+
 ## Programação Orientada a Objeto
 Usando PHP Orientado a Objeto 
 
@@ -32,3 +38,15 @@ Criando as páginas usando HTML, CSS, PHP, JAVASCRIPT
 ## Analise de Sistemas e Projetos 
 Documentação de toda criação do projeto
 >>>>>>> upstream/master
+
+## Back-end
+<!--==========================
+  Relatório Back-end
+  ============================-->
+  Alunos responsaveis: Willian, Lucas, Antônio, Miguel, Mateus, Fabiano, Vilmar, Pierre e Gustavo.
+
+## Front-end
+<!--==========================
+  Relatório Front-end
+  ============================-->
+  Alunos responsaveis: Laura, Raynna, Rudson, Paulo Cesar, Sergio, Rafael e João Paulo.
