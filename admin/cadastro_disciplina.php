@@ -18,7 +18,7 @@
              <div class="col">
               <label for="exampleInputPassword1">Nome</label>
 
-              <input type="text" class="form-control" placeholder="Digite o nome disciplina" name="nome">
+              <input type="text" class="form-control" placeholder="Digite o nome disciplina" required="required" name="nome">
             </div>
           </div>
           <br>

@@ -37,8 +37,8 @@
 			$_SESSION['nome_escola'] = $array['nome'];
 
 			echo '<script type="text/javascript">
-							window.location.href="../admin";
-						</script>';
+						window.location.href="../admin";
+					</script>';
 		}
 	}
 ?>

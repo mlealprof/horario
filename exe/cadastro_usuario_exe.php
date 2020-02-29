@@ -19,19 +19,18 @@
 		// Sucesso no cadastro
 		if (mysqli_query($conexao, $inserir_usuario)) {
 			echo '<script type="text/javascript">
-							alert("Usuario cadastrado com sucesso!");
-							window.location.href="../index.php";
-							</script>'; // Redirecionar para a Dashboard
+					window.location.href="../admin/index.php?tela=usuarios";
+				</script>'; // Redirecionar para a Dashboard
 		} else { // Falha no cadastro
 			echo '<script type="text/javascript">
-							alert("Falha no cadastro. Verifique os dados inseridos.");
-							window.location.href="../cadastro.php";
-							</script>'; // Voltar à página de cadastro
+					alert("Falha no cadastro. Verifique os dados inseridos.");
+					/*window.location.href="../admin/index.php?tela=usuarios";*/
+				</script>'; // Voltar à página de cadastro
 		}
 	} else { // Email já existe
 		echo '<script type="text/javascript">
-						alert("Email já existe!");
-						window.location.href="../cadastro.php";
-						</script>'; // Voltar à página de cadastro
+				alert("Email já existe!");
+				window.location.href="../admin/index.php?tela=usuarios";
+			</script>'; // Voltar à página de cadastro
 	}
 ?>
