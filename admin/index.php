@@ -1,14 +1,7 @@
 
-    <?php
-      session_start(); 
-      
-      require ('verifica_login.php');
-
-    ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
-
- 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -23,12 +16,10 @@
     <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css">
     <link rel="stylesheet" href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
-    <title>Dashboard</title>
+    <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
 </head>
 
 <body>
-
-
     <!-- ============================================================== -->
     <!-- main wrapper -->
     <!-- ============================================================== -->
