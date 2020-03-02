@@ -1,3 +1,4 @@
+
 <?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -110,6 +111,9 @@
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="?tela=professor"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="?tela=por_turma"><i class="fa fa-fw fa-graduation-cap"></i>Disciplina por Turma</a>
                                         </li>
                                     </ul>
                                 </div>
