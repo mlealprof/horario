@@ -18,11 +18,9 @@
           <div class="row">
             <div class="col">
               <div class="right_button">
-<<<<<<< HEAD
-                <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-=======
+
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
->>>>>>> upstream/master
+
               </div>
             </div>
           </div>
