@@ -6,9 +6,7 @@ require ("header.php");
   ============================-->
   
 
-
-
-
+    <br>
     <section class="img_cadastros">
   
      <div class="container font">
@@ -167,8 +165,7 @@ require ("header.php");
 
         </form>
       
- 
-</div>
+  </div>
   </section>      
  
   </main>

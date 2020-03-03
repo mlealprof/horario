@@ -2,8 +2,8 @@
 	require("header.php");
 	
 ?>
-
-
+	
+<body>
 	<section id="intro">
 	   <form action="exe/login_exe.php" method="Post">
 		<div class="babado-container intro-content">
@@ -20,7 +20,7 @@
 	    </div>
        </form>
 	</section>    
-
+</body>
 <?php
 	require("footer.php");
 ?>
