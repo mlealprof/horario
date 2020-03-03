@@ -14,7 +14,7 @@
             <input type="password" name="senha" maxlength="50" placeholder="Digite sua senha" > 
 			<a href="recuperar_senha.php">Esqueceu sua senha?</a><br>
 			<div>
-	        	 <button type="submit" class="btn btn-primary">Entrar</button>
+	        	 <button type="submit" class="btn-projects scrollto">Entrar</button>
 	        	<a href="model_cadastro.php" class="btn-projects scrollto" >Cadastrar</a>
 	      </div>
 	    </div>

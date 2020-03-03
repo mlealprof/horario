@@ -1,13 +1,13 @@
 <<<<<<< HEAD
 1 - Erro no botão entra na pagina de login.
-2 - ambas partes do cadastre sua escola e login não estão centralizadas fora do padrão .CSS.
+2 - ambas partes do cadastre sua escola e login não estão centralizadas fora do padrão .CSS.//sérgio resolvido//
 3 - Input do login está com uma fonte diferente da aba cadastre sua escola saindon do padrão do site
-4 - Esqueceu senha não funciona.
+4 - Esqueceu senha não funciona.//Sérgio Criei a pagina de recuperar senha //
 =======
 1 -(resolvido) Erro no botão entra na pagina de login.
-2 - ambas partes do cadastre sua escola e login não estão centralizadas fora do padrão .CSS.
-3 - Input do login está com uma fonte diferente da aba cadastre sua escola saindon do padrão do site
-4 - Esqueceu senha não funciona.
+2 - ambas partes do cadastre sua escola e login não estão centralizadas fora do padrão .CSS.//Sérgio resolvido as paginas dao esta ilusao apos aparercer a barra de rolagen //
+3 - Input do login está com uma fonte diferente da aba cadastre sua escola saindon do padrão do site//Sérgio resolvido todos os botoes da parte inicvial do site estao padronizados //
+4 - Esqueceu senha não funciona.//Sérgio Criei a pagina de recuperar senha //
 5 - Título do cpanel estranho
 6 - No cadastro de usuário a lista de usuários cadastrados não está funcionando.
 7 - (reslovido) troca o botão do cadastro de usuário de enviar para salvar
@@ -17,7 +17,7 @@
 11 - O campo Tipo de usuário no cadastro de cliente, tem que ser padrão, o usuário não digita e sim escolhe em uma combobox.
 12 - Mudar a tela de cadastro de horário deve ficar os campos (Posição, Dia da Semana, hora inicial e final).
 13 - Mudar botão enviar para salvar do cadastro de horário.
-14 - Erro de português na tela inicial (horário sem acento).
+14 - Erro de português na tela inicial (horário sem acento).//Sérgio Resolvido//
 15 - Fazer a tela de cadastro de professores e suas indisponibilidades
 16 - Faze o cadastro de disciplinas por turma.
 17 - Colocar o botão sair no Cpanel

@@ -5,7 +5,7 @@
   <section id="intro">
 
     <div class="intro-content">
-      <h2>Crie seus <span>Horarios</span><br></h2>
+      <h2>Crie seus <span>Horários</span><br></h2>
       <h2>Com o TimeTable</h2>
       <div>
         <a href="model_cadastro.php" class="btn-get-started scrollto">Cadastro</a>
