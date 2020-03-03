@@ -19,4 +19,4 @@
 19 - No Cpanel, a palavra usuário no menu está sem acento
 20 - No Cpanel, o link que mostra os dados do usuário não está funcionando
 21 - No Cpanel, editar dados do usuário e da escolha não está pronto
-22 - 
+22 - Criar tela de gerar horário (A principal)
