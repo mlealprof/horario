@@ -19,7 +19,7 @@
             <div class="col">
                 <label for="exampleInputPassword1">CPF</label>
                 <input type="text" class="form-control" placeholder="Digite o CPF" required="required" name="cpf_proff">
-            </div>
+            </div> 
           </div><br>
           <div class="row">
             <div class="col">
