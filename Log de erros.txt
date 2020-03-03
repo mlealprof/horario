@@ -19,4 +19,6 @@
 19 - No Cpanel, a palavra usuário no menu está sem acento
 20 - No Cpanel, o link que mostra os dados do usuário não está funcionando
 21 - No Cpanel, editar dados do usuário e da escolha não está pronto
-22 - 
+22 - Cadastra curso - tipo de ensino não está funcionando
+23 - Em "Cadastrar Professores" > Nome da Escola < está como caracteristicas de tipo Password(senha)******
+24 -  Em "Cadastrar Professores" está faltando mais opções de "tipo de Ensino"
