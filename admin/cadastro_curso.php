@@ -3,7 +3,7 @@
   Cadastro de Usuario
   ============================-->
   
-
+<h1 align="center">Cadastro de Cursos</h1>
     <br>
     <section class="img_cadastros">
   
