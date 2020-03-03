@@ -1,4 +1,3 @@
-
 1 -(resolvido) Erro no bot√£o entra na pagina de login.
 2 - ambas partes do cadastre sua escola e login n√£o est√£o centralizadas fora do padr√£o .CSS.
 3 - Input do login est√° com uma fonte diferente da aba cadastre sua escola saindon do padr√£o do site
@@ -15,21 +14,9 @@
 14 - Erro de portugu√™s na tela inicial (hor√°rio sem acento).
 15 - Fazer a tela de cadastro de professores e suas indisponibilidades
 16 - Faze o cadastro de disciplinas por turma.
-<<<<<<< HEAD
-17 - Colocar o bot„o sair no Cpanel
-18 - No Cpanel, a palavra hor·rio do Menu est· sem acento
-19 - No Cpanel, a palavra usu·rio no menu est· sem acento
-20 - No Cpanel, o link que mostra os dados do usu·rio n„o est· funcionando
-21 - No Cpanel, editar dados do usu·rio e da escolha n„o est· pronto
-22 - Cadastra curso - tipo de ensino n„o est· funcionando
-23 - Em "Cadastrar Professores" > Nome da Escola < est· como caracteristicas de tipo Password(senha)******
-24 -  Em "Cadastrar Professores" est· faltando mais opÁıes de "tipo de Ensino"
-=======
 17 - Colocar o bot√£o sair no Cpanel
 18 - No Cpanel, a palavra hor√°rio do Menu est√° sem acento
 19 - No Cpanel, a palavra usu√°rio no menu est√° sem acento
 20 - No Cpanel, o link que mostra os dados do usu√°rio n√£o est√° funcionando
 21 - No Cpanel, editar dados do usu√°rio e da escolha n√£o est√° pronto
 22 - Criar tela de gerar hor√°rio (A principal)
-
->>>>>>> upstream/master
