@@ -10,7 +10,7 @@
 10 - Os botões Excluir dos cadastrados não estão funcionando
 11 - O campo Tipo de usuário no cadastro de cliente, tem que ser padrão, o usuário não digita e sim escolhe em uma combobox.
 12 - Mudar a tela de cadastro de horário deve ficar os campos (Posição, Dia da Semana, hora inicial e final).
-13 - Mudar botão enviar para salvar do cadastro de horário.
+13 - (resolvido) Mudar botão enviar para salvar do cadastro de horário.
 14 - Erro de português na tela inicial (horário sem acento).
 15 - Fazer a tela de cadastro de professores e suas indisponibilidades
 16 - Faze o cadastro de disciplinas por turma.
@@ -19,4 +19,4 @@
 19 - No Cpanel, a palavra usuário no menu está sem acento
 20 - No Cpanel, o link que mostra os dados do usuário não está funcionando
 21 - No Cpanel, editar dados do usuário e da escolha não está pronto
-22 - Criar tela de gerar horário (A principal)
+22 - 
