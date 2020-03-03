@@ -1,6 +1,9 @@
-<!doctype html>
-<html lang="en">
- 
+
+<?php 
+   require ("verifica_login.php");
+ ?>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -34,9 +37,14 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
+<<<<<<< HEAD
                       colocar aqui nome da escola ,nome do usuario
                             </ul>
               
+=======
+                      <?php echo $_SESSION['nome_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
+                    </ul>
+>>>>>>> upstream/master
                 </div>
             </nav>
         </div>
@@ -62,7 +70,6 @@
                                 <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Perfil <span class="badge badge-success">6</span></a>
                                 <div id="submenu-1" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
-                                       
                                         <li class="nav-item">
                                             <a class="nav-link" href="dashboard-finance.html"><i class="fa fa-fw fa-bars"></i>Dados Usuário</a>
                                         </li>
@@ -96,22 +103,29 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
+<<<<<<< HEAD
                                             <a class="nav-link" href="pages/cards.html"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuário <span class="badge badge-secondary">New</span></a>
+=======
+                                            <a class="nav-link" href="?tela=usuario"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuarios <span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/general.html"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
+                                            <a class="nav-link" href="?tela=curso"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
+>>>>>>> upstream/master
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/carousel.html"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
+                                            <a class="nav-link" href="?tela=disciplina"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/listgroup.html"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
+                                            <a class="nav-link" href="?tela=turma"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/typography.html"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
+                                            <a class="nav-link" href="?tela=horario"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/accordions.html"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
+                                            <a class="nav-link" href="?tela=professor"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="?tela=por_turma"><i class="fa fa-fw fa-graduation-cap"></i>Disciplina por Turma</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -135,10 +149,13 @@
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-morris.html"><i class="fa fa-fw fa-trash"></i>Excluir Horários</a>
                                         </li>
+<<<<<<< HEAD
                                     </ul>
                                 </div>
                             </li>
                            
+=======
+>>>>>>> upstream/master
                                     </ul>
                                 </div>
                             </li>
@@ -150,40 +167,70 @@
         <!-- ============================================================== -->
         <!-- Final Barra Lateral -->
         <!-- ============================================================== -->
-         <div class="dashboard-wrapper">
+        <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
+<<<<<<< HEAD
                     Teste
-                </div>
+=======
+                    <?php
+                        if (isset($_GET['tela'])) {
+                            $tela = $_GET['tela'];
+                            switch ($tela) {
+                                case 'usuario':
+                                    include 'cadastro_usuario.php';
+                                    break;
+                                case 'curso':
+                                    include 'cadastro_curso.php';
+                                    break;
+                                case 'disciplina':
+                                    include 'cadastro_disciplina.php';
+                                    break;
+                                case 'turma':
+                                    include 'cadastro_turma.php';
+                                    break;
+                                case 'horario':
+                                    include 'cadastro_horario.php';
+                                    break;
+                                case 'professor':
+                                    include 'cadastro_professor.php';
+                                    break;
+                                default:
+                                    include 'cadastro_usuario.php';
+                            }
+                        }
+                    ?>
+>>>>>>> upstream/master
                 </div>
             </div>
-            <!-- ============================================================== -->
-            <!-- footer -->
-            <!-- ============================================================== -->
-            <div class="footer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                             Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="text-md-right footer-links d-none d-sm-block">
-                                <a href="javascript: void(0);">About</a>
-                                <a href="javascript: void(0);">Support</a>
-                                <a href="javascript: void(0);">Contact Us</a>
-                            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                         Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="text-md-right footer-links d-none d-sm-block">
+                            <a href="javascript: void(0);">About</a>
+                            <a href="javascript: void(0);">Support</a>
+                            <a href="javascript: void(0);">Contact Us</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ============================================================== -->
-            <!-- final footer -->
-            <!-- ============================================================== -->
-      
+        </div>
         <!-- ============================================================== -->
-        <!-- end wrapper  -->
+        <!-- final footer -->
         <!-- ============================================================== -->
-  
+    </div>
+    <!-- ============================================================== -->
+    <!-- end wrapper  -->
+    <!-- ============================================================== -->
+
     <!-- Optional JavaScript -->
     <!-- jquery 3.3.1 -->
     <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
@@ -206,5 +253,4 @@
     <script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
     <script src="assets/libs/js/dashboard-ecommerce.js"></script>
 </body>
- 
 </html>

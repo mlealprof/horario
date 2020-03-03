@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 22-Fev-2020 às 00:12
+-- Tempo de geração: 28-Fev-2020 às 01:37
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -97,6 +97,13 @@ CREATE TABLE `escola` (
   `data_cadastro` varchar(20) NOT NULL,
   `senha` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `escola`
+--
+
+INSERT INTO `escola` (`cod_escola`, `cnpj`, `nome`, `telefone`, `endereco`, `numero`, `cidade`, `estado`, `pais`, `cep`, `tipo_escola`, `data_cadastro`, `senha`) VALUES
+(1, '', 'Berenice', '', '', '', '', 'Estado...', '', '', 'Escolher..', '27/02/2020', '');
 
 -- --------------------------------------------------------
 
@@ -220,6 +227,13 @@ CREATE TABLE `usuario` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Extraindo dados da tabela `usuario`
+--
+
+INSERT INTO `usuario` (`cod_usuario`, `usuario`, `senha`, `email`, `tipo_usuario`, `cod_escola`) VALUES
+(1, 'maria', '202cb962ac59075b964b07152d234b70', 'maria@maria.com', 'Administrador', 1);
+
+--
 -- Índices para tabelas despejadas
 --
 
@@ -333,7 +347,7 @@ ALTER TABLE `disciplina_por_turma`
 -- AUTO_INCREMENT de tabela `escola`
 --
 ALTER TABLE `escola`
-  MODIFY `cod_escola` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `cod_escola` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT de tabela `horarios`
@@ -381,7 +395,7 @@ ALTER TABLE `turno`
 -- AUTO_INCREMENT de tabela `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `cod_usuario` int(20) NOT NULL AUTO_INCREMENT;
+  MODIFY `cod_usuario` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

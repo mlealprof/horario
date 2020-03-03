@@ -6,8 +6,6 @@ git merge upstream/master
 pause
 git add .
 pause
-git commit -m "Artualização direta do repositório"
+git commit -m "At. Pc com o Online"
 pause
 git push
-echo ###Arquivo enviado e atualizado###
-pause
