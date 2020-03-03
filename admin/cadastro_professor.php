@@ -1,6 +1,6 @@
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro Horários</h1>
+  <h1 align="center">Cadastro de Professores</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
