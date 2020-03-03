@@ -2,9 +2,7 @@
 <!--==========================
   Cadastro de Turma
   ============================-->
-<<<<<<< HEAD
   
-
     <br>
     <section class="img_cadastros">
   
@@ -18,8 +16,6 @@
             <input type="text" name="nome" class="form-control" id="exampleInputPassword1" placeholder="Digite o Código de Turma">
 
           </div>
-
-=======
 <main>
   <!-- Cadastro -->
   <h1 align="center">Cadastro Turma</h1>
@@ -27,7 +23,6 @@
     <div class="container font">
       <div class="font">
         <form action="../exe/cadastro_turma_exe.php" method="post">
->>>>>>> upstream/master
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Nome</label>
@@ -35,7 +30,6 @@
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Quantidade de Horários</label>
-<<<<<<< HEAD
               <input type="text" class="form-control" placeholder="Digite a Quantidade de Horários" name="qtd_horários">
 
           </div>
