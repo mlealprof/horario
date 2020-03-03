@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <main>
   <!-- Cadastro -->
   <h1 align="center">Cadastro Horários</h1>
@@ -5,6 +6,31 @@
     <div class="container font">
       <div class="font">
         <form action="../exe/cadastro_horario_exe.php" method="post">
+=======
+<!--==========================
+  Cadastro de Professor
+  ============================-->
+
+
+  
+
+
+    <section class="img_cadastros">
+  
+     <div class="container font">
+
+
+      
+        <div class=" font">
+        <form>
+           
+          <div class="form-group">
+            <label for="exampleInputPassword1">Nome da Escola</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
+          </div>
+
+        <form>
+>>>>>>> upstream/master
           <div class="row">
             <div class="col">
                 <label for="exampleInputPassword1">Nome</label>
@@ -32,6 +58,7 @@
             </div>
           </div><br>
           <div class="row">
+<<<<<<< HEAD
             <div class="col">
                 <label for="exampleInputPassword1">País</label>
                 <input type="text" class="form-control" placeholder="Digite o País" required="required" name="pais_proff">
@@ -63,12 +90,82 @@
                 <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
               </div>
             </div>
+=======
+          <div class="col">
+              <label for="exampleInputPassword1">País</label>
+              <input type="text" class="form-control" placeholder="Digite seu Pais">
+          </div>
+          <div class="col">
+              <label for="exampleInputPassword1">CEP</label> 
+              <input type="text" class="form-control" placeholder="Digite seu CEP">
+          </div>
           </div>
         </form>
+        <br>     
+        <form>
+         <div class="row">
+         <div class="col">
+            <label for="exampleFormControlSelect1">Tipo de Escola</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Escolher...</option>
+              <option>Particular</option>
+              <option>Pública</option>
+              
+            </select>
+          </div>
+          <div class="col">
+            <label for="exampleFormControlSelect1">Tipo de Ensino</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Escolher...</option>
+              <option>Fundamental-1</option>
+              <option>Fundamental-2</option>
+              <option>Médio</option>
+              <option>Fundamental-2/Médio</option>
+              <option>Fundamental-1/Fundamental-2/Médio</option>
+              <option>Fundamental-1/Fundamental-2</option>
+
+              <option></option>
+            </select>
+          </div>
+          </div>
+
+        </form>
+         
+          <br>
+          <div class="center_button">
+              <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
+>>>>>>> upstream/master
+          </div>
+        </form>
+<<<<<<< HEAD
+=======
+      
+  </div>
+  </section>      
+ 
+  </main>
+
+ <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Codigo</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Ação</th>    
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td><button type="button" class="btn btn-danger">Excluir</button></td>
+>>>>>>> upstream/master
 
       </div><br>
       <!-- Fim cadastro -->
 
+<<<<<<< HEAD
       <!-- Tabela de cadastrados -->
       <table class="table">
         <thead class="thead-dark">
@@ -111,3 +208,15 @@
     </div>
   </section>
 </main>
+=======
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td><button type="button" class="btn btn-danger">Excluir</button></td>
+    </tr>
+  </tbody>
+</table>
+
+>>>>>>> upstream/master
