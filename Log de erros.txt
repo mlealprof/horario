@@ -1,19 +1,21 @@
-1 - Erro no bot„o entra na pagina de login.
-2 - ambas partes do cadastre sua escola e login n„o est„o centralizadas fora do padr„o .CSS.
-3 - Input do login est· com uma fonte diferente da aba cadastre sua escola saindon do padr„o do site
-4 - Esqueceu senha n„o funciona.
-5 - TÌtulo do cpanel estranho
-6 - No cadastro de usu·rio a lista de usu·rios cadastrados n„o est· funcionando.
-7 - troca o bot„o do cadastro de usu·rio de enviar para salvar
-8 - Cadastro de Curso fora do padr„o de cadastros e sem lista de cadastrados
-9 - Cadastro de Disciplina, mudar o bot„o enviar para salvar
-10 - Os botıes Excluir dos cadastrados n„o est„o funcionando
-11 - O campo Tipo de usu·rio no cadastro de cliente, tem que ser padr„o, o usu·rio n„o digita e sim escolhe em uma combobox.
-12 - Mudar a tela de cadastro de hor·rio deve ficar os campos (PosiÁ„o, Dia da Semana, hora inicial e final).
-13 - Mudar bot„o enviar para salvar do cadastro de hor·rio.
-14 - Erro de portuguÍs na tela inicial (hor·rio sem acento).
+
+1 -(resolvido) Erro no bot√£o entra na pagina de login.
+2 - ambas partes do cadastre sua escola e login n√£o est√£o centralizadas fora do padr√£o .CSS.
+3 - Input do login est√° com uma fonte diferente da aba cadastre sua escola saindon do padr√£o do site
+4 - Esqueceu senha n√£o funciona.
+5 - T√≠tulo do cpanel estranho
+6 - No cadastro de usu√°rio a lista de usu√°rios cadastrados n√£o est√° funcionando.
+7 - (reslovido) troca o bot√£o do cadastro de usu√°rio de enviar para salvar
+8 - Cadastro de Curso fora do padr√£o de cadastros e sem lista de cadastrados
+9 - (resolvido) Cadastro de Disciplina, mudar o bot√£o enviar para salvar
+10 - Os bot√µes Excluir dos cadastrados n√£o est√£o funcionando
+11 - O campo Tipo de usu√°rio no cadastro de cliente, tem que ser padr√£o, o usu√°rio n√£o digita e sim escolhe em uma combobox.
+12 - Mudar a tela de cadastro de hor√°rio deve ficar os campos (Posi√ß√£o, Dia da Semana, hora inicial e final).
+13 - (resolvido) Mudar bot√£o enviar para salvar do cadastro de hor√°rio.
+14 - Erro de portugu√™s na tela inicial (hor√°rio sem acento).
 15 - Fazer a tela de cadastro de professores e suas indisponibilidades
 16 - Faze o cadastro de disciplinas por turma.
+<<<<<<< HEAD
 17 - Colocar o bot„o sair no Cpanel
 18 - No Cpanel, a palavra hor·rio do Menu est· sem acento
 19 - No Cpanel, a palavra usu·rio no menu est· sem acento
@@ -22,3 +24,12 @@
 22 - Cadastra curso - tipo de ensino n„o est· funcionando
 23 - Em "Cadastrar Professores" > Nome da Escola < est· como caracteristicas de tipo Password(senha)******
 24 -  Em "Cadastrar Professores" est· faltando mais opÁıes de "tipo de Ensino"
+=======
+17 - Colocar o bot√£o sair no Cpanel
+18 - No Cpanel, a palavra hor√°rio do Menu est√° sem acento
+19 - No Cpanel, a palavra usu√°rio no menu est√° sem acento
+20 - No Cpanel, o link que mostra os dados do usu√°rio n√£o est√° funcionando
+21 - No Cpanel, editar dados do usu√°rio e da escolha n√£o est√° pronto
+22 - Criar tela de gerar hor√°rio (A principal)
+
+>>>>>>> upstream/master
