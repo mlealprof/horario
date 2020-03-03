@@ -3,14 +3,6 @@
   Cadastro de Usuario
   ============================-->
   
-<h1 align="center">Cadastro de Cursos</h1>
-    <br>
-    <section class="img_cadastros">
-  
-     <div class="container font">
-
-
-      
         <div class=" font">
         <h1 align="center">Cadastro de Cursos</h1>
   <section class="img_cadastros">
