@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css">
     <link rel="stylesheet" href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
-    <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
+    <title>Time Table</title>
 </head>
 
 <body>
@@ -40,7 +40,12 @@
                       <?php echo $_SESSION['nome_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
                     </ul>
                 </div>
+                  <div >
+                <button type="submit" class="btn btn-danger tamanho_button">Sair</button>
+              </div>
             </nav>
+
+           
         </div>
         <!-- ============================================================== -->
         <!-- Final Barra Navegaçao -->
