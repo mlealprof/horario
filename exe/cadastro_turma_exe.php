@@ -19,13 +19,17 @@
 	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_turma)) {
 		echo '<script type="text/javascript">
+<<<<<<< HEAD
 						
 						window.location.href="../admin/index.php?tela=turmas";
+=======
+						window.location.href="../admin/index.php?tela=turma";
+>>>>>>> upstream/master
 					</script>';
 	} else { // Falha no cadastro
 		echo '<script type="text/javascript">
 						alert("Falha no cadastro. Verifique os dados inseridos.");
-						window.location.href="../admin/index.php?tela=turmas";
+						window.location.href="../admin/index.php?tela=turma";
 					</script>';
 	}
 ?>
