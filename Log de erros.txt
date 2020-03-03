@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1 - Erro no bot�o entra na pagina de login.
 2 - ambas partes do cadastre sua escola e login n�o est�o centralizadas fora do padr�o .CSS.
 3 - Input do login est� com uma fonte diferente da aba cadastre sua escola saindo do padr�o do site
@@ -6,3 +7,27 @@
 6 - Na aba cadastro de escola est� faltantando um imput "BAIRRO".
 8 - Pagina Principal est� faltando acento em "HOR�RIOS".
 9
+=======
+1 -(resolvido) Erro no botão entra na pagina de login.
+2 - ambas partes do cadastre sua escola e login não estão centralizadas fora do padrão .CSS.
+3 - Input do login está com uma fonte diferente da aba cadastre sua escola saindon do padrão do site
+4 - Esqueceu senha não funciona.
+5 - Título do cpanel estranho
+6 - No cadastro de usuário a lista de usuários cadastrados não está funcionando.
+7 - (reslovido) troca o botão do cadastro de usuário de enviar para salvar
+8 - Cadastro de Curso fora do padrão de cadastros e sem lista de cadastrados
+9 - (resolvido) Cadastro de Disciplina, mudar o botão enviar para salvar
+10 - Os botões Excluir dos cadastrados não estão funcionando
+11 - O campo Tipo de usuário no cadastro de cliente, tem que ser padrão, o usuário não digita e sim escolhe em uma combobox.
+12 - Mudar a tela de cadastro de horário deve ficar os campos (Posição, Dia da Semana, hora inicial e final).
+13 - (resolvido) Mudar botão enviar para salvar do cadastro de horário.
+14 - Erro de português na tela inicial (horário sem acento).
+15 - Fazer a tela de cadastro de professores e suas indisponibilidades
+16 - Faze o cadastro de disciplinas por turma.
+17 - Colocar o botão sair no Cpanel
+18 - No Cpanel, a palavra horário do Menu está sem acento
+19 - No Cpanel, a palavra usuário no menu está sem acento
+20 - No Cpanel, o link que mostra os dados do usuário não está funcionando
+21 - No Cpanel, editar dados do usuário e da escolha não está pronto
+22 - Criar tela de gerar horário (A principal)
+>>>>>>> upstream/master
