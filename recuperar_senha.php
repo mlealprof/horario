@@ -11,7 +11,7 @@
 		Informe o Email cadastrado e enviaremos sua senha temporaria.
 			<input type="text" name="email" size="50" maxlength="50" placeholder="Digite seu email"><br>
 			<div>
-	        	 <button type="submit" class="btn btn-primary">Enviar</button>
+	        	 <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
 	      </div>
 	    </div>
        </form>
