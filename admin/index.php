@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css">
     <link rel="stylesheet" href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
-    <title>Time Table</title>
+    <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
 </head>
 
 <body>
@@ -40,12 +40,7 @@
                       <?php echo $_SESSION['nome_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
                     </ul>
                 </div>
-                  <div >
-                <button type="submit" class="btn btn-danger tamanho_button" ><a href="sair.php">Sair</button>
-              </div>
             </nav>
-
-           
         </div>
         <!-- ============================================================== -->
         <!-- Final Barra Navegaçao -->
@@ -102,7 +97,7 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=usuario"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuários <span class="badge badge-secondary">New</span></a>
+                                            <a class="nav-link" href="?tela=usuario"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuarios <span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="?tela=curso"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
@@ -114,7 +109,7 @@
                                             <a class="nav-link" href="?tela=turma"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=horário"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
+                                            <a class="nav-link" href="?tela=horario"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="?tela=professor"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
@@ -126,11 +121,11 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>horários</a>
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Horários</a>
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-table"></i>Quadro de horários</a>
+                                            <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-table"></i>Quadro de Horários</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-calendar-plus"></i>Gerar Horário</a>
@@ -174,8 +169,8 @@
                                 case 'turma':
                                     include 'cadastro_turma.php';
                                     break;
-                                case 'horário':
-                                    include 'cadastro_horário.php';
+                                case 'horario':
+                                    include 'cadastro_horario.php';
                                     break;
                                 case 'professor':
                                     include 'cadastro_professor.php';

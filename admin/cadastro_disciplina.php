@@ -19,16 +19,11 @@
             <div class="col">
               <div class="right_button">
 
-<<<<<<< HEAD
-                <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-
-=======
 
                 
                 
                 
                 
->>>>>>> upstream/master
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
 
               </div>
