@@ -13,7 +13,7 @@
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Usuário</label>
-              <input type="text" class="form-control" placeholder="Digite o nome do usuario" required="required" name="usuario">
+              <input type="text" class="form-control" placeholder="Digite o nome do usuário" required="required" name="usuário">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Senha</label>
@@ -27,17 +27,17 @@
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Tipo de Usuário</label>
-              <input type="text" class="form-control" placeholder="Digite o tipo de usuario" required="required" name="tipo_usuario">
+              <input type="text" class="form-control" placeholder="Digite o tipo de usuário" required="required" name="tipo_usuario">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <div class="right_button">
-<<<<<<< HEAD
+
                 <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-=======
+
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
->>>>>>> upstream/master
+
               </div>
             </div>
           </div>

@@ -1,4 +1,3 @@
-
 <?php
 	// Conexão com o banco de dados
 	require 'conexao_exe.php';
