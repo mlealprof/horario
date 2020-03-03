@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+1 - Erro no botão entra na pagina de login.
+2 - ambas partes do cadastre sua escola e login não estão centralizadas fora do padrão .CSS.
+3 - Input do login está com uma fonte diferente da aba cadastre sua escola saindo do padrão do site
+4 - Esqueceu senha não funciona.
+5 - Na aba cadastro de escola erro no texto digite seu "PAÍS" sem acento.
+6 - Na aba cadastro de escola está faltantando um imput "BAIRRO".
+8 - Pagina Principal está faltando acento em "HORÁRIOS".
+9
+=======
 1 -(resolvido) Erro no botÃ£o entra na pagina de login.
 2 - ambas partes do cadastre sua escola e login nÃ£o estÃ£o centralizadas fora do padrÃ£o .CSS.
 3 - Input do login estÃ¡ com uma fonte diferente da aba cadastre sua escola saindon do padrÃ£o do site
@@ -20,3 +30,4 @@
 20 - No Cpanel, o link que mostra os dados do usuÃ¡rio nÃ£o estÃ¡ funcionando
 21 - No Cpanel, editar dados do usuÃ¡rio e da escolha nÃ£o estÃ¡ pronto
 22 - Criar tela de gerar horÃ¡rio (A principal)
+>>>>>>> upstream/master
