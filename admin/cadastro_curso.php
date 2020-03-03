@@ -1,36 +1,59 @@
+<?php require '../exe/conexao_exe.php'; ?>
 
 <!--==========================
-  Cadastro de curso
+  Cadastro de Usuario
   ============================-->
-  
-
-    <br>
-    <section class="img_cadastros">
-  
-     <div class="container font">
 
 
+
+
+
+
+<h1 align="center">Cadastro de Curso</h1>
       
         <div class=" font">
-        <form>
-          <br><br><br>
-           
-          <div class="form-group">
-            <label for="exampleInputPassword1">TIPO DE ENSINO</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Digite o tipo de ensino">
+        <form action="../exe/cadastro_curso.php" method="post">
+
+          <div class="row">
+             <div class="col">
+              <label for="exampleInputPassword1">Nome</label>
+
+              <input type="text" class="form-control" placeholder="Digite o nome do curso" name="nome">
+            </div>
           </div>
           <br>
-
           <div class="right_button">
-              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+              <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
           </div>
           <br>
         </div>
-
         </form>
       
   </div>
   </section>      
  
   </main>
+
+  <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Descrição</th>
+      <th scope="col">Ação</th>  
+    </tr>
+  </thead>
+  <tbody>
+    <?php 
+      $consulta = "SELECT * FROM cadastro_curso";
+      $resultado = mysqli_query($conexao, $consulta);
+      while ($array = mysqli_fetch_assoc($resultado)) { ?>
+      <tr>
+        <td><?php echo $array['Curso'] ?></td>
+        <td><?php echo $array['nome'] ?></td> 
+        <td><button type="button" class="btn btn-danger">Excluir</button></td>
+        <td>Teste</td>
+      </tr>
+    <?php } ?>
+  </tbody>
+</table>
 
