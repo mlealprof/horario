@@ -2,21 +2,6 @@
 <!--==========================
   Cadastro de Turma
   ============================-->
-  
-    <br>
-    <section class="img_cadastros">
-  
-     <div class="container font">
-
-        <div class=" font">
-        <form action="" method="post">
-           
-          <div class="form-group">
-            <label for="exampleInputPassword1">Código de Turma</label>
-            <input type="text" name="nome" class="form-control" id="exampleInputPassword1" placeholder="Digite o Código de Turma">
-
-          </div>
-<main>
   <!-- Cadastro -->
   <h1 align="center">Cadastro Turma</h1>
   <section class="img_cadastros">
