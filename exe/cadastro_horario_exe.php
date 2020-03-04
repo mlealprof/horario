@@ -8,17 +8,15 @@
 	// Pegando dados via POST
 	$ordem = $_POST['ordem'];
 	$posicao = $_POST['posicao'];
-	$descricao = $_POST['descricao'];
+	$dia_da_semana = $_POST['dia_da_semana'];
+	$hora_inicial = $_POST['hora_inicial'];
+	$hora_final = $_POST['hora_final'];
 
 	// Pegando código da escola
 	$cod_escola = $_SESSION['cod_escola'];
 
 	// Inserindo dados na tabela
-    HEAD
-	$inserir_horario = "INSERT INTO horarios (ordem, posicao, descricao) VALUES ('$ordem', '$posicao', '$descricao')";
-=======
-	$inserir_horario = "INSERT INTO horarios (ordem, posicao, descricao, cod_escola) VALUES ('$ordem', '$posicao', '$descricao', '$cod_escola')";
->>>>>>> upstream/master
+	$inserir_horario = "INSERT INTO horarios (ordem, posicao, dia_da_semana, hora_inicial, hora_final) VALUES ('$ordem', '$posicao', '$dia_da_semana', '$hora_inicial', '$hora_final')";
 
 	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_horario)) {
