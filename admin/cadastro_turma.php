@@ -2,8 +2,13 @@
 <!--==========================
   Cadastro de Turma
   ============================-->
+<<<<<<< HEAD
+=======
+
+<main>
+>>>>>>> upstream/master
   <!-- Cadastro -->
-  <h1 align="center">Cadastro Turma</h1>
+  <h1 align="center">Cadastro de Turmas</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
@@ -56,78 +61,6 @@
              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
           </div>
           </tr>
-       
-  </section>      
-
-  </main>
-  <br>
-        <br>
-        
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Codigo</th>
-      <th scope="col">Descrição</th>
-      <th scope="col">Ação</th>    
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td><button type="button" class="btn btn-danger">Excluir</button></td>
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td><button type="button" class="btn btn-danger">Excluir</button></td>
-
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td><button type="button" class="btn btn-danger">Excluir</button></td>
-    </tr>
-  </tbody>
-</table>
-=======
-              <input type="text" class="form-control" placeholder="Digite a Quantidade de Horários" required="required" name="qnt_horarios">
-            </div>
-          </div><br>
-          <div class="row">
-            <div class="col">
-              <label for="exampleInputPassword1">Turno</label>
-              <select id="inputEstado" class="form-control" required="required" name="turno">
-                <option selected>Turnos
-                <!-- criar aki seletor dinamico-->
-                </option>
-                <option>
-                </option>
-              </select>
-            </div>
-          </div><br>
-          <div class="right_button">
-            <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-          </div>
-        </form>
-      </div><br>
-      <!-- Fim cadastro -->
-
-      <!-- Tabela de cadastrados -->
-      <table class="table">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nome da Turma</th>
-            <th scope="col">Quant. Horários</th>
-            <th scope="col">Turno</th>
-            <th scope="col">Ação</th>
-          </tr>
         </thead>
         <tbody>
           <?php
@@ -137,18 +70,20 @@
             if (mysqli_num_rows($resultado) == 0) {
           ?>
             <tr>
-              <td colspan="5" class="text-center"><?php echo "Nenhuma disciplina cadastrada."; ?></td>
+              <td colspan="5" class="text-center"><?php echo "Nenhuma turma cadastrada."; ?></td>
             </tr>
           <?php
             } else {
               while ($array = mysqli_fetch_assoc($resultado)) {
           ?>
             <tr>
-              <td><?php echo $array['cod_turma']; ?></td>
-              <td><?php echo $array['nome']; ?></td>
-              <td><?php echo $array['qnt_horarios']; ?></td>
-              <td><?php echo $array['turno']; ?></td>
-              <td><button type="button" class="btn btn-danger">Excluir</button></td>
+              <form action="../exe/excluir_turma_exe.php" method="get">
+                <td><?php echo $array['cod_turma']; ?></td>
+                <td><?php echo $array['nome']; ?></td>
+                <td><?php echo $array['qnt_horarios']; ?></td>
+                <td><?php echo $array['turno']; ?></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_turma" value=<?php echo $array['cod_turma']; ?>>Excluir</button></td>
+              </form>
             </tr>
           <?php
               }
@@ -160,4 +95,3 @@
     </div>
   </section>
 </main>
->>>>>>> upstream/master
