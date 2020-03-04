@@ -1,1 +1,1 @@
-Local para colocar todo os dados do banco de dados
+Local para colocar tudo do banco de dados
