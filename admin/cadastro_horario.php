@@ -6,25 +6,25 @@
   ============================-->
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro Horários</h1>
+  <h1 align="center">Cadastro de Horarios</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
         <form action="../exe/cadastro_horario_exe.php" method="post">
           <div class="row">
             <div class="col">
-                <label for="exampleInputPassword1">Ordem</label>
-                <input type="text" class="form-control" placeholder="Digite a Ordem" required="required" name="ordem">
+                <label for="exampleInputPassword1">Dia da Semana</label>
+                <input type="text" class="form-control" placeholder="Digite o dia da semana" required="required" name="ordem">
             </div>
             <div class="col">
-                <label for="exampleInputPassword1">Posição</label>
-                <input type="text" class="form-control" placeholder="Digite a Posição" required="required" name="posicao">
+                <label for="exampleInputPassword1">Hora Incial</label>
+                <input type="text" class="form-control" placeholder="Digite a inicial" required="required" name="posicao">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
-                <label for="exampleInputPassword1">Descrição</label>
-                <input type="text" class="form-control" placeholder="Digite a Descrição" required="required" name="descricao">
+                <label for="exampleInputPassword1">Hora Final</label>
+                <input type="text" class="form-control" placeholder="Digite a hora final" required="required" name="descricao">
             </div>
           </div><br>  
           <div class="row">
@@ -44,10 +44,10 @@
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Ordem</th>
             <th scope="col">Posição</th>
-            <th scope="col">Descrição</th>
-            <th scope="col">Ação</th>
+            <th scope="col">Dia da Semana</th>
+            <th scope="col">Hora Inicial</th>
+            <th scope="col">Hora Final</th>
           </tr>
         </thead>
         <tbody>

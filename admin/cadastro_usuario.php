@@ -33,11 +33,9 @@
           <div class="row">
             <div class="col">
               <div class="right_button">
-<<<<<<< HEAD
-                <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-=======
+
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
->>>>>>> upstream/master
+
               </div>
             </div>
           </div>
@@ -68,7 +66,14 @@
               <td><?php echo $array['usuario']; ?></td>
               <td><?php echo $array['email']; ?></td>
               <td><?php echo $array['tipo_usuario']; ?></td>
-              <td><button type="button" class="btn btn-danger">Excluir</button></td>
+              <td><form action="cadastro_usuario_exe.php" method="post">
+                    <input type="hidden" cod_usuario="ID" value="'.$r['ID'].'">
+                    <input type="hidden" usuario="ID" value="'.$r['ID'].'">
+                    <input type="hidden" email="ID" value="'.$r['ID'].'">
+                    <input type="hidden" tipo_usuario="ID" value="'.$r['ID'].'">
+                    <button  class="btn btn-danger">Excluir</button>
+                    </form></td>
+}
             </tr>
           <?php
             $cod_escola = $_SESSION['cod_escola'];

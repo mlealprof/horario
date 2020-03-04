@@ -14,7 +14,7 @@
 	$cod_escola = $_SESSION['cod_escola'];
 
 	// Inserindo dados na tabela
-<<<<<<< HEAD
+    HEAD
 	$inserir_horario = "INSERT INTO horarios (ordem, posicao, descricao) VALUES ('$ordem', '$posicao', '$descricao')";
 =======
 	$inserir_horario = "INSERT INTO horarios (ordem, posicao, descricao, cod_escola) VALUES ('$ordem', '$posicao', '$descricao', '$cod_escola')";
