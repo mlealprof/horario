@@ -1,10 +1,8 @@
 <?php require '../exe/conexao_exe.php'; ?>
-<!--==========================
-  Cadastro de Professor
-  ============================-->
+
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro Professor</h1>
+  <h1 align="center">Cadastro de Professores</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
@@ -71,6 +69,36 @@
         </form>
       </div><br>
       <!-- Fim cadastro -->
+      
+      <!-- indisponibilidades-->
+      <h3>Indisponibilidades</h3><br>
+      <div class="indisp">
+        <table class="table">
+          <tr>
+            <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th scope="col"><label for="indisponibilidades">Dia</label>
+                <select id="dias">
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                </select>
+              </th>
+              <th scope="col"><label>Horários</label>
+                <select id="horario-proff">
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                </select>
+              </th>
+            <th scope="col"><button type="button" class="btn btn-success">Adicionar</button></th>
+          </tr>
+        </table>
+      </div><br>
+      <!-- FIM indisponibilidades-->
 
       <!-- Tabela de cadastrados -->
       <table class="table">
