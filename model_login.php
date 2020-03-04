@@ -14,6 +14,7 @@ require ("header.php");
           <br>
           <br>
           <div class="col tamanho_fontlabel">
+            <div class=" font">
 
               <label for="exampleInputPassword1">Email</label>
               <input type="text" class="form-control tamanho_input" placeholder="Digite o seu Email">
@@ -29,6 +30,7 @@ require ("header.php");
         <br>
           <div class="center_button">
               <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+            </div>
           </div>
     </div>
 </section>

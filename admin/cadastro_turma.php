@@ -2,7 +2,6 @@
 <!--==========================
   Cadastro de Turma
   ============================-->
-
 <main>
   <!-- Cadastro -->
   <h1 align="center">Cadastro de Turmas</h1>
@@ -18,41 +17,26 @@
             <div class="col">
               <label for="exampleInputPassword1">Quantidade de Horários</label>
               <input type="text" class="form-control" placeholder="Digite a Quantidade de Horários" name="qtd_horários">
-
-          </div>
-          </div>
-    
-        <br>
-    
+            </div>
+          </div><br>
           <div class="row">
-          <div class="col">
+            <div class="col">
               <label for="exampleInputPassword1">Turno</label>
-
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
-          </div>
-          <div class="col">
-              <label for="exampleInputPassword1">Código de Turno</label>
-              <input type="text" class="form-control" placeholder="Digite o Código de Turno" name="cod_turno">
-
-          </div>
-          </div>
- 
-        <br>
-
+            </div>
+            <div class="col">
+                <label for="exampleInputPassword1">Código de Turno</label>
+                <input type="text" class="form-control" placeholder="Digite o Código de Turno" name="cod_turno">
+            </div>
+          </div><br>
           <div class="row">
-          <div class="col">
+            <div class="col">
               <label for="exampleInputPassword1">Código de Escola</label>
-
               <input type="text" class="form-control" placeholder="Digite o Código de Escola" name="cod_escola">
           </div>
 
         </form>
-        <br>
-        <br>
-        <br>
-        <br> 
-
-  </div>
+      </div>
           <tr>
             <div class="right_button">
              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
