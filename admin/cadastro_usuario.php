@@ -1,4 +1,3 @@
-
 <?php require '../exe/conexao_exe.php'; ?>
 <!--==========================
   Cadastro de Usuario
@@ -27,17 +26,17 @@
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Tipo de Usuário</label>
-              <input type="text" class="form-control" placeholder="Digite o tipo de usuario" required="required" name="tipo_usuario">
+              <!--<input type="text" class="form-control" placeholder="Digite o tipo de usuario" required="required" name="tipo_usuario">-->
+              <select class="form-control" required="required" name="tipo_usuario">
+                <option selected="selected">Padrão</option>
+                <option>Administrador</option>
+              </select>
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <div class="right_button">
-<<<<<<< HEAD
-                <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-=======
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
->>>>>>> upstream/master
               </div>
             </div>
           </div>
@@ -68,20 +67,22 @@
               <td><?php echo $array['usuario']; ?></td>
               <td><?php echo $array['email']; ?></td>
               <td><?php echo $array['tipo_usuario']; ?></td>
-              <td><button type="button" class="btn btn-danger">Excluir</button></td>
+              <td><button type="button" class="btn btn-danger" disabled="disabled">Excluir</button></td>
             </tr>
           <?php
             $cod_escola = $_SESSION['cod_escola'];
-            $consulta = "SELECT cod_usuario, usuario, email, tipo_usuario FROM usuario WHERE tipo_usuario != 'Administrador' AND cod_escola = '$cod_escola'";
+            $consulta = "SELECT cod_usuario, usuario, email, tipo_usuario FROM usuario WHERE tipo_usuario != 'Administrador' AND cod_escola = '$cod_escola' AND email != '$email'";
             $resultado = mysqli_query($conexao, $consulta);
             while ($array = mysqli_fetch_assoc($resultado)) {
           ?>
             <tr>
-              <td><?php echo $array['cod_usuario']; ?></td>
-              <td><?php echo $array['usuario']; ?></td>
-              <td><?php echo $array['email']; ?></td>
-              <td><?php echo $array['tipo_usuario']; ?></td>
-              <td><button type="button" class="btn btn-danger">Excluir</button></td>
+              <form action="../exe/excluir_usuario_exe.php" method="get">
+                <td><?php echo $array['cod_usuario']; ?></td>
+                <td><?php echo $array['usuario']; ?></td>
+                <td><?php echo $array['email']; ?></td>
+                <td><?php echo $array['tipo_usuario']; ?></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_usuario" value=<?php echo $array['cod_usuario']; ?>>Excluir</button></td>
+              </form>
             </tr>
           <?php } ?>
         </tbody>
