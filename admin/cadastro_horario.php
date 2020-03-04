@@ -4,6 +4,7 @@
 <!--==========================
   Cadastro de Horarios
   ============================-->
+
 <main>
   <!-- Cadastro -->
   <h1 align="center">Cadastro Horários</h1>
@@ -11,22 +12,49 @@
     <div class="container font">
       <div class="font">
         <form action="../exe/cadastro_horario_exe.php" method="post">
+
           <div class="row">
+            <div class="col">
+              <label for="exampleInputPassword1">Posição</label>
+                <input type="text" class="form-control" placeholder="Digite a Posição" required="required" name="posicao">
+                
+            </div>
             <div class="col">
                 <label for="exampleInputPassword1">Ordem</label>
                 <input type="text" class="form-control" placeholder="Digite a Ordem" required="required" name="ordem">
             </div>
-            <div class="col">
-                <label for="exampleInputPassword1">Posição</label>
-                <input type="text" class="form-control" placeholder="Digite a Posição" required="required" name="posicao">
-            </div>
           </div><br>
           <div class="row">
+              <div class="col">
+              <label for="exampleInputPassword1">Selecione o dia da semana</label>
+                <select type="text" class="form-control" placeholder="Digite o tipo de usuario" required="required">
+
+                         <option selected>Dia da Semana...
+                                <option value="DO">Domingo</option>
+                                <option value="SE">Segunda-feira</option>
+                                <option value="TE">Terça-feira</option>
+                                <option value="Qa">Quarta-feira</option>
+                                <option value="Qi">Quinta-feira</option>
+                                <option value="Sx">Sexta-feira</option>
+                                <option value="Sa">Sábado</option>
+                         </option>
+              
+            
+          </select>
+        </div>
+      </div>
+            <div class="row">
             <div class="col">
-                <label for="exampleInputPassword1">Descrição</label>
-                <input type="text" class="form-control" placeholder="Digite a Descrição" required="required" name="descricao">
+                 <label for="exampleInputPassword1">Hora Inicial</label>
+                <input type="text" size="10" maxlength="10" class="form-control" placeholder="Digite a Posição" required="required" name="posicao">
+              </div>
+              <div class="col">
+                <label for="exampleInputPassword1">Hora Final</label>
+                <input type="text" class="form-control" placeholder="Digite a Ordem" required="required" name="ordem">
+             </div>   
             </div>
-          </div><br>  
+       
+       
           <div class="row">
             <div class="col">
               <div class="right_button">
