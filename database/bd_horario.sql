@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 28-Fev-2020 às 01:37
+-- Tempo de geração: 05-Mar-2020 às 00:43
 -- Versão do servidor: 10.4.6-MariaDB
 -- versão do PHP: 7.1.32
 
@@ -117,7 +117,9 @@ CREATE TABLE `horarios` (
   `cod_escola` int(20) DEFAULT NULL,
   `ordem` varchar(20) NOT NULL,
   `posicao` varchar(20) NOT NULL,
-  `descricao` varchar(100) NOT NULL
+  `dia_da_semana` varchar(100) NOT NULL,
+  `hora_inicial` varchar(100) NOT NULL,
+  `hora_final` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -353,7 +355,7 @@ ALTER TABLE `escola`
 -- AUTO_INCREMENT de tabela `horarios`
 --
 ALTER TABLE `horarios`
-  MODIFY `cod_horarios` int(50) NOT NULL AUTO_INCREMENT;
+  MODIFY `cod_horarios` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT de tabela `indisponibilidade`
