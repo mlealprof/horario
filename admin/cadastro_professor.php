@@ -1,6 +1,8 @@
+<?php require '../exe/conexao_exe.php'; ?>
+
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro Horários</h1>
+  <h1 align="center">Cadastro de Professores</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
@@ -66,8 +68,38 @@
           </div>
         </form>
 
-      </div><br>
+      </div><br><br>
       <!-- Fim cadastro -->
+      <!-- indisponibilidades-->
+      <h3>Indisponibilidades</h3><br>
+      <div class="indisp">
+        <table class="table">
+            <tr>
+              <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th scope="col"><label for="indisponibilidades">Dia</label>
+                <select id="dias">
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                </select>
+              </th>
+              <th scope="col"><label>Horários</label>
+                <select id="horario-proff">
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                </select>
+              </th>
+              <th scope="col"><button type="button" class="btn btn-success">Adicionar</button></th>
+            </tr>
+        </table>
+      </div><br>
+      <!-- FIM indisponibilidades-->
+
 
       <!-- Tabela de cadastrados -->
       <table class="table">
@@ -77,7 +109,7 @@
             <th scope="col">Ordem</th>
             <th scope="col">Posição</th>
             <th scope="col">Descrição</th>
-            <th scope="col">Ação</th>
+            <th scope="col">Ação</th> 
           </tr>
         </thead>
         <tbody>
@@ -88,7 +120,7 @@
             if (mysqli_num_rows($resultado) == 0) {
           ?>
             <tr>
-              <td colspan="5" class="text-center"><?php echo "Nenhuma disciplina cadastrada."; ?></td>
+              <td colspan="5" class="text-center"><?php echo "Nenhum Professor cadastrado."; ?></td>
             </tr>
           <?php
             } else {
@@ -110,4 +142,4 @@
       <!-- Fim tabela de cadastrados -->
     </div>
   </section>
-</main>
+</main>       
