@@ -32,6 +32,7 @@
                 <option>Administrador</option>
               </select>
             </div>
+          </div><br>
           <div class="row">
             <div class="col">
               <div class="right_button">
