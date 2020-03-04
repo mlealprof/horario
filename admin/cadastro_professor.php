@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 <!--==========================
   Cadastro de Professor
   ============================-->
 
-
-  
 
 <h1 align="center">Cadastro Professores</h1>
 
@@ -23,15 +20,6 @@
           </div>
 
         <form>
-=======
-<main>
-  <!-- Cadastro -->
-  <h1 align="center">Cadastro de Professores</h1>
-  <section class="img_cadastros">
-    <div class="container font">
-      <div class="font">
-        <form action="../exe/cadastro_horario_exe.php" method="post">
->>>>>>> upstream/master
           <div class="row">
             <div class="col">
                 <label for="exampleInputPassword1">Nome</label>
