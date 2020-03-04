@@ -1,7 +1,6 @@
-
-<?php 
-   require ("verifica_login.php");
- ?>
+<?php
+    require ("verifica_login.php");
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -86,7 +85,7 @@
                                                         <a class="nav-link" href="dashboard-influencer.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-users"></i>Turmas</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-book"></i>Disciplínas</a>
+                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-book"></i>Disciplinas</a>
                                                     </li>
                                                     <li class="nav-item">
                                                         <a class="nav-link" href="influencer-finder.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-graduation-cap"></i>Professores</a>
@@ -105,16 +104,16 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=usuario"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuários <span class="badge badge-secondary">New</span></a>
+                                            <a class="nav-link" href="?tela=usuario"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuários<span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=curso"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
+                                            <a class="nav-link" href="?tela=curso"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="?tela=disciplina"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=turma"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
+                                            <a class="nav-link" href="?tela=turma"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="?tela=horario"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
@@ -123,7 +122,7 @@
                                             <a class="nav-link" href="?tela=professor"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=por_turma"><i class="fa fa-fw fa-graduation-cap"></i>Disciplina por Turma</a>
+                                            <a class="nav-link" href="?tela=disiplina_turma"><i class="fa fa-fw fa-graduation-cap"></i>Disciplina por Turma</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -182,6 +181,9 @@
                                     break;
                                 case 'professor':
                                     include 'cadastro_professor.php';
+                                    break;
+                                case 'disiplina_turma':
+                                    include 'disciplina_por_turma.php';
                                     break;
                                 default:
                                     include 'cadastro_usuario.php';

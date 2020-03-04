@@ -1,4 +1,3 @@
-
 <?php require '../exe/conexao_exe.php'; ?>
 <!--==========================
   Cadastro de Usuario
@@ -9,25 +8,21 @@
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
-        <form action="../exe/cadastro_usuario_exe.php" method="post">
+        <form action="../exe/cadastro_curso_exe.php" method="post">
           <div class="row">
             <div class="col">
-              <label for="exampleInputPassword1">Cadastrar Curso</label>
-              <input type="text" class="form-control" placeholder="Digite o nome do usuario" required="required" name="usuario">
+              <label for="exampleInputPassword1">Tipo de ensino</label>
+              <input type="text" class="form-control" placeholder="Digite o tipo de ensino" required="required" name="tipo_ensino">
             </div>
-            </div>
-            <br>
+          </div><br>
           <div class="row">
             <div class="col">
               <div class="right_button">
-
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-
               </div>
             </div>
           </div>
-        </form>
-      </div><br>
+      </form><br>
       <!-- Fim cadastro -->
 
       <!-- Tabela de cadastrados -->
@@ -35,40 +30,35 @@
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Nome de usuário</th>
-            <th scope="col">Email</th>
-            <th scope="col">Tipo</th>
+            <th scope="col">Tipo de ensino</th>
             <th scope="col">Ação</th>
           </tr>
         </thead>
         <tbody>
           <?php
-            $email = $_SESSION['email'];
-            $consulta = "SELECT cod_usuario, usuario, email, tipo_usuario FROM usuario WHERE email = '$email'";
+            $cod_escola = $_SESSION['cod_escola'];
+            $consulta = "SELECT * FROM tipo_ensino WHERE cod_escola = '$cod_escola'";
             $resultado = mysqli_query($conexao, $consulta);
-            $array = mysqli_fetch_array($resultado);
+            if (mysqli_num_rows($resultado) == 0) {
           ?>
             <tr>
-              <td><?php echo $array['cod_usuario']; ?></td>
-              <td><?php echo $array['usuario']; ?></td>
-              <td><?php echo $array['email']; ?></td>
-              <td><?php echo $array['tipo_usuario']; ?></td>
-              <td><button type="button" class="btn btn-danger">Excluir</button></td>
+              <td colspan="3" class="text-center"><?php echo "Nenhum curso cadastrado."; ?></td>
             </tr>
           <?php
-            $cod_escola = $_SESSION['cod_escola'];
-            $consulta = "SELECT cod_usuario, usuario, email, tipo_usuario FROM usuario WHERE tipo_usuario != 'Administrador' AND cod_escola = '$cod_escola'";
-            $resultado = mysqli_query($conexao, $consulta);
-            while ($array = mysqli_fetch_assoc($resultado)) {
+            } else {
+              while ($array = mysqli_fetch_assoc($resultado)) {
           ?>
             <tr>
-              <td><?php echo $array['cod_usuario']; ?></td>
-              <td><?php echo $array['usuario']; ?></td>
-              <td><?php echo $array['email']; ?></td>
-              <td><?php echo $array['tipo_usuario']; ?></td>
-              <td><button type="button" class="btn btn-danger">Excluir</button></td>
+              <form action="../exe/excluir_curso_exe.php" method="get">
+                <td><?php echo $array['cod_tipo_ensino']; ?></td>
+                <td><?php echo $array['tipo_ensino']; ?></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_tipo_ensino" value=<?php echo $array['cod_tipo_ensino']; ?>>Excluir</button></td>
+              </form>
             </tr>
-          <?php } ?>
+          <?php
+              }
+            }
+          ?>
         </tbody>
       </table>
       <!-- Fim tabela de cadastrados -->
