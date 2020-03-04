@@ -2,11 +2,8 @@
 <!--==========================
   Cadastro de Turma
   ============================-->
-<<<<<<< HEAD
-=======
 
 <main>
->>>>>>> upstream/master
   <!-- Cadastro -->
   <h1 align="center">Cadastro de Turmas</h1>
   <section class="img_cadastros">
