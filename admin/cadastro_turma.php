@@ -5,7 +5,7 @@
 
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro Turma</h1>
+  <h1 align="center">Cadastro de Turmas</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
@@ -58,43 +58,37 @@
              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
           </div>
           </tr>
-       
-  </section>      
-
-  </main>
-  <br>
-        <br>
-        
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Codigo</th>
-      <th scope="col">Descrição</th>
-      <th scope="col">Ação</th>    
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td><button type="button" class="btn btn-danger">Excluir</button></td>
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td><button type="button" class="btn btn-danger">Excluir</button></td>
-
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td><button type="button" class="btn btn-danger">Excluir</button></td>
-    </tr>
-  </tbody>
-</table>
-
+        </thead>
+        <tbody>
+          <?php
+            $cod_escola = $_SESSION['cod_escola'];
+            $consulta = "SELECT * FROM turma WHERE cod_escola = '$cod_escola'";
+            $resultado = mysqli_query($conexao, $consulta);
+            if (mysqli_num_rows($resultado) == 0) {
+          ?>
+            <tr>
+              <td colspan="5" class="text-center"><?php echo "Nenhuma turma cadastrada."; ?></td>
+            </tr>
+          <?php
+            } else {
+              while ($array = mysqli_fetch_assoc($resultado)) {
+          ?>
+            <tr>
+              <form action="../exe/excluir_turma_exe.php" method="get">
+                <td><?php echo $array['cod_turma']; ?></td>
+                <td><?php echo $array['nome']; ?></td>
+                <td><?php echo $array['qnt_horarios']; ?></td>
+                <td><?php echo $array['turno']; ?></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_turma" value=<?php echo $array['cod_turma']; ?>>Excluir</button></td>
+              </form>
+            </tr>
+          <?php
+              }
+            }
+          ?>
+        </tbody>
+      </table>
+      <!-- Fim tabela de cadastrados -->
+    </div>
+  </section>
+</main>
