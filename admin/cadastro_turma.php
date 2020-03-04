@@ -1,7 +1,8 @@
 <?php require '../exe/conexao_exe.php'; ?>
 <!--==========================
-  Cadastro de Turmas
+  Cadastro de Turma
   ============================-->
+
 <main>
   <!-- Cadastro -->
   <h1 align="center">Cadastro de Turmas</h1>
@@ -16,37 +17,46 @@
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Quantidade de Horários</label>
-              <input type="text" class="form-control" placeholder="Digite a Quantidade de Horários" required="required" name="qnt_horarios">
-            </div>
-          </div><br>
-          <div class="row">
-            <div class="col">
-              <label for="exampleInputPassword1">Turno</label>
-              <select id="inputEstado" class="form-control" required="required" name="turno">
-                <option selected>Turnos
-                <!-- criar aki seletor dinamico-->
-                </option>
-                <option>
-                </option>
-              </select>
-            </div>
-          </div><br>
-          <div class="right_button">
-            <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-          </div>
-        </form>
-      </div><br>
-      <!-- Fim cadastro -->
+              <input type="text" class="form-control" placeholder="Digite a Quantidade de Horários" name="qtd_horários">
 
-      <!-- Tabela de cadastrados -->
-      <table class="table">
-        <thead class="thead-dark">
+          </div>
+          </div>
+    
+        <br>
+    
+          <div class="row">
+          <div class="col">
+              <label for="exampleInputPassword1">Turno</label>
+
+              <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
+          </div>
+          <div class="col">
+              <label for="exampleInputPassword1">Código de Turno</label>
+              <input type="text" class="form-control" placeholder="Digite o Código de Turno" name="cod_turno">
+
+          </div>
+          </div>
+ 
+        <br>
+
+          <div class="row">
+          <div class="col">
+              <label for="exampleInputPassword1">Código de Escola</label>
+
+              <input type="text" class="form-control" placeholder="Digite o Código de Escola" name="cod_escola">
+          </div>
+
+        </form>
+        <br>
+        <br>
+        <br>
+        <br> 
+
+  </div>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nome da Turma</th>
-            <th scope="col">Quant. Horários</th>
-            <th scope="col">Turno</th>
-            <th scope="col">Ação</th>
+            <div class="right_button">
+             <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+          </div>
           </tr>
         </thead>
         <tbody>

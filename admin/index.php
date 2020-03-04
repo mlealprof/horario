@@ -43,6 +43,8 @@
                 <button type="submit" class="btn btn-danger tamanho_button" ><a href="sair.php">Sair</button>
               </div>
             </nav>
+
+           
         </div>
         <!-- ============================================================== -->
         <!-- Final Barra Navegaçao -->
