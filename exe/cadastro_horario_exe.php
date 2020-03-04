@@ -21,6 +21,7 @@
 	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_horario)) {
 		echo '<script type="text/javascript">
+		alert("Salvo com Sucesso !");
 						window.location.href="../admin/index.php?tela=horario";
 					</script>';
 	} else { // Falha no cadastro
