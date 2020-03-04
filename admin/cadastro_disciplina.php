@@ -4,7 +4,7 @@
   ============================-->
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro Disciplina</h1>
+  <h1 align="center">Cadastro de Disciplinas</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
@@ -18,11 +18,7 @@
           <div class="row">
             <div class="col">
               <div class="right_button">
-<<<<<<< HEAD
-                <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-=======
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
->>>>>>> upstream/master
               </div>
             </div>
           </div>
@@ -54,9 +50,11 @@
               while ($array = mysqli_fetch_assoc($resultado)) {
           ?>
             <tr>
-              <td><?php echo $array['cod_disciplina']; ?></td>
-              <td><?php echo $array['nome']; ?></td>
-              <td><button type="button" class="btn btn-danger">Excluir</button></td>
+              <form action="../exe/excluir_disciplina_exe.php" method="get">
+                <td><?php echo $array['cod_disciplina']; ?></td>
+                <td><?php echo $array['nome']; ?></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_disciplina" value=<?php echo $array['cod_disciplina']; ?>>Excluir</button></td>
+              </form>
             </tr>
           <?php
               }

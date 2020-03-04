@@ -5,9 +5,7 @@ require ("header.php");
   Cadastro de Usuario
   ============================-->
   
-
-    <br>
-    <section class="img_cadastros">
+    
   
      <div class="container font">
 
