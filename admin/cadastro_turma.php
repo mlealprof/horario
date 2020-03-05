@@ -25,6 +25,14 @@
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
         </form>
+         <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Ação</th>
+          </tr>
+        </thead>
       </div>
        <div>
           <label for="exampleInputPassword1"></label>  
@@ -74,7 +82,7 @@
                   }
                 ?>
               </tbody>
-       </table>   
+       </table>
       <!-- Fim tabela de cadastrados -->
     </div>
   </section>
