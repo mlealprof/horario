@@ -1,87 +1,92 @@
-<<<<<<< HEAD
-<!--==========================
-  Cadastro de Professor
-  ============================-->
+<?php require '../exe/conexao_exe.php'; ?>
 
-
-  
-
-<h1 align="center">Cadastro Professores</h1>
-
-    <section class="img_cadastros">
-  
-     <div class="container font">
-
-
-      
-        <div class=" font">
-        <form>
-           
-          <div class="form-group">
-            <label for="exampleInputPassword1">Nome da Escola</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
-          </div>
-
-        <form>
-=======
 <main>
   <!-- Cadastro -->
   <h1 align="center">Cadastro de Professores</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
-        <form action="../exe/cadastro_horario_exe.php" method="post">
->>>>>>> upstream/master
+        <form action="../exe/cadastro_professor_exe.php" method="post">
           <div class="row">
             <div class="col">
-                <label for="exampleInputPassword1">Nome</label>
-                <input type="text" class="form-control" placeholder="Digite o Nome Completo" required="required" name="nome_proff">
+              <label for="exampleInputPassword1">Nome</label>
+              <input type="text" class="form-control" placeholder="Digite o Nome Completo" required="required" name="nome">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
-                <label for="exampleInputPassword1">Telefone</label>
-                <input type="text" class="form-control" placeholder="Telefone para contato" required="required" name="telefone_proff">
+              <label for="exampleInputPassword1">Telefone</label>
+              <input type="text" class="form-control" placeholder="Telefone para contato" required="required" name="telefone">
             </div>
             <div class="col">
-                <label for="exampleInputPassword1">CPF</label>
-                <input type="text" class="form-control" placeholder="Digite o CPF" required="required" name="cpf_proff">
+              <label for="exampleInputPassword1">CPF</label>
+              <input type="text" class="form-control" placeholder="Digite o CPF" required="required" name="cpf">
             </div> 
           </div><br>
           <div class="row">
             <div class="col">
-                <label for="exampleInputPassword1">Endereço</label>
-                <input type="text" class="form-control" placeholder="Digite o Endereço" required="required" name="endereco_proff">
+              <label for="exampleInputPassword1">Endereço</label>
+              <input type="text" class="form-control" placeholder="Digite o Endereço" required="required" name="endereco">
             </div>
             <div class="col">
-                <label for="exampleInputPassword1">Número</label>
-                <input type="text" class="form-control" placeholder="Digite o número da casa" required="required" name="num_casa_proff">
-            </div>
-          </div><br>
-          <div class="row">
-            <div class="col">
-                <label for="exampleInputPassword1">País</label>
-                <input type="text" class="form-control" placeholder="Digite o País" required="required" name="pais_proff">
-            </div>
-            <div class="col">
-                <label for="exampleInputPassword1">Cidade</label>
-                <input type="text" class="form-control" placeholder="Digite a Cidade" required="required" name="cidade_proff">
+              <label for="exampleInputPassword1">Número</label>
+              <input type="text" class="form-control" placeholder="Digite o número da casa" required="required" name="numero">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
-                <label for="exampleInputPassword1">Estado</label>
-                <input type="text" class="form-control" placeholder="Digite o Estado" required="required" name="estado_proff">
+              <label for="exampleInputPassword1">País</label>
+              <input type="text" class="form-control" placeholder="Digite o País" required="required" name="pais">
             </div>
             <div class="col">
-                <label for="exampleInputPassword1">CEP</label>
-                <input type="text" class="form-control" placeholder="Digite o CEP" required="required" name="cep_proff">
+              <label for="exampleInputPassword1">Cidade</label>
+              <input type="text" class="form-control" placeholder="Digite a Cidade" required="required" name="cidade">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
-                <label for="exampleInputPassword1">Masp</label>
-                <input type="text" class="form-control" placeholder="Insira o Masp Do Professor" required="required" name="masp_proff">
+               <label for="exampleInputPassword1">Estado</label>
+                <select name="estado" id="inputEstado" class="form-control">
+                         <option selected>Estado...
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option> 
+                         </option>       
+                </select>
+            </div>
+            <div class="col">
+              <label for="exampleInputPassword1">CEP</label>
+              <input type="text" class="form-control" placeholder="Digite o CEP" required="required" name="cep">
+            </div>
+          </div><br>
+          <div class="row">
+            <div class="col">
+              <label for="exampleInputPassword1">Masp</label>
+              <input type="text" class="form-control" placeholder="Insira o Masp Do Professor" required="required" name="masp">
             </div>
           </div><br>  
           <div class="row">
@@ -92,41 +97,72 @@
             </div>
           </div>
         </form>
-
       </div><br>
       <!-- Fim cadastro -->
+      
+      <!-- indisponibilidades-->
+      <h3>Indisponibilidades</h3><br>
+      <div class="indisp">
+        <table class="table">
+          <tr>
+            <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th scope="col"><label for="indisponibilidades">Dia</label>
+                <select id="dias">
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                </select>
+              </th>
+              <th scope="col"><label>Horários</label>
+                <select id="horario-proff">
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                </select>
+              </th>
+            <th scope="col"><button type="button" class="btn btn-success">Adicionar</button></th>
+          </tr>
+        </table>
+      </div><br>
+      <!-- FIM indisponibilidades-->
 
       <!-- Tabela de cadastrados -->
       <table class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Ordem</th>
-            <th scope="col">Posição</th>
-            <th scope="col">Descrição</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Telefone</th>
+            <th scope="col">Endereço</th>
             <th scope="col">Ação</th>
           </tr>
         </thead>
         <tbody>
           <?php
             $cod_escola = $_SESSION['cod_escola'];
-            $consulta = "SELECT * FROM horarios WHERE cod_escola = '$cod_escola'";
+            $consulta = "SELECT * FROM professor WHERE cod_escola = '$cod_escola'";
             $resultado = mysqli_query($conexao, $consulta);
             if (mysqli_num_rows($resultado) == 0) {
           ?>
             <tr>
-              <td colspan="5" class="text-center"><?php echo "Nenhuma disciplina cadastrada."; ?></td>
+              <td colspan="5" class="text-center"><?php echo "Nenhum professor cadastrado."; ?></td>
             </tr>
           <?php
             } else {
               while ($array = mysqli_fetch_assoc($resultado)) {
           ?>
             <tr>
-              <td><?php echo $array['cod_horarios']; ?></td>
-              <td><?php echo $array['ordem']; ?></td>
-              <td><?php echo $array['posicao']; ?></td>
-              <td><?php echo $array['descricao']; ?></td>
-              <td><button type="button" class="btn btn-danger">Excluir</button></td>
+              <form action="../exe/excluir_professor_exe.php" method="get">
+                <td><?php echo $array['cod_professor']; ?></td>
+                <td><?php echo $array['nome']; ?></td>
+                <td><?php echo $array['telefone']; ?></td>
+                <td><?php echo $array['endereco']; ?></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_professor" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
+              </form>
             </tr>
           <?php
               }
