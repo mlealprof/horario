@@ -37,22 +37,8 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                      colocar aqui nome da escola ,nome do usuario
-                            </ul>
-              
-=======
-                      <?php echo $_SESSION['cod_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
-=======
                       <?php echo $_SESSION['nome_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
->>>>>>> upstream/master
                     </ul>
-<<<<<<< HEAD
-
->>>>>>> upstream/master
-=======
->>>>>>> upstream/master
                 </div>
             </nav>
         </div>
@@ -139,15 +125,7 @@
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                            <a class="nav-link" href="pages/chart-c3.html">Quadro de Horarios</a>
-=======
-                                            <a class="nav-link" href="pages/chart-c3.html">Quadro de Horários</a>
->>>>>>> upstream/master
-=======
                                             <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-table"></i>Quadro de Horarios</a>
->>>>>>> upstream/master
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-calendar-plus"></i>Gerar Horário</a>
@@ -175,13 +153,6 @@
         <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    Teste
-=======
-                    
->>>>>>> upstream/master
-=======
                     <?php
                         if (isset($_GET['tela'])) {
                             $tela = $_GET['tela'];
@@ -209,7 +180,6 @@
                             }
                         }
                     ?>
->>>>>>> upstream/master
                 </div>
             </div>
         </div>

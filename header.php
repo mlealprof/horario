@@ -45,8 +45,9 @@
 
       <div id="logo" class="pull-left">
 
+
         <a href="index.php"><img src="img/fada.png" alt="" title="" /></a>
-        <!-- Uncomment below if you prefer to use an image logo -->
+
 
 
 
@@ -60,15 +61,14 @@
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
           <li><a href="login.php">Login</a></li>
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> upstream/master
           <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php"></a></a></li>
+
           <li><a href="#contact"></a></li>
+
+
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
-  
