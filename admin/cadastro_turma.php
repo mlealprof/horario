@@ -25,12 +25,21 @@
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
         </form>
+<<<<<<< HEAD
         
+=======
+>>>>>>> upstream/master
          <table class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
+<<<<<<< HEAD
             <th scope="col">Nome</th>
+=======
+            <th scope="col">Nome de usuário</th>
+            <th scope="col">Email</th>
+            <th scope="col">Tipo</th>
+>>>>>>> upstream/master
             <th scope="col">Ação</th>
           </tr>
         </thead>
