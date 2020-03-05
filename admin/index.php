@@ -43,9 +43,9 @@
                     </ul>
                 </div>
                   <div >
-                 &nbsp; &nbsp; &nbsp;
-                <button type="submit" class="btn btn-danger btn-sm" ><a href="sair.php">Sair</button>
-                &nbsp; &nbsp; &nbsp;
+
+                <button type="submit" class="btn tamanho_button" ><a href="sair.php">Sair</button>
+
               </div>
             </nav>
 
