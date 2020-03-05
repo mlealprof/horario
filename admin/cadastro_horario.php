@@ -70,7 +70,7 @@
           </tr>
         </thead>
         <tbody>
-          <?php
+           <?php
             $email = $_SESSION['email'];
             $consulta = "SELECT cod_usuario, usuario, email, tipo_usuario FROM usuario WHERE email = '$email'";
             $resultado = mysqli_query($conexao, $consulta);
