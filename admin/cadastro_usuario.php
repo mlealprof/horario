@@ -36,11 +36,10 @@
                 <option>Supervisor</option>
               </select>
             </div>
-          <div class="row">
+            <div clas="row">
             <div class="col">
-              <div class="right_button">
+               <br>
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-              </div>
             </div>
           </div>
         </form>
