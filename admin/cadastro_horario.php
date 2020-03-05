@@ -71,29 +71,34 @@
         </thead>
         <tbody>
           <?php
-            $cod_escola = $_SESSION['cod_escola'];
-            $consulta = "SELECT * FROM horarios WHERE cod_escola = '$cod_escola'";
+            $email = $_SESSION['email'];
+            $consulta = "SELECT cod_usuario, usuario, email, tipo_usuario FROM usuario WHERE email = '$email'";
             $resultado = mysqli_query($conexao, $consulta);
-            if (mysqli_num_rows($resultado) == 0) {
+            $array = mysqli_fetch_array($resultado);
           ?>
             <tr>
-              <td colspan="5" class="text-center"><?php echo "Nenhum horário cadastrado."; ?></td>
+              <td><?php echo $array['cod_usuario']; ?></td>
+              <td><?php echo $array['usuario']; ?></td>
+              <td><?php echo $array['email']; ?></td>
+              <td><?php echo $array['tipo_usuario']; ?></td>
+              <td><button type="button" class="btn btn-danger" disabled="disabled">Excluir</button></td>
             </tr>
           <?php
-            } else {
-              while ($array = mysqli_fetch_assoc($resultado)) {
+            $cod_escola = $_SESSION['cod_escola'];
+            $consulta = "SELECT cod_usuario, usuario, email, tipo_usuario FROM usuario WHERE tipo_usuario != 'Administrador' AND cod_escola = '$cod_escola' AND email != '$email'";
+            $resultado = mysqli_query($conexao, $consulta);
+            while ($array = mysqli_fetch_assoc($resultado)) {
           ?>
             <tr>
-              <form action="../exe/excluir_horario_exe.php" method="get">
-                <td><?php echo $array['cod_horarios']; ?></td>
-                <td><?php echo $array['ordem']; ?></td>
-                <td><?php echo $array['Dia da semana']; ?></td>
-                <td><?php echo $array['Hora inicial']; ?></td>
-                 <td><?php echo $array['Hora final']; ?></td>
-                <td><button type="submit" class="btn btn-danger" name="cod_horarios" value=<?php echo $array['cod_horarios']; ?>>Excluir</button></td>
+              <form action="../exe/excluir_usuario_exe.php" method="get">
+                <td><?php echo $array['cod_usuario']; ?></td>
+                <td><?php echo $array['usuario']; ?></td>
+                <td><?php echo $array['email']; ?></td>
+                <td><?php echo $array['tipo_usuario']; ?></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_usuario" value=<?php echo $array['cod_usuario']; ?>>Excluir</button></td>
               </form>
             </tr>
-          <?php
+          <?php } ?>
               }
             }
           ?>
