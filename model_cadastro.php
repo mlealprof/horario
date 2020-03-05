@@ -99,7 +99,7 @@ require ("header.php");
           <div class="col">
               <label for="exampleInputPassword1">País:</label>
 
-              <input type="text" class="form-control" placeholder="Digite seu Pais" name="pais">
+              <input type="text" class="form-control" placeholder="Digite seu País" name="pais">
           </div>
           <div class="col">
               <label for="exampleInputPassword1">CEP:</label> 
