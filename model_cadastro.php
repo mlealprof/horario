@@ -156,7 +156,7 @@ require ("header.php");
           </div>         
           <br>
           <div class="right_button">
-              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
           </div>
           <br>
         </div>

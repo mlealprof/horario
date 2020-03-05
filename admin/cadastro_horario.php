@@ -11,16 +11,10 @@
         <form action="../exe/cadastro_horario_exe.php" method="post">
           <div class="row">
             <div class="col">
-              <label for="exampleInputPassword1">Ordem</label>
-              <input type="text" class="form-control" placeholder="Digite a Ordem" required="required" name="ordem">
-            </div>
-            <div class="col">
               <label for="exampleInputPassword1">Posição</label>
               <input type="text" class="form-control" placeholder="Digite a Posição" required="required" name="posicao">
             </div>
-          </div><br>
-          <div class="row">
-            <div class="col">
+                  <div class="col">
               <label for="exampleInputPassword1">Selecione o dia da semana</label>
                 <select type="text" class="form-control" placeholder="Digite o tipo de usuario" required="required" name ="dia_da_semana">
                   <option selected>Dia da Semana...
@@ -33,16 +27,10 @@
                     <option value="Sa">Sábado</option>
                   </option>
                 </select>
-              </div>
-            </div><br>
-            <div class="row">
+            </div>
               <div class="col">
-                <label for="exampleInputPassword1">Hora Inicial</label>
-                <input type="text" size="10" maxlength="10" class="form-control" placeholder="Digite a Posição" required="required" name="hora_inicial">
-              </div>
-              <div class="col">
-                <label for="exampleInputPassword1">Hora Final</label>
-                <input type="text" class="form-control" placeholder="Digite a Ordem" required="required" name="hora_final">
+                <label for="exampleInputPassword1">Hora Inicial e Final</label>
+                <input type="text" size="90" maxlength="90" class="form-control" placeholder="Ex: 18:30 ás 19:20" required="required" name="hora_inicial">
               </div>
             </div><br>
           <div class="row">
