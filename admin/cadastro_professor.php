@@ -1,10 +1,8 @@
 <?php require '../exe/conexao_exe.php'; ?>
-<!--==========================
-  Cadastro de Professor
-  ============================-->
+
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro Professor</h1>
+  <h1 align="center">Cadastro de Professores</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
@@ -47,8 +45,38 @@
           </div><br>
           <div class="row">
             <div class="col">
-              <label for="exampleInputPassword1">Estado</label>
-              <input type="text" class="form-control" placeholder="Digite o Estado" required="required" name="estado">
+               <label for="exampleInputPassword1">Estado</label>
+                <select name="estado" id="inputEstado" class="form-control">
+                         <option selected>Estado...
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option> 
+                         </option>       
+                </select>
             </div>
             <div class="col">
               <label for="exampleInputPassword1">CEP</label>
@@ -71,6 +99,36 @@
         </form>
       </div><br>
       <!-- Fim cadastro -->
+      
+      <!-- indisponibilidades-->
+      <h3>Indisponibilidades</h3><br>
+      <div class="indisp">
+        <table class="table">
+          <tr>
+            <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th scope="col"><label for="indisponibilidades">Dia</label>
+                <select id="dias">
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                  <option value=""></option>  
+                </select>
+              </th>
+              <th scope="col"><label>Horários</label>
+                <select id="horario-proff">
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                  <option></option>  
+                </select>
+              </th>
+            <th scope="col"><button type="button" class="btn btn-success">Adicionar</button></th>
+          </tr>
+        </table>
+      </div><br>
+      <!-- FIM indisponibilidades-->
 
       <!-- Tabela de cadastrados -->
       <table class="table">
