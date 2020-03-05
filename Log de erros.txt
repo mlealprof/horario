@@ -1,24 +1,24 @@
 1 -
 2 - ambas partes do cadastre sua escola e login nÃ£o estÃ£o centralizadas fora do padrao .CSS.
-3 - Input do login esta com uma fonte diferente da aba cadastre sua escola saindon do padrao do site//resolvido Sérgio//
-4 - Esqueceu senha nao funciona.//Sérgio front end criado falta o back end//
-5 - Titulo do cpanel estranho//Resolvido Sérgio//
-6 - (Resolvido) No cadastro de usuario a lista de usuarios cadastrados nao esta funcionando.
+3 - 
+4 - 
+5 - 
+6 - 
 7 - 
-8 - (Resolvido) Cadastro de Curso fora do padrÃ£o de cadastros e sem lista de cadastrados//resolvido Sérgio//
+8 - 
 9 - 
-10 - (Resolvido) Os botoes Excluir dos cadastrados nao estao funcionando
-11 - (Resolvido) O campo Tipo de usuÃ¡rio no cadastro de cliente, tem que ser padrÃ£o, o usuario nao digita e sim escolhe em uma combobox//resolvido Sérgio//.
+10 - 
+11 - 
 11.5 - Refazer o back end do cadastro cliente pois apos alterar o campo para um combo box o back end apresentou um bug .
-12 - (Resolvido) Mudar a tela de cadastro de horÃ¡rio deve ficar os campos (Posisao, Dia da Semana, hora inicial e final).//Sérgio resolvido//
+12 - 
 12.5 - Refazer o back end do cadastro de horarios pois apos alterar o campo para um combo box o back end apresentou um bug .
 13 -
-14 - (Resolvido) Erro de portugues na tela inicial (horario sem acento).//resolvido Sergio//
+14 - 
 15 - Fazer a tela de cadastro de professores e suas indisponibilidades
 16 - Faze o cadastro de disciplinas por turma.
 17 - 
-18 - (Resolvido) No Cpanel, a palavra horÃ¡rio do Menu estÃ¡ sem acento//resolvido Sérgio//
-19 - (Resolvido) No Cpanel, a palavra usuÃ¡rio no menu estÃ¡ sem acento//resolvido Sérgio//
+18 - 
+19 - 
 20 - No Cpanel, o link que mostra os dados do usuÃ¡rio nÃ£o estÃ¡ funcionando
 21 - No Cpanel, editar dados do usuÃ¡rio e da escolha nÃ£o estÃ¡ pronto
 22 - Criar tela de gerar horÃ¡rio (A principal)
@@ -28,4 +28,14 @@
 26 - Colocar o carrosel de imagens dos alunos funcionando na pagina inicial
 27 - Criar tela de alterar dados da escola
 28 - Criar tela de alterar dados do usuario
-29 - 
+29 - Botões cadastro e login na página inicial de cores diferentes e fonte estranha
+30 - Botão sair no CPanel está feio
+31 - Colocar no tipo de usuário (Cadastro de Usuário)- Diretor, Supervisor, Coordenador, Professor
+32 - Colocar um combobox com sujestoes no campo tipo de ensino no cadastro de curso
+33 - A lista no cadastro de turmas está fora do padrão
+34 - Tirar o campo código de turno e código da escola no cadastro de turmas
+35 - Tirar o campo posicao ou ordem no cadastro de horario, e o campo hora inicio e fim e um campo só, não dois. E atualizar os dados da lista com os alterados.
+36 - Cadastro de professores , o campo Estado colocar o combobox
+37- Cadastro de professore, completar os dois campos de indisponibilidades com os dados do cadastro de horario
+38- A lista de indisponibilidade dos professores.
+
