@@ -15,7 +15,7 @@ require ("header.php");
         <form action="exe/cadastro_escola_exe.php" method="post">
            
           <div class="form-group">
-            <label for="exampleInputPassword1">Nome da Escola</label>
+            <label for="exampleInputPassword1">Nome da Escola:</label>
             <input type="text" name="nome" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
 
           </div>
@@ -23,12 +23,12 @@ require ("header.php");
   
           <div class="row">
           <div class="col">
-              <label for="exampleInputPassword1">CNPJ</label>
+              <label for="exampleInputPassword1">CNPJ:</label>
               <input type="text" name="cnpj" class="form-control" placeholder="Digite seu CNPJ">
           </div>
 
           <div class="col">
-              <label for="exampleInputPassword1">Telefone</label>
+              <label for="exampleInputPassword1">Telefone:</label>
               <input type="text" class="form-control" placeholder="Digite seu Telefone" name="telefone">
           </div>
           </div>
@@ -37,11 +37,11 @@ require ("header.php");
     
           <div class="row">
           <div class="col">
-              <label for="exampleInputPassword1">Endereço</label>
+              <label for="exampleInputPassword1">Endereço:</label>
               <input type="text" class="form-control" placeholder="Digite seu Enderço" name="endereco">
           </div>
           <div class="col">
-              <label for="exampleInputPassword1">Nº</label>
+              <label for="exampleInputPassword1">Nº:</label>
               <input type="text" class="form-control" placeholder="Digite o número da Residência" name="numero">
           </div>
           </div>
@@ -50,12 +50,12 @@ require ("header.php");
 
           <div class="row">
           <div class="col">
-              <label for="exampleInputPassword1">Cidade</label>
+              <label for="exampleInputPassword1">Cidade:</label>
               <input type="text" class="form-control" placeholder="Digite sua Cidade" name="cidade">
           </div>
           <div class="col">
 
-               <label for="exampleInputPassword1">Estado</label>
+               <label for="exampleInputPassword1">Estado:</label>
                 <select name="estado" id="inputEstado" class="form-control">
 
                          <option selected>Estado...
@@ -97,12 +97,12 @@ require ("header.php");
 
           <div class="row">
           <div class="col">
-              <label for="exampleInputPassword1">País</label>
+              <label for="exampleInputPassword1">País:</label>
 
-              <input type="text" class="form-control" placeholder="Digite seu Pais" name="pais">
+              <input type="text" class="form-control" placeholder="Digite seu País" name="pais">
           </div>
           <div class="col">
-              <label for="exampleInputPassword1">CEP</label> 
+              <label for="exampleInputPassword1">CEP:</label> 
               <input type="text" class="form-control" placeholder="Digite seu CEP" name="cep">
 
           </div>
@@ -111,7 +111,7 @@ require ("header.php");
      
          <div class="row">
          <div class="col">
-            <label for="exampleFormControlSelect1">Tipo de Escola</label>
+            <label for="exampleFormControlSelect1">Tipo de Escola:</label>
             <select class="form-control" id="exampleFormControlSelect1" name="tipo_escola">
               <option>Escolher...</option>
               <option>Particular</option>
@@ -122,7 +122,7 @@ require ("header.php");
 
           <div class="col">
 
-            <label for="exampleFormControlSelect1">Tipo de Ensino</label>
+            <label for="exampleFormControlSelect1">Tipo de Ensino:</label>
 
             <select class="form-control" id="exampleFormControlSelect1">
               <option>Escolher...</option>
@@ -142,15 +142,15 @@ require ("header.php");
           <br>
           <div class="row">
           <div class="col">
-              <label for="exampleInputPassword1">Nome de usuário</label>
+              <label for="exampleInputPassword1">Nome de usuário:</label>
               <input type="text" class="form-control" placeholder="Digite seu nome de usuário" required="required" name="usuario">
           </div>
           <div class="col">
-              <label for="exampleInputPassword1">Email</label>
+              <label for="exampleInputPassword1">Email:</label>
               <input type="email" class="form-control" placeholder="Digite seu email" required="required" name="email">
           </div>
           <div class="col">
-              <label for="exampleInputPassword1">Senha</label> 
+              <label for="exampleInputPassword1">Senha:</label> 
               <input type="password" class="form-control" placeholder="Digite sua senha" required="required" name="senha">
           </div>
           </div>         
