@@ -90,11 +90,13 @@
                 $resultado_ = mysqli_query($conexao, $selecionar);
                 $array_disciplina = mysqli_fetch_array($resultado_);
           ?>
+
             <tr>
               <form action="../exe/excluir_disciplina_turma_exe.php" method="get">
                 <td><?php echo $array['cod_disciplina_por_turma']; ?></td>
                 <td><?php echo $array_turma['nome']; ?></td>
                 <td><?php echo $array_disciplina['nome']; ?></td>
+                <td></td>
                 <td><button type="submit" class="btn btn-danger" name="cod_disciplina_por_turma" value=<?php echo $array['cod_disciplina_por_turma']; ?>>Excluir</button></td>
               </form>
             </tr>
