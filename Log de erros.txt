@@ -31,13 +31,13 @@
 29 - 
 30 - 
 31 - 
-32 - Colocar um combobox com sujestoes no campo tipo de ensino no cadastro de curso
+32 - 
 33 - A lista no cadastro de turmas está fora do padrão
 34 - 
 35 - 
 36 - 
-37- (Raynna) Cadastro de professore, completar os dois campos de indisponibilidades com os dados do cadastro de horario
+37-  Cadastro de professore, completar os dois campos de indisponibilidades com os dados do cadastro de horario
 38 - A lista de indisponibilidade dos professores.
 39 - (Miguel) Cadastro de disciplinas por turma: o campo turma deve buscar as turmas cadastradas, o campo disciplina deve buscar as disciplinas cadastradas, e está faltando um campo professor, que deve buscar os professores cadastrados de acordo com a disciplina escolhida. 
-40 - Arrumar botão salvar do cadastro de usuário
+40 - (Raynna) Arrumar botão salvar do cadastro de usuário
 
