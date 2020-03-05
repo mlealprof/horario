@@ -72,7 +72,7 @@
         <tbody>
            <?php
             $email = $_SESSION['email'];
-            $consulta = "SELECT cod_usuario, usuario, email, tipo_usuario FROM usuario WHERE email = '$email'";
+            $consulta = "SELECT cod_horarios, ordem, dia_da_semana, hora_inicial, hora_final FROM horarios WHERE email = '$email'";
             $resultado = mysqli_query($conexao, $consulta);
             $array = mysqli_fetch_array($resultado);
           ?>
