@@ -43,7 +43,7 @@
             <div >
               <label for="exampleInputPassword1"></label>
               <div>
-                <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
             </div>
           </div>
         </form>
@@ -51,7 +51,7 @@
       <!-- Fim cadastro -->
 
       <!-- Tabela de cadastrados -->
-      <table class="table">
+      <br><br><br><table class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
