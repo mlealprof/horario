@@ -40,7 +40,7 @@
 30 - 
 31 - 
 32 - 
-33 - A lista no cadastro de turmas está fora do padrão
+33 - 
 >>>>>>> upstream/master
 34 - 
 35 - 
