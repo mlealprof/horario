@@ -24,17 +24,6 @@
               <label for="exampleInputPassword1">Turno</label>
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
-            <div class="col">
-                <label for="exampleInputPassword1">Código de Turno</label>
-                <input type="text" class="form-control" placeholder="Digite o Código de Turno" name="cod_turno">
-            </div>
-          </div><br>
-          <div class="row">
-            <div class="col">
-              <label for="exampleInputPassword1">Código de Escola</label>
-              <input type="text" class="form-control" placeholder="Digite o Código de Escola" name="cod_escola">
-          </div>
-
         </form>
       </div>
           <tr>
