@@ -24,7 +24,7 @@
 22 - Criar tela de gerar horÃ¡rio (A principal)
 23 - Fundo da tela de login esta misturando com os campos, colocar uma div com fundo de cor diferente
 24 - Criar tela de cadastro de turno e colocar de forma automática no cadastro de turma, aparecer os turnos cadastrados
-25 - 
+25 - (Laura) Colocar conteudos releventes na pagina inicial
 26 - Colocar o carrosel de imagens dos alunos funcionando na pagina inicial
 27 - Criar tela de alterar dados da escola
 28 - Criar tela de alterar dados do usuario
