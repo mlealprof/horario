@@ -12,7 +12,24 @@
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Tipo de ensino</label>
-              <input type="text" class="form-control" placeholder="Digite o tipo de ensino" required="required" name="tipo_ensino">
+
+              <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                ao selecionar uma das options no select abaixo o campo "outro tipo de ensino" ficara hidden assim nao podendo 
+                inserir dados nele- ele é apenas para caso o ensino que a pessoa deseja listar nao esteja no select-->
+                  <select class="browser-default custom-select">  
+                  <option value="none" style="color: #DCDCDC">Selecione o tipo de ensino</option>               
+                  <option value="infantil">Educação Infantil</option>
+                  <option value="prescola">Pré-escola</option>
+                  <option value="fundamental">Ensino Fundamental</option>
+                  <option value="medio">Ensino Médio</option>
+                  <option value="mediotec">Ensino Médio Técnico</option>
+                  <option value="jovem">Educação de Jovens Adultos</option>
+                  <option value="edcampo">Educação no Campo</option>
+                  <option value="edespecial">Educação Especial</option>
+                  <option value="facul">Educação Superior</option>
+                </select><br><br>
+                <label for="exampleInputPassword1">Outro tipo de ensino?</label>
+              <input type="text" class="form-control" name="">
             </div>
           </div><br>
           <div class="row">

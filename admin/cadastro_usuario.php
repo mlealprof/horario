@@ -1,3 +1,4 @@
+
 <?php require '../exe/conexao_exe.php'; ?>
 <!--==========================
   Cadastro de Usuario
@@ -36,9 +37,11 @@
                 <option>Supervisor</option>
               </select>
             </div>
-            <div clas="row">
-            <div class="col">
-               <br>
+
+          <div  class="table">
+            <div >
+              <label for="exampleInputPassword1"></label>
+              <div>
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
             </div>
           </div>
