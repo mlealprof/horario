@@ -25,23 +25,12 @@
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
         </form>
-         <table class="table">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nome de usuário</th>
-            <th scope="col">Email</th>
-            <th scope="col">Tipo</th>
-            <th scope="col">Ação</th>
-          </tr>
-        </thead>
       </div>
           <tr>
             <div class="right_button">
              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-          </div>
+            </div>
           </tr>
-        </thead>
         <tbody>
           <?php
             $cod_escola = $_SESSION['cod_escola'];
@@ -70,7 +59,6 @@
             }
           ?>
         </tbody>
-      </table>
       <!-- Fim tabela de cadastrados -->
     </div>
   </section>
