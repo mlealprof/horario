@@ -43,7 +43,9 @@
                     </ul>
                 </div>
                   <div >
+
                 <button type="submit" class="btn tamanho_button" ><a href="sair.php">Sair</button>
+
               </div>
             </nav>
 

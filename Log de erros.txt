@@ -1,4 +1,3 @@
-
 1 -
 2 - 
 3 - 
@@ -23,7 +22,7 @@
 20 - No Cpanel, o link que mostra os dados do usuÃ¡rio nÃ£o estÃ¡ funcionando
 21 - No Cpanel, editar dados do usuÃ¡rio e da escolha nÃ£o estÃ¡ pronto
 22 - Criar tela de gerar horÃ¡rio (A principal)
-23 - Fundo da tela de login esta misturando com os campos, colocar uma div com fundo de cor diferente
+23 - 
 24 - Criar tela de cadastro de turno e colocar de forma automática no cadastro de turma, aparecer os turnos cadastrados
 25 - Colocar conteudos releventes na pagina inicial
 26 - Colocar o carrosel de imagens dos alunos funcionando na pagina inicial

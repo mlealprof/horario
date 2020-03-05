@@ -2,12 +2,12 @@
     Footer
   ============================-->
   <footer id="footer">
-    <div class="container">
+    <div class="container ">
       <div class="copyright">
         &copy; Copyright <strong>TimeTable</strong>. Todos os Direitos Reservados
       </div>
       <div class="credits">
-        Designed by T.I 2018</a>
+        </a>
 
       </div>
     </div>
