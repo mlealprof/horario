@@ -24,7 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
-            <img src="img/about-img.jpg" alt="">
+            
           </div>
  <!--==========================
      Texto O Site
@@ -38,7 +38,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Sobre Nós</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <p></p>
         </div>
       </div>
     </section><!-- #clients -->
