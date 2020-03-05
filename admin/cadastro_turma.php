@@ -25,13 +25,12 @@
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
         </form>
+        
          <table class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Nome de usuário</th>
-            <th scope="col">Email</th>
-            <th scope="col">Tipo</th>
+            <th scope="col">Nome</th>
             <th scope="col">Ação</th>
           </tr>
         </thead>
@@ -60,8 +59,6 @@
               <form action="../exe/excluir_turma_exe.php" method="get">
                 <td><?php echo $array['cod_turma']; ?></td>
                 <td><?php echo $array['nome']; ?></td>
-                <td><?php echo $array['qnt_horarios']; ?></td>
-                <td><?php echo $array['turno']; ?></td>
                 <td><button type="submit" class="btn btn-danger" name="cod_turma" value=<?php echo $array['cod_turma']; ?>>Excluir</button></td>
               </form>
             </tr>
