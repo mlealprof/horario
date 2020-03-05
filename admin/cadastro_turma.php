@@ -24,18 +24,17 @@
               <label for="exampleInputPassword1">Turno</label>
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
-            <div class="col">
-                <label for="exampleInputPassword1">Código de Turno</label>
-                <input type="text" class="form-control" placeholder="Digite o Código de Turno" name="cod_turno">
-            </div>
-          </div><br>
-          <div class="row">
-            <div class="col">
-              <label for="exampleInputPassword1">Código de Escola</label>
-              <input type="text" class="form-control" placeholder="Digite o Código de Escola" name="cod_escola">
-          </div>
-
         </form>
+         <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome de usuário</th>
+            <th scope="col">Email</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Ação</th>
+          </tr>
+        </thead>
       </div>
           <tr>
             <div class="right_button">
