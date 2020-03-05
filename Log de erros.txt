@@ -31,7 +31,7 @@
 29 - 
 30 - 
 31 - 
-32 - Colocar um combobox com sujestoes no campo tipo de ensino no cadastro de curso
+32 - 
 33 - A lista no cadastro de turmas está fora do padrão
 34 - 
 35 - 
