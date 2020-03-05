@@ -66,6 +66,7 @@
             <th scope="col">#</th>
             <th scope="col">Turma</th>
             <th scope="col">Disciplina</th>
+            <th scope="col">Professor</th>
             <th scope="col">Ação</th>
           </tr>
         </thead>
