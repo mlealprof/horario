@@ -63,7 +63,9 @@
             <th scope="col">#</th>
             <th scope="col">Ordem</th>
             <th scope="col">Posição</th>
-            <th scope="col">Descrição</th>
+            <th scope="col">Dia da semana</th>
+            <th scope="col">Hora incial</th>
+            <th scope="col">Hora final</th>
             <th scope="col">Ação</th>
           </tr>
         </thead>
@@ -85,8 +87,9 @@
               <form action="../exe/excluir_horario_exe.php" method="get">
                 <td><?php echo $array['cod_horarios']; ?></td>
                 <td><?php echo $array['ordem']; ?></td>
-                <td><?php echo $array['posicao']; ?></td>
-                <td><?php echo $array['descricao']; ?></td>
+                <td><?php echo $array['Dia da semana']; ?></td>
+                <td><?php echo $array['Hora inicial']; ?></td>
+                 <td><?php echo $array['Hora final']; ?></td>
                 <td><button type="submit" class="btn btn-danger" name="cod_horarios" value=<?php echo $array['cod_horarios']; ?>>Excluir</button></td>
               </form>
             </tr>
