@@ -37,8 +37,8 @@
     <section id="clients" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Sobre Nós</h2>
-          <p>Nosso site </p>
+          <h2>TimeTible</h2>
+          <h3><p>Nossa plataforma consiste em, criar horarios para as escolas de forma mais fácil e eficiente, para que não hajam conflitos na hora de organizar os horarios.</p></h3>
         </div>
       </div>
     </section><!-- #clients -->
