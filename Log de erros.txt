@@ -34,7 +34,7 @@
 32 - Colocar um combobox com sujestoes no campo tipo de ensino no cadastro de curso
 33 - A lista no cadastro de turmas está fora do padrão
 34 - 
-35 - Tirar o campo posicao ou ordem no cadastro de horario, e o campo hora inicio e fim e um campo só, não dois. E atualizar os dados da lista com os alterados.
+35 - 
 36 - 
 37- Cadastro de professore, completar os dois campos de indisponibilidades com os dados do cadastro de horario
 38 - A lista de indisponibilidade dos professores.
