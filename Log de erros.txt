@@ -1,4 +1,4 @@
-1 -
+﻿1 -
 2 - 
 3 - 
 4 - 
@@ -28,7 +28,7 @@
 26 - Colocar o carrosel de imagens dos alunos funcionando na pagina inicial
 27 - Criar tela de alterar dados da escola
 28 -
-29 - Botões cadastro e login na página inicial de cores diferentes e fonte estranha
+29 - pc
 30 - Botão sair no CPanel está feio
 31 - Colocar no tipo de usuário (Cadastro de Usuário)- Diretor, Supervisor, Coordenador, Professor
 32 - Colocar um combobox com sujestoes no campo tipo de ensino no cadastro de curso
