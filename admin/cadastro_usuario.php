@@ -30,6 +30,13 @@
               <select class="form-control" required="required" name="tipo_usuario">
                 <option selected="selected">Padrão</option>
                 <option>Administrador</option>
+<<<<<<< HEAD
+=======
+                <option>Coordenador</option>
+                <option>Diretor</option>
+                <option>Professor</option>
+                <option>Supervisor</option>
+>>>>>>> upstream/master
               </select>
             </div>
           <div class="row">

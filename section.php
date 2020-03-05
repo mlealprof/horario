@@ -8,8 +8,8 @@
       <h2>Crie seus <span>Horários</span><br></h2>
       <h2>Com o TimeTable</h2>
       <div>
-        <a href="model_cadastro.php" class="btn-get-started scrollto">Cadastro</a>
-        <a href="login.php" class="btn-projects scrollto">Login</a>
+        <a href="model_cadastro.php" class="btn btn-primary">Cadastro</a>
+        <a href="login.php" class="btn btn-primary">Login</a>
       </div>
     </div>
 

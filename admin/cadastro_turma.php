@@ -24,6 +24,7 @@
               <label for="exampleInputPassword1">Turno</label>
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
+<<<<<<< HEAD
             <div class="col">
                 <label for="exampleInputPassword1">Código de Turno</label>
                 <input type="text" class="form-control" placeholder="Digite o Código de Turno" name="cod_turno">
@@ -36,6 +37,24 @@
           </div>
 
         </form>
+      </div>
+          <tr>
+            <div class="right_button">
+             <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+          </div>
+=======
+        </form>
+         <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nome de usuário</th>
+            <th scope="col">Email</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Ação</th>
+>>>>>>> upstream/master
+          </tr>
+        </thead>
       </div>
           <tr>
             <div class="right_button">
