@@ -26,9 +26,7 @@
                 ?>
               </select>
             </div>
-          </div><br>
-          <div class="row">
-            <div class="col">
+             <div class="col">
               <label for="exampleInputPassword1" >Disciplina</label>
                 <select name="cod_disciplina" id="inputEstado" class="form-control">
                   <option selected>Disciplina</option>
@@ -43,8 +41,17 @@
                     }
                   ?>
                 </select>
+              </div>
+              <div class="col">
+              <label for="exampleInputPassword1" >Professor</label>
+                <select name="cod_disciplina" id="inputEstado" class="form-control">
+                  <option selected>Professor da Disciplina</option>               
+                </select>
             </div>
-          </div><br>
+
+ 
+           
+          </div><br><br>
           <div class="right_button">
              <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
           </div>
