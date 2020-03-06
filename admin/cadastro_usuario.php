@@ -1,3 +1,4 @@
+
 <?php require '../exe/conexao_exe.php'; ?>
 <!--==========================
   Cadastro de Usuario
@@ -30,20 +31,19 @@
               <select class="form-control" required="required" name="tipo_usuario">
                 <option selected="selected">Padrão</option>
                 <option>Administrador</option>
-<<<<<<< HEAD
-=======
                 <option>Coordenador</option>
                 <option>Diretor</option>
                 <option>Professor</option>
                 <option>Supervisor</option>
->>>>>>> upstream/master
               </select>
             </div>
-          <div class="row">
-            <div class="col">
-              <div class="right_button">
+
+
+          <div  class="table">
+            <div >
+              <label for="exampleInputPassword1"></label>
+              <div>
                 <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-              </div>
             </div>
           </div>
         </form>
