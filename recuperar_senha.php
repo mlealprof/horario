@@ -8,9 +8,13 @@
 
 	   <form action="exe/login_exe.php" method="Post">
 		<div class="babado-container intro-content font">
-		<h2>Recuperação de senha:</h2>
+
+
+  	<h2>Recuperação de senha:</h2>
+
 
 		<p>Informe o Email cadastrado e enviaremos uma senha temporaria.</p>
+
 
 			<input type="text" name="email" size="50" maxlength="50" placeholder="Digite seu email"><br>
 			<div>

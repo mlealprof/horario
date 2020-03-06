@@ -138,6 +138,7 @@
             <th scope="col">Telefone</th>
             <th scope="col">Endereço</th>
             <th scope="col">Ação</th>
+            <th scope="col">indisponibilidade</th>
           </tr>
         </thead>
         <tbody>
@@ -160,7 +161,8 @@
                 <td><?php echo $array['nome']; ?></td>
                 <td><?php echo $array['telefone']; ?></td>
                 <td><?php echo $array['endereco']; ?></td>
-                <td><button type="submit" class="btn btn-danger" name="cod_professor" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_professor" style="margin-left: -16px" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
+                <td><a href="cadastro_indisponibilidade.php"><button type="" class="btn btn-primary" name="indisponibilidades" style="margin-left: 19px">indisp</button></a></td>
               </form>
             </tr>
           <?php

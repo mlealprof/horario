@@ -893,6 +893,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #team .member .pic img {
   max-width: 100%;
+      height: 500px;
 }
 
 #team .member .details {
@@ -1171,6 +1172,7 @@ body.mobile-nav-active #mobile-nav-toggle {
    text-align:right;
 }
 .tamanho_button{
+    margin-top: 60px;
     width: 120px;
     height: 45px;
     background-color: #43dadaf7;
