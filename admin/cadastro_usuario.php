@@ -1,31 +1,32 @@
+
 <?php require '../exe/conexao_exe.php'; ?>
 <!--==========================
   Cadastro de Usuario
   ============================-->
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro de Usuários</h1>
+  <h1 align="center">Cadastro de Usuários:</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
         <form action="../exe/cadastro_usuario_exe.php" method="post">
           <div class="row">
             <div class="col">
-              <label for="exampleInputPassword1">Usuário</label>
+              <label for="exampleInputPassword1">Usuário:</label>
               <input type="text" class="form-control" placeholder="Digite o nome do usuario" required="required" name="usuario">
             </div>
             <div class="col">
-              <label for="exampleInputPassword1">Senha</label>
+              <label for="exampleInputPassword1">Senha:</label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha" required="required" name="senha">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
-              <label for="exampleInputPassword1">Email</label>
+              <label for="exampleInputPassword1">Email:</label>
               <input type="email" class="form-control" placeholder="Digite seu Email" required="required" name="email">
             </div>
             <div class="col">
-              <label for="exampleInputPassword1">Tipo de Usuário</label>
+              <label for="exampleInputPassword1">Tipo de Usuário:</label>
               <!--<input type="text" class="form-control" placeholder="Digite o tipo de usuario" required="required" name="tipo_usuario">-->
               <select class="form-control" required="required" name="tipo_usuario">
                 <option selected="selected">Padrão</option>
@@ -36,11 +37,13 @@
                 <option>Supervisor</option>
               </select>
             </div>
-          <div class="row">
-            <div class="col">
-              <div class="right_button">
-                <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-              </div>
+
+
+          <div  class="table">
+            <div >
+              <label for="exampleInputPassword1"></label>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
             </div>
           </div>
         </form>
@@ -48,7 +51,7 @@
       <!-- Fim cadastro -->
 
       <!-- Tabela de cadastrados -->
-      <table class="table">
+      <br><br><br><table class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>

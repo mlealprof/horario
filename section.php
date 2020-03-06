@@ -65,10 +65,9 @@
               <div class="details">
                 <h4> João Paulo </h4>
                 <span>Programador de Back-end</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                <div class="social">                 
+                  
+                  <a href="https://www.instagram.com/@peregrinolunar/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
           </div>
@@ -85,10 +84,8 @@
                 <h4>Vilmar Bernardes</h4>
                 <span> Programador de Back-end</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="https://www.instagram.com/@vilmarbmartins/" target="_blank"><i class="fa fa-instagram"></i></a>
+                              
                 </div>
               </div>
             </div>
@@ -102,11 +99,9 @@
               <div class="details">
                 <h4>Laura Santos</h4>
                 <span>Programadora de Front-end</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                <div class="social">                  
+                  
+                  <a href="https://www.instagram.com/@laura_cristms/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
             </div>
@@ -119,11 +114,9 @@
               <div class="details">
                 <h4>Wemerson Yago</h4>
                 <span>Teste</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                <div class="social">                  
+                  
+                  <a href="https://www.instagram.com/@wyssd3 /" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
             </div>
@@ -136,10 +129,9 @@
                 <h4>Gustavo Lopes</h4>
                 <span>Programador de Back-end</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  
+                  <a href="https://www.instagram.com/@gustalopes27/" target="_blank"><i class="fa fa-instagram"></i></a>
+
                 </div>
                 
               </div>
@@ -151,13 +143,11 @@
             <div class="member">
               <div class="pic"><img src="img/fotos/6.JPG" alt=""></div>
               <div class="details">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>luan lucas</h4>
+                <span>Programador de Back-end</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  
+                  <a href="https://www.instagram.com//" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
             </div>
@@ -171,10 +161,8 @@
                 <h4>Artur Santos</h4>
                 <span>Analista de Sistema</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  
+                  <a href="https://www.instagram.com/arturfelipe99/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
             </div>
@@ -188,10 +176,8 @@
                 <h4>Rafael Hashimoto</h4>
                 <span>Programadora de Front-end</span>
                 <div class="social">
-                  <a href=""><i class=""></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  
+                  <a href="https://www.instagram.com/shimoto.chan/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
             </div>
