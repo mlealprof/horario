@@ -100,33 +100,7 @@
       <!-- Fim cadastro -->
       
       <!-- indisponibilidades-->
-      <h3>Indisponibilidades</h3><br>
-      <div class="indisp">
-        <table class="table">
-          <tr>
-            <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-              <th scope="col"><label for="indisponibilidades">Dia</label>
-                <select id="dias">
-                  <option value=""></option>  
-                  <option value=""></option>  
-                  <option value=""></option>  
-                  <option value=""></option>  
-                  <option value=""></option>  
-                </select>
-              </th>
-              <th scope="col"><label>Horários</label>
-                <select id="horario-proff">
-                  <option></option>  
-                  <option></option>  
-                  <option></option>  
-                  <option></option>  
-                  <option></option>  
-                </select>
-              </th>
-            <th scope="col"><button type="button" class="btn btn-success">Adicionar</button></th>
-          </tr>
-        </table>
-      </div><br>
+      <br>
       <!-- FIM indisponibilidades-->
 
       <!-- Tabela de cadastrados -->
@@ -162,8 +136,10 @@
                 <td><?php echo $array['telefone']; ?></td>
                 <td><?php echo $array['endereco']; ?></td>
                 <td><button type="submit" class="btn btn-danger" name="cod_professor" style="margin-left: -16px" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
-                <td><a href="cadastro_indisponibilidade.php"><button type="" class="btn btn-primary" name="indisponibilidades" style="margin-left: 19px">indisp</button></a></td>
-              </form>
+                </form>
+                <form>
+                  <td><a href="cadastro_indisponibilidade.php"><button type="" class="btn btn-primary" name="indisponibilidades" style="margin-left: -15px">indisponibilidade</button></a></td> <!-- linkar essa merda aq -->
+                </form>
             </tr>
           <?php
               }
