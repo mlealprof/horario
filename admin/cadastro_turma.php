@@ -24,6 +24,13 @@
               <label for="exampleInputPassword1">Turno</label>
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
+            <div class="table">
+              <label for="exampleInputPassword1"></label>
+              <div >
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
+             </div>
+              <label for="exampleInputPassword1"></label>
+            </div>
         </form>
 
 
