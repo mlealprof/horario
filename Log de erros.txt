@@ -1,0 +1,23 @@
+﻿24 - No cadastro de tumas, colocar o campo turno buscando os dados da tabela turno
+25 - Colocar conteudos releventes na pagina inicial
+26 - 
+27 - 
+28 -
+29 - 
+30 - 
+31 - 
+32 - 
+33 - 
+34 - 
+35 -
+36 - 
+37- Cadastro de professore, completar os dois campos de indisponibilidades com os dados do cadastro de horario
+38 - A lista de indisponibilidade dos professores.
+39 - Cadastro de disciplinas por turma: o campo turma deve buscar as turmas cadastradas, o campo disciplina deve buscar as disciplinas cadastradas, e está faltando um campo professor, que deve buscar os professores cadastrados de acordo com a disciplina escolhida. 
+40 - No cadastro de disciplina por turma o titulo esta errado
+41 - Botao salvar no cadastro de turmas, nao tem.
+42 - Cadastro de horário nao esta funcionando
+43 - Cadastro de Turno nao esta funcionando
+44 - Cadastro de Professores somente o nome deve ser obrigatório.
+
+PRINCIPAL - Criar tela de gerar horario
