@@ -67,7 +67,7 @@
               <div class="pic"><img src="img/fotos/1.JPG" alt=""></div>
               <div class="details">
                 <h4> João Paulo </h4>
-                <span>Programador de Back-end</span>
+                <span>Programador de Front-end</span>
                 <div class="social">                 
                   
                   <a href="https://www.instagram.com/peregrinolunar/" target="_blank"><i class="fa fa-instagram"></i></a>
