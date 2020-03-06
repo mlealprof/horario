@@ -1,4 +1,4 @@
-﻿1 -t
+1 -
 2 - 
 3 - 
 4 - 
@@ -13,15 +13,15 @@
 12 - 
 12.5 - Refazer o back end do cadastro de horarios pois apos alterar o campo para um combo box o back end apresentou um bug .
 13 -
-14 - 
-15 -
-16 - 
+14 -
+15 - 
+16 - (Miguel)Fazer o cadastro de disciplinas por turma.
 17 - 
 18 - 
 19 - 
-20 - No Cpanel, o link que mostra os dados do usuÃ¡rio nÃ£o estÃ¡ funcionando
-21 - No Cpanel, editar dados do usuÃ¡rio e da escolha nÃ£o estÃ¡ pronto
-22 - Criar tela de gerar horÃ¡rio (A principal)
+20 - Back End - Colocar o alteração de usuário funcionando
+21 - No Cpanel, criar edição de dados da escola
+22 - Criar tela de gerar horario (A principal)
 23 - 
 24 - Criar tela de cadastro de turno e colocar de forma automática no cadastro de turma, aparecer os turnos cadastrados
 25 - Colocar conteudos releventes na pagina inicial

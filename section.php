@@ -8,8 +8,8 @@
       <h2>Crie seus <span>Horários</span><br></h2>
       <h2>Com o TimeTable</h2>
       <div>
-        <a href="model_cadastro.php" class="btn btn-primary">Cadastro</a>
-        <a href="login.php" class="btn btn-primary">Login</a>
+        <a href="model_cadastro.php" class="btn-get-started scrollto">Cadastro</a>
+        <a href="login.php" class="btn-projects scrollto">Login</a>
       </div>
     </div>
 
@@ -24,7 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
-            <img src="img/about-img.jpg" alt="">
+           
           </div>
  <!--==========================
      Texto O Site
@@ -37,8 +37,8 @@
     <section id="clients" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Sobre Nós</h2>
-          <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
+          <h2>TimeTible</h2>
+          <h4><p>Nossa plataforma consiste em, criar horarios para as escolas de forma mais fácil e eficiente, para que não hajam conflitos na hora de organizar os horários.</p></h4>
         </div>
       </div>
     </section><!-- #clients -->
