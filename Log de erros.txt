@@ -52,4 +52,6 @@
 39 - Cadastro de disciplinas por turma: o campo turma deve buscar as turmas cadastradas, o campo disciplina deve buscar as disciplinas cadastradas, e está faltando um campo professor, que deve buscar os professores cadastrados de acordo com a disciplina escolhida. 
 40 - No cadastro de disciplina por turma o titulo esta errado
 41 - Botao salvar no cadastro de turmas, nao tem.
-
+42 - Cadastro de horário nao esta funcionando
+43 - Cadastro de Turno nao esta funcionando
+44 - Cadastro de Professores somente o nome deve ser obrigatório.
