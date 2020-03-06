@@ -1,49 +1,13 @@
-﻿
-2 - 
-3 - 
-4 - 
-5 - 
-6 - 
-7 - 
-8 - 
-9 - 
-10 - 
-11 - 
-11.5 
-12 - 
-12.5 - 
-13 -
-14 -
-15 - 
-16 - Fazer o cadastro de disciplinas por turma.
-17 - 
-18 - 
-19 - 
-20 - 
-21 - No Cpanel, editar dados do usuario e da escolha nao esta pronto
-22 - Criar tela de gerar horÃ¡rio (A principal)
-23 - Fundo da tela de login esta misturando com os campos, colocar uma div com fundo de cor diferente
-14 -
-15 - 
-16 - (Miguel)Fazer o cadastro de disciplinas por turma.
-17 - 
-18 - 
-19 - 
-20 - Back End - Colocar o alteração de usuário funcionando
-21 - No Cpanel, criar edição de dados da escola
-22 - Criar tela de gerar horario (A principal)
-23 - 
-24 -
-24 - Criar tela de cadastro de turno e colocar de forma automática no cadastro de turma, aparecer os turnos cadastrados
+﻿24 - No cadastro de tumas, colocar o campo turno buscando os dados da tabela turno
 25 - Colocar conteudos releventes na pagina inicial
 26 - 
-27 - Criar tela de alterar dados da escola
+27 - 
 28 -
 29 - 
-30 - Botão sair no CPanel está feio
-31 - Colocar no tipo de usuário (Cadastro de Usuário)- Diretor, Supervisor, Coordenador, Professor
-32 - Colocar um combobox com sujestoes no campo tipo de ensino no cadastro de curso
-33 - A lista no cadastro de turmas está fora do padrão
+30 - 
+31 - 
+32 - 
+33 - 
 34 - 
 35 -
 36 - 
@@ -52,4 +16,8 @@
 39 - Cadastro de disciplinas por turma: o campo turma deve buscar as turmas cadastradas, o campo disciplina deve buscar as disciplinas cadastradas, e está faltando um campo professor, que deve buscar os professores cadastrados de acordo com a disciplina escolhida. 
 40 - No cadastro de disciplina por turma o titulo esta errado
 41 - Botao salvar no cadastro de turmas, nao tem.
+42 - Cadastro de horário nao esta funcionando
+43 - Cadastro de Turno nao esta funcionando
+44 - Cadastro de Professores somente o nome deve ser obrigatório.
 
+PRINCIPAL - Criar tela de gerar horario

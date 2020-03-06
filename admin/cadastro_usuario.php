@@ -5,7 +5,7 @@
   ============================-->
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro de Usuários:</h1>
+  <h1 align="center">Cadastro de Usuários</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
