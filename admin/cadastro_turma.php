@@ -16,7 +16,7 @@
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Quantidade de Horários</label>
-              <input type="text" class="form-control" placeholder="Digite a Quantidade de Horários" name="qtd_horários">
+              <input type="text" class="form-control" placeholder="Digite a Quantidade de Horários" name="qnt_horarios">
             </div>
           </div><br>
           <div class="row">
@@ -32,8 +32,6 @@
               <label for="exampleInputPassword1"></label>
             </div>
         </form>
-
-
           <!-- Tabela de cadastrados -->
        <table class="table">
                <thead class="thead-dark">
@@ -74,6 +72,7 @@
                   ?>
                 </tbody>
        </table>   
+
               <tbody>
                 <?php
                   $cod_escola = $_SESSION['cod_escola'];
@@ -103,6 +102,7 @@
                 ?>
               </tbody>
        </table>
+
       <!-- Fim tabela de cadastrados -->
     </div>
   </section>
