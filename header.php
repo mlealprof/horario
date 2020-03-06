@@ -6,7 +6,6 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -57,13 +56,13 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"></li>
-          <li><a href="#about">Sobre Nós</a></li>
+          <li><a href="#about">TimeTable</a></li>
           <li><a href="model_cadastro.php">Cadastre sua Escola</a></li>
           <li><a href="login.php">Login</a></li>
 
 
 
-          <li><a href="#contact">Conheça o Nosso Projeto<a href="model_cad_prof.php"></a></a></li>
+     
 
           <li><a href="#contact"></a></li>
 

@@ -1,5 +1,6 @@
-
-<?php session_start(); ?>
+<?php
+    require ("verifica_login.php");
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,7 +17,10 @@
     <link rel="stylesheet" href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css">
     <link rel="stylesheet" href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
-    <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
+    <link href="img/favicon.png" rel="icon">
+
+
+    <title>Time Table</title>
 </head>
 
 <body>
@@ -38,7 +42,14 @@
                       <?php echo $_SESSION['nome_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
                     </ul>
                 </div>
+                  <div >
+
+                <button type="submit" class="btn tamanho_button" ><a href="sair.php">Sair</button>
+
+              </div>
             </nav>
+
+           
         </div>
         <!-- ============================================================== -->
         <!-- Final Barra Navegaçao -->
@@ -62,28 +73,25 @@
                                 <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1" aria-controls="submenu-1"><i class="fa fa-fw fa-user-circle"></i>Perfil <span class="badge badge-success">6</span></a>
                                 <div id="submenu-1" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
-                                       
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-finance.html"><i class="fa fa-fw fa-bars"></i>Dados Usuario</a>
+                                            <a class="nav-link" href="?tela=dadosusuario"><i class="fa fa-fw fa-bars"></i>Dados Usuário</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-sales.html"><i class="fa fa-fw fa-edit"></i>Editar Dados do Usuario</a>
-                                        </li>
+                                        
                                         <li class="nav-item">
                                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-university"></i>Escola</a>
                                             <div id="submenu-1-1" class="collapse submenu" style="">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="dashboard-influencer.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-users"></i>Turmas</a>
+                                                        <a class="nav-link" href="?tela=turmas">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-users"></i>Turmas</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-book"></i>Disciplínas</a>
+                                                        <a class="nav-link" href="?tela=disciplina">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-book"></i>Disciplinas</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-finder.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-graduation-cap"></i>Professores</a>
+                                                        <a class="nav-link" href="?tela=professores">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-graduation-cap"></i>Professores</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-clock"></i>Horarios</a>
+                                                        <a class="nav-link" href="?tela=horarios">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-clock"></i>Horários</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -96,32 +104,38 @@
                                 <div id="submenu-2" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=usuarios"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuario <span class="badge badge-secondary">New</span></a>
+                                            <a class="nav-link" href="?tela=usuario"><i class="fa fa-fw fa-user-plus"></i>Cadastrar Usuários<span class="badge badge-secondary">New</span></a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=cursos"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos </a>
+                                            <a class="nav-link" href="?tela=curso"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=disciplinas"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
+                                            <a class="nav-link" href="?tela=caddisciplina"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=turmas"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas </a>
+                                            <a class="nav-link" href="?tela=turma"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=horarios"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
+                                            <a class="nav-link" href="?tela=horario"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=professores"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
+                                            <a class="nav-link" href="?tela=turno"><i class="fa fa-fw fa-clock"></i>Cadastrar Turno</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="?tela=professor"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="?tela=disciplina_turma"><i class="fa fa-fw fa-graduation-cap"></i>Disciplina por Turma</a>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Horarios</a>
+                                <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Horários</a>
                                 <div id="submenu-3" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-table"></i>Quadro de Horarios</a>
+                                            <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-table"></i>Quadro de Horários</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-c3.html"><i class="fa fa-fw fa-calendar-plus"></i>Gerar Horário</a>
@@ -134,10 +148,7 @@
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="pages/chart-morris.html"><i class="fa fa-fw fa-trash"></i>Excluir Horários</a>
-                                    </ul>
-                                </div>
-                            </li>
-                           
+                                        </li>
                                     </ul>
                                 </div>
                             </li>
@@ -149,66 +160,87 @@
         <!-- ============================================================== -->
         <!-- Final Barra Lateral -->
         <!-- ============================================================== -->
-         <div class="dashboard-wrapper">
+        <div class="dashboard-wrapper">
             <div class="dashboard-ecommerce">
                 <div class="container-fluid dashboard-content ">
                     <?php
                         if (isset($_GET['tela'])) {
                             $tela = $_GET['tela'];
                             switch ($tela) {
-                                case 'usuarios':
-                                    include ('cadastro_usuario.php');
+                                case 'usuario':
+                                    include 'cadastro_usuario.php';
                                     break;
-                                case 'disciplinas':
-                                    include ('cadastro_disciplina.php');
+                                     case 'turmas':
+                                    include 'turmas.php';
                                     break;
-                                case 'cursos':
-                                    include ('cadastro_curso.php');
+                                       case 'disciplina':
+                                    include 'disciplina.php';
                                     break;
-                                case 'turmas':
-                                        include ('cadastro_turma.php');
-                                        break;
-                                case 'horarios':
-                                    include ('cadastro_horario.php');
+                                       case 'professores':
+                                    include 'professores.php';
                                     break;
-                                case 'professores':
-                                    include ('cadastro_professor.php');
+                                        case 'horarios':
+                                    include 'horarios.php';
+                                    break;
+                                    case 'dadosusuario':
+                                    include 'dados_usuario.php';
+                                    break;
+                                case 'curso':
+                                    include 'cadastro_curso.php';
+                                    break;
+                                case 'caddisciplina':
+                                    include 'cadastro_disciplina.php';
+                                    break;
+                                case 'turma':
+                                    include 'cadastro_turma.php';
+                                    break;
+                                case 'horario':
+                                    include 'cadastro_horario.php';
+                                    break;
+                                case 'professor':
+                                    include 'cadastro_professor.php';
+                                    break;
+                                case 'disciplina_turma':
+                                    include 'disciplina_por_turma.php';
+                                    break;
+                                case 'turno':
+                                    include 'turno.php';
                                     break;
                                 default:
-                                    include ('cadastro_usuario.php');
+                                    include 'cadastro_usuario.php';
                             }
                         }
                     ?>
                 </div>
-                </div>
             </div>
-            <!-- ============================================================== -->
-            <!-- footer -->
-            <!-- ============================================================== -->
-            <div class="footer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                             Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                            <div class="text-md-right footer-links d-none d-sm-block">
-                                <a href="javascript: void(0);">About</a>
-                                <a href="javascript: void(0);">Support</a>
-                                <a href="javascript: void(0);">Contact Us</a>
-                            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                         &copy; Copyright <strong>TimeTable</strong>. Todos os Direitos Reservados</a>.
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="text-md-right footer-links d-none d-sm-block">
+                            <a href="javascript: void(0);">About</a>
+                            <a href="javascript: void(0);">Support</a>
+                            <a href="javascript: void(0);">Contact Us</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- ============================================================== -->
-            <!-- final footer -->
-            <!-- ============================================================== -->
-      
+        </div>
         <!-- ============================================================== -->
-        <!-- end wrapper  -->
+        <!-- final footer -->
         <!-- ============================================================== -->
-  
+    </div>
+    <!-- ============================================================== -->
+    <!-- end wrapper  -->
+    <!-- ============================================================== -->
+
     <!-- Optional JavaScript -->
     <!-- jquery 3.3.1 -->
     <script src="assets/vendor/jquery/jquery-3.3.1.min.js"></script>
@@ -231,5 +263,4 @@
     <script src="assets/vendor/charts/c3charts/C3chartjs.js"></script>
     <script src="assets/libs/js/dashboard-ecommerce.js"></script>
 </body>
- 
 </html>
