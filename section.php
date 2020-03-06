@@ -67,7 +67,7 @@
                 <span>Programador de Back-end</span>
                 <div class="social">                 
                   
-                  <a href="https://www.instagram.com/@peregrinolunar/" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/peregrinolunar/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
           </div>
@@ -84,7 +84,7 @@
                 <h4>Vilmar Bernardes</h4>
                 <span> Programador de Back-end</span>
                 <div class="social">
-                  <a href="https://www.instagram.com/@vilmarbmartins/" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/vilmarbmartins/" target="_blank"><i class="fa fa-instagram"></i></a>
                               
                 </div>
               </div>
@@ -101,7 +101,7 @@
                 <span>Programadora de Front-end</span>
                 <div class="social">                  
                   
-                  <a href="https://www.instagram.com/@laura_cristms/" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/laura_cristms/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@
                 <span>Teste</span>
                 <div class="social">                  
                   
-                  <a href="https://www.instagram.com/@wyssd3 /" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/wyssg3/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@
                 <span>Programador de Back-end</span>
                 <div class="social">
                   
-                  <a href="https://www.instagram.com/@gustalopes27/" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/gustalopes27/" target="_blank"><i class="fa fa-instagram"></i></a>
 
                 </div>
                 
@@ -147,7 +147,7 @@
                 <span>Programador de Back-end</span>
                 <div class="social">
                   
-                  <a href="https://www.instagram.com//" target="_blank"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.instagram.com/lucasolid/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
             </div>
