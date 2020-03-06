@@ -40,14 +40,10 @@
       
       <div class="container">
         <div class="section-header">
-<<<<<<< HEAD
+
           <h2>TimeTible</h2>
           <h3><b></a><p>Nossa plataforma consiste em, criar horários para as escolas de forma mais fácil e eficiente, para que não hajam conflitos na hora de organizá-los.</p></b></h3>
-=======
-          <h2>TimeTable</h2>
-r
-          <h4><p>Nossa plataforma consiste em, criar horarios para as escolas de forma mais fácil e eficiente, para que não hajam conflitos na hora de organizar os horários.</p></h4>
->>>>>>> upstream/master
+
         </div>
       </div>
     </section><!-- #clients -->
