@@ -25,24 +25,7 @@
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
         </form>
-         <table class="table">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Nome</th>
-            <th scope="col">Ação</th>
-          </tr>
-        </thead>
-      </div>
-       <div>
-          <label for="exampleInputPassword1"></label>  
-          <tr>
-            <div class="right_button">
-             <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-            </div>
-          </tr>
-       </div> 
-       <label for="exampleInputPassword1"></label>  
+
 
           <!-- Tabela de cadastrados -->
        <table class="table">
