@@ -74,11 +74,9 @@
                                 <div id="submenu-1" class="collapse submenu" style="">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-finance.html"><i class="fa fa-fw fa-bars"></i>Dados Usuário</a>
+                                            <a class="nav-link" href="?tela=dadosusuario"><i class="fa fa-fw fa-bars"></i>Dados Usuário</a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="dashboard-sales.html"><i class="fa fa-fw fa-edit"></i>Editar Dados do Usuário</a>
-                                        </li>
+                                        
                                         <li class="nav-item">
                                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-1-1" aria-controls="submenu-1-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-university"></i>Escola</a>
                                             <div id="submenu-1-1" class="collapse submenu" style="">
@@ -124,7 +122,7 @@
                                             <a class="nav-link" href="?tela=professor"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=disiplina_turma"><i class="fa fa-fw fa-graduation-cap"></i>Disciplina por Turma</a>
+                                            <a class="nav-link" href="?tela=disciplina_turma"><i class="fa fa-fw fa-graduation-cap"></i>Disciplina por Turma</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -169,6 +167,9 @@
                                 case 'usuario':
                                     include 'cadastro_usuario.php';
                                     break;
+                                    case 'dadosusuario':
+                                    include 'dados_usuario.php';
+                                    break;
                                 case 'curso':
                                     include 'cadastro_curso.php';
                                     break;
@@ -184,7 +185,7 @@
                                 case 'professor':
                                     include 'cadastro_professor.php';
                                     break;
-                                case 'disiplina_turma':
+                                case 'disciplina_turma':
                                     include 'disciplina_por_turma.php';
                                     break;
                                 default:
