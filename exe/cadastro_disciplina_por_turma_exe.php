@@ -5,6 +5,7 @@
 	// Pegando dados via POST
 	$turma = $_POST['cod_turma'];
 	$disciplina = $_POST['cod_disciplina'];
+	$professor = $_POST['cod_professor'];
 
 	$selecionar = "SELECT cod_turma FROM turma WHERE nome = '$turma'";
 	$resultado = mysqli_query($conexao, $selecionar);
@@ -15,11 +16,14 @@
 	$resultado = mysqli_query($conexao, $selecionar);
 	$array = mysqli_fetch_array($resultado);
 	$cod_disciplina = $array['cod_disciplina'];
-	var_dump($cod_turma);
-	var_dump($cod_disciplina);
+
+	$selecionar = "SELECT cod_professor FROM professor WHERE nome = '$professor'";
+	$resultado = mysqli_query($conexao, $selecionar);
+	$array = mysqli_fetch_array($resultado);
+	$cod_professor = $array['cod_professor'];
 
 	// Inserindo dados na tabela
-	$inserir_disciplina_turma = "INSERT INTO disciplina_por_turma (cod_turma, cod_disciplina) VALUES ('$cod_turma', '$cod_disciplina')";
+	$inserir_disciplina_turma = "INSERT INTO disciplina_por_turma (cod_turma, cod_disciplina, cod_professor) VALUES ('$cod_turma', '$cod_disciplina', '$cod_professor')";
 
 	// Sucesso no cadastro
 	if (mysqli_query($conexao, $inserir_disciplina_turma)) {

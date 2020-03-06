@@ -44,6 +44,22 @@
                   ?>
                 </select>
             </div>
+            <div class="col">
+              <label for="exampleInputPassword1" >Professor</label>
+              <select name="cod_professor" id="inputEstado" class="form-control">
+                <option selected>Professor da Disciplina</option>
+                <?php
+                  $cod_escola = $_SESSION['cod_escola'];
+                  $consulta = "SELECT nome FROM professor WHERE cod_escola = '$cod_escola'";
+                  $resultado = mysqli_query($conexao, $consulta);
+                  while ($array = mysqli_fetch_assoc($resultado)) {
+                ?>
+                <option><?php echo $array['nome']; ?></option>
+                <?php
+                  }
+                ?>
+              </select>
+            </div>
           </div><br>
           <div class="right_button">
              <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
@@ -59,6 +75,7 @@
             <th scope="col">#</th>
             <th scope="col">Turma</th>
             <th scope="col">Disciplina</th>
+            <th scope="col">Professor</th>
             <th scope="col">Ação</th>
           </tr>
         </thead>
@@ -81,12 +98,16 @@
                 $selecionar = "SELECT nome FROM disciplina WHERE cod_disciplina = '" . $array['cod_disciplina'] . "'";
                 $resultado_ = mysqli_query($conexao, $selecionar);
                 $array_disciplina = mysqli_fetch_array($resultado_);
+                $selecionar = "SELECT nome FROM professor WHERE cod_professor = '" . $array['cod_professor'] . "'";
+                $resultado_ = mysqli_query($conexao, $selecionar);
+                $array_professor = mysqli_fetch_array($resultado_);
           ?>
             <tr>
               <form action="../exe/excluir_disciplina_turma_exe.php" method="get">
                 <td><?php echo $array['cod_disciplina_por_turma']; ?></td>
                 <td><?php echo $array_turma['nome']; ?></td>
                 <td><?php echo $array_disciplina['nome']; ?></td>
+                <td><?php echo $array_professor['nome']; ?></td>
                 <td><button type="submit" class="btn btn-danger" name="cod_disciplina_por_turma" value=<?php echo $array['cod_disciplina_por_turma']; ?>>Excluir</button></td>
               </form>
             </tr>
