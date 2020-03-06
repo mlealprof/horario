@@ -11,7 +11,7 @@
 34 - 
 35 -
 36 - 
-37- Cadastro de professore, completar os dois campos de indisponibilidades com os dados do cadastro de horario
+37- 
 38 - A lista de indisponibilidade dos professores.
 39 - Cadastro de disciplinas por turma: o campo turma deve buscar as turmas cadastradas, o campo disciplina deve buscar as disciplinas cadastradas, e está faltando um campo professor, que deve buscar os professores cadastrados de acordo com a disciplina escolhida. 
 40 - No cadastro de disciplina por turma o titulo esta errado

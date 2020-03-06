@@ -10,7 +10,7 @@
           <div class="row">
             <div class="col">
              <label for="exampleInputPassword1">Nome</label>
-              <input type="text" class="form-control" placeholder="Digite o seu nome" required="required" name="professor">
+              <input type="text" class="form-control" placeholder="Digite o seu nome" required="required" name="nome">
             </div>
           </div><br>
           <div class="row">
