@@ -1,10 +1,8 @@
 <?php require '../exe/conexao_exe.php'; ?>
-<!--==========================
-  Cadastro de Professor
-  ============================-->
+
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro Professor</h1>
+  <h1 align="center">Cadastro de Professores</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
@@ -48,7 +46,36 @@
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Estado</label>
-              <input type="text" class="form-control" placeholder="Digite o Estado" required="required" name="estado">
+                <select class="browser-default custom-select">                 
+                 <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+                  <option value="EX">Estrangeiro</option>
+                </select>
             </div>
             <div class="col">
               <label for="exampleInputPassword1">CEP</label>
@@ -71,6 +98,10 @@
         </form>
       </div><br>
       <!-- Fim cadastro -->
+      
+      <!-- indisponibilidades-->
+      <br>
+      <!-- FIM indisponibilidades-->
 
       <!-- Tabela de cadastrados -->
       <table class="table">
@@ -81,6 +112,7 @@
             <th scope="col">Telefone</th>
             <th scope="col">Endereço</th>
             <th scope="col">Ação</th>
+            <th scope="col">indisponibilidade</th>
           </tr>
         </thead>
         <tbody>
@@ -103,8 +135,11 @@
                 <td><?php echo $array['nome']; ?></td>
                 <td><?php echo $array['telefone']; ?></td>
                 <td><?php echo $array['endereco']; ?></td>
-                <td><button type="submit" class="btn btn-danger" name="cod_professor" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
-              </form>
+                <td><button type="submit" class="btn btn-danger" name="cod_professor" style="margin-left: -16px" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
+                </form>
+                <form>
+                  <td><a href="cadastro_indisponibilidade.php"><button type="" class="btn btn-primary" name="indisponibilidades" style="margin-left: -15px">indisponibilidade</button></a></td> <!-- linkar essa merda aq -->
+                </form>
             </tr>
           <?php
               }

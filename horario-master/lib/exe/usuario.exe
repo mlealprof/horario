@@ -1,0 +1,25 @@
+<?php
+	// Conexão com o banco de dados
+	require 'conexao_exe.php';
+
+	// Pegando dados via POST
+	$usuario = $_POST['usuario'];
+	$senha = $_POST['senha'];
+	$email = $_POST['email'];
+
+	// Inserindo dados na tabela
+
+	$inserir_usuario = "INSERT INTO usuario (usuario,senha,email) VALUES ('$usuario','$senha','$email')";
+	mysqli_query($conexao, $inserir_usuario);
+
+	if (mysqli_query($conexao, $inserir_usuario)) {
+			echo '<script type="text/javascript">
+			  alert("Usuário cadastrado com sucesso !");
+			  window.location.href="../cpanel.php"
+			  </script>';
+		}else{
+			echo '<script type="text/javascript">
+			  alert("Erro ao cadastrar Usuário !");
+			  window.location.href="../usuario.exe.php"
+			  </script>';
+		}
