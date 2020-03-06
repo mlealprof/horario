@@ -24,7 +24,6 @@
               <label for="exampleInputPassword1">Turno</label>
               <input type="text" class="form-control" placeholder="Digite seu Turno" name="turno">
             </div>
-<<<<<<< HEAD
         </form>
          <table class="table">
         <thead class="thead-dark">
@@ -34,19 +33,12 @@
             <th scope="col">Ação</th>
           </tr>
         </thead>
-=======
-        </form>          
->>>>>>> upstream/master
       </div>
        <div>
           <label for="exampleInputPassword1"></label>  
           <tr>
             <div class="right_button">
-<<<<<<< HEAD
-             <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-=======
              <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
->>>>>>> upstream/master
             </div>
           </tr>
        </div> 
@@ -60,10 +52,7 @@
                   <th scope="col">Nome</th>
                   <th scope="col">Quantidade de horários</th>
                   <th scope="col">Turno</th>
-<<<<<<< HEAD
-=======
                   <th scope="col">Ação</th>
->>>>>>> upstream/master
                 </tr>
                </thead>
               <tbody>
@@ -85,11 +74,7 @@
                       <td><?php echo $array['cod_turma']; ?></td>
                       <td><?php echo $array['nome']; ?></td>
                       <td><?php echo $array['qnt_horarios']; ?></td>
-<<<<<<< HEAD
-                      <td><?php echo $array['turno']; ?></td>
-=======
-                      <td><?php echo $array['turno']; ?></td>                    
->>>>>>> upstream/master
+                      <td><?php echo $array['turno']; ?></td>   
                       <td><button type="submit" class="btn btn-danger" name="cod_turma" value=<?php echo $array['cod_turma']; ?>>Excluir</button></td>
                     </form>
                   </tr>
