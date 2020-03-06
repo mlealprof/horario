@@ -40,7 +40,7 @@
           <tr>
             <div class="right_button">
              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-          </div>
+            </div>
           </tr>
        
   </section>      
