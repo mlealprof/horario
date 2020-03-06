@@ -29,8 +29,7 @@
                   <option value="facul">Educação Superior</option>
                 </select><br><br>
                 <label for="exampleInputPassword1">Outro tipo de ensino?</label>
-                <label for="exampleInputPassword1"></label>
-              <input type="text" class="form-control" placeholder="" required="required" name="">
+              <input type="text" class="form-control" name="">
             </div>
           </div><br>
           <div class="row">

@@ -1171,6 +1171,7 @@ body.mobile-nav-active #mobile-nav-toggle {
    text-align:right;
 }
 .tamanho_button{
+    margin-top: 60px;
     width: 120px;
     height: 45px;
     background-color: #43dadaf7;
