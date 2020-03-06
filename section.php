@@ -61,15 +61,13 @@
                     ============================-->
    
             <div class="member">
-              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+              <div class="pic"><img src="img/fotos/1.JPG" alt=""></div>
               <div class="details">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                <h4> João Paulo </h4>
+                <span>Programador de Back-end</span>
+                <div class="social">                 
+                  
+                  <a href="https://www.instagram.com/peregrinolunar/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
           </div>
@@ -81,15 +79,13 @@
          
           
             <div class="member">
-              <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+              <div class="pic"><img src="img/fotos/2.JPG" alt=""></div>
               <div class="details">
-                <h4>Sarah Jhinson</h4>
-                <span>Product Manager</span>
+                <h4>Vilmar Bernardes</h4>
+                <span> Programador de Back-end</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="https://www.instagram.com/vilmarbmartins/" target="_blank"><i class="fa fa-instagram"></i></a>
+                              
                 </div>
               </div>
             </div>
@@ -99,33 +95,90 @@
                     ============================-->
           
             <div class="member">
-              <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+              <div class="pic"><img src="img/fotos/3.JPG" alt=""></div>
               <div class="details">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                <h4>Laura Santos</h4>
+                <span>Programadora de Front-end</span>
+                <div class="social">                  
+                  
+                  <a href="https://www.instagram.com/laura_cristms/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+             <!--==========================
+                     foto 4
+                    ============================-->
+          
+            <div class="member">
+              <div class="pic"><img src="img/fotos/4.JPG" alt=""></div>
+              <div class="details">
+                <h4>Wemerson Yago</h4>
+                <span>Teste</span>
+                <div class="social">                  
+                  
+                  <a href="https://www.instagram.com/wyssg3/" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
               </div>
             </div>
             <!--==========================
-                     foto 4
+                     foto 5
                     ============================-->
             <div class="member">
-              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+              <div class="pic"><img src="img/fotos/5.JPG" alt=""></div>
               <div class="details">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Gustavo Lopes</h4>
+                <span>Programador de Back-end</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  
+                  <a href="https://www.instagram.com/gustalopes27/" target="_blank"><i class="fa fa-instagram"></i></a>
+
                 </div>
                 
+              </div>
+            </div>
+             <!--==========================
+                     foto 6
+                    ============================-->
+          
+            <div class="member">
+              <div class="pic"><img src="img/fotos/6.JPG" alt=""></div>
+              <div class="details">
+                <h4>luan lucas</h4>
+                <span>Programador de Back-end</span>
+                <div class="social">
+                  
+                  <a href="https://www.instagram.com/lucasolid/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+             <!--==========================
+                     foto 7
+                    ============================-->
+          
+            <div class="member">
+              <div class="pic"><img src="img/fotos/7.JPG" alt=""></div>
+              <div class="details">
+                <h4>Artur Santos</h4>
+                <span>Analista de Sistema</span>
+                <div class="social">
+                  
+                  <a href="https://www.instagram.com/arturfelipe99/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+             <!--==========================
+                     foto 8
+                    ============================-->
+          
+            <div class="member">
+              <div class="pic"><img src="img/fotos/8.JPG" alt=""></div>
+              <div class="details">
+                <h4>Rafael Hashimoto</h4>
+                <span>Programadora de Front-end</span>
+                <div class="social">
+                  
+                  <a href="https://www.instagram.com/shimoto.chan/" target="_blank"><i class="fa fa-instagram"></i></a>
+                </div>
               </div>
             </div>
           </div>
