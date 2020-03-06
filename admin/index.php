@@ -203,6 +203,9 @@
                                 case 'disciplina_turma':
                                     include 'disciplina_por_turma.php';
                                     break;
+                                case 'indisponibilidades':
+                                    include 'cadastro_indisponibilidade.php';
+                                    break;
                                 case 'turno':
                                     include 'turno.php';
                                     break;

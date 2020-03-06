@@ -136,9 +136,13 @@
                 <td><?php echo $array['telefone']; ?></td>
                 <td><?php echo $array['endereco']; ?></td>
                 <td><button type="submit" class="btn btn-danger" name="cod_professor" style="margin-left: -16px" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
-                </form>
-                <form>
-                  <td><a href="cadastro_indisponibilidade.php"><button type="" class="btn btn-primary" name="indisponibilidades" style="margin-left: -15px">indisponibilidade</button></a></td> <!-- linkar essa merda aq -->
+              </form>
+                <form action="index.php" method="GET">
+                  <td>
+                    <input type="hidden" name="tela" value="indisponibilidades"></input>
+                    <input type="hidden" name="cod_professor" value=<?php echo $array['cod_professor'];?>></input>
+
+                    <button type="submit" class="btn btn-primary" name="<?php    $array['cod_professor'];?>" style="margin-left: -15px">Indisponibilidade</button></a></td> 
                 </form>
             </tr>
           <?php
