@@ -24,7 +24,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
-            
+           
           </div>
  <!--==========================
      Texto O Site
@@ -38,7 +38,7 @@
       <div class="container">
         <div class="section-header">
           <h2>TimeTible</h2>
-          <h3><p>Nossa plataforma consiste em, criar horarios para as escolas de forma mais fácil e eficiente, para que não hajam conflitos na hora de organizar os horarios.</p></h3>
+          <h4><p>Nossa plataforma consiste em, criar horarios para as escolas de forma mais fácil e eficiente, para que não hajam conflitos na hora de organizar os horarios.</p></h4>
         </div>
       </div>
     </section><!-- #clients -->
