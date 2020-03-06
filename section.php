@@ -8,7 +8,7 @@
       <h2>Crie seus <span>Horários</span><br></h2>
       <h2>Com o TimeTable</h2>
       <div>
-        <a href="model_cadastro.php" class="btn-get-started scrollto">Cadastro</a>
+        <a href="model_cadastro.php" class="btn-get-started scrollto">Cadastre-se</a>
         <a href="login.php" class="btn-projects scrollto">Login</a>
       </div>
     </div>
@@ -24,6 +24,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 about-img">
+            <img src="img/img1.jpg">
+            
            
           </div>
  <!--==========================
@@ -35,6 +37,7 @@
       Sobre Nós
     ============================-->
     <section id="clients" class="wow fadeInUp">
+      
       <div class="container">
         <div class="section-header">
           <h2>TimeTible</h2>
@@ -143,7 +146,7 @@
             <div class="member">
               <div class="pic"><img src="img/fotos/6.JPG" alt=""></div>
               <div class="details">
-                <h4>luan lucas</h4>
+                <h4>Luan Lucas</h4>
                 <span>Programador de Back-end</span>
                 <div class="social">
                   

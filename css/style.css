@@ -248,14 +248,14 @@ h6 {
   border: 2px solid #2be7c5;
 =======
   border: 2px solid #50d8af;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #5d97fe;
+  border-color: #5d97fe;
 >>>>>>> f2e2001653413887bd51aaed0ca6e64aff51af58
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #2be7c5;
+  color: #5d97fe;
 }
 
 #intro #intro-carousel {
@@ -563,7 +563,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-img img {
   margin-left: -15px;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #about .content h2 {
