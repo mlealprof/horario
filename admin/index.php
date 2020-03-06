@@ -121,6 +121,9 @@
                                             <a class="nav-link" href="?tela=horario"><i class="fa fa-fw fa-clock"></i>Cadastrar Horários</a>
                                         </li>
                                         <li class="nav-item">
+                                            <a class="nav-link" href="?tela=turno"><i class="fa fa-fw fa-clock"></i>Cadastrar Turno</a>
+                                        </li>
+                                        <li class="nav-item">
                                             <a class="nav-link" href="?tela=professor"><i class="fa fa-fw fa-graduation-cap"></i>Cadastrar Professores</a>
                                         </li>
                                         <li class="nav-item">
@@ -186,6 +189,9 @@
                                     break;
                                 case 'disiplina_turma':
                                     include 'disciplina_por_turma.php';
+                                    break;
+                                case 'turno':
+                                    include 'turno.php';
                                     break;
                                 default:
                                     include 'cadastro_usuario.php';
