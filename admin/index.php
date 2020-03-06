@@ -82,16 +82,16 @@
                                             <div id="submenu-1-1" class="collapse submenu" style="">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="dashboard-influencer.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-users"></i>Turmas</a>
+                                                        <a class="nav-link" href="?tela=turmas">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-users"></i>Turmas</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-book"></i>Disciplinas</a>
+                                                        <a class="nav-link" href="?tela=disciplina">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-book"></i>Disciplinas</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-finder.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-graduation-cap"></i>Professores</a>
+                                                        <a class="nav-link" href="?tela=professores">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-graduation-cap"></i>Professores</a>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="influencer-profile.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-clock"></i>Horários</a>
+                                                        <a class="nav-link" href="?tela=horarios">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-fw fa-clock"></i>Horários</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -110,7 +110,7 @@
                                             <a class="nav-link" href="?tela=curso"><i class="fa fa-fw fa-bookmark"></i>Cadastrar Cursos</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="?tela=disciplina"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
+                                            <a class="nav-link" href="?tela=caddisciplina"><i class="fa fa-fw fa-book"></i>Cadastrar Disciplinas</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="?tela=turma"><i class="fa fa-fw fa-users"></i>Cadastrar Turmas</a>
@@ -170,13 +170,25 @@
                                 case 'usuario':
                                     include 'cadastro_usuario.php';
                                     break;
+                                     case 'turmas':
+                                    include 'turmas.php';
+                                    break;
+                                       case 'disciplina':
+                                    include 'disciplina.php';
+                                    break;
+                                       case 'professores':
+                                    include 'professores.php';
+                                    break;
+                                        case 'horarios':
+                                    include 'horarios.php';
+                                    break;
                                     case 'dadosusuario':
                                     include 'dados_usuario.php';
                                     break;
                                 case 'curso':
                                     include 'cadastro_curso.php';
                                     break;
-                                case 'disciplina':
+                                case 'caddisciplina':
                                     include 'cadastro_disciplina.php';
                                     break;
                                 case 'turma':
