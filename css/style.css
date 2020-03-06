@@ -248,14 +248,14 @@ h6 {
   border: 2px solid #2be7c5;
 =======
   border: 2px solid #50d8af;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #5d97fe;
+  border-color: #5d97fe;
 >>>>>>> f2e2001653413887bd51aaed0ca6e64aff51af58
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #2be7c5;
+  color: #5d97fe;
 }
 
 #intro #intro-carousel {
