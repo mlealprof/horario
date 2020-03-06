@@ -4,7 +4,9 @@
   ============================-->
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro de Disciplina por Turma</h1>
+
+  <h1 align="center">Cadastro de Disciplina por Turmas</h1>
+
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
