@@ -40,7 +40,8 @@
       
       <div class="container">
         <div class="section-header">
-          <h2>TimeTible</h2>
+          <h2>TimeTable</h2>
+r
           <h4><p>Nossa plataforma consiste em, criar horarios para as escolas de forma mais fácil e eficiente, para que não hajam conflitos na hora de organizar os horários.</p></h4>
         </div>
       </div>
@@ -67,7 +68,9 @@
               <div class="pic"><img src="img/fotos/1.JPG" alt=""></div>
               <div class="details">
                 <h4> João Paulo </h4>
-                <span>Programador de Back-end</span>
+
+                <span>Programador de Front-end</span>
+
                 <div class="social">                 
                   
                   <a href="https://www.instagram.com/peregrinolunar/" target="_blank"><i class="fa fa-instagram"></i></a>

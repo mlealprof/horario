@@ -2,6 +2,7 @@
 <!--==========================
   Cadastro de Horarios
   ============================-->
+
 <main>
   <!-- Cadastro -->
   <h1 align="center">Cadastro de Horários</h1>
@@ -30,7 +31,7 @@
             </div>
               <div class="col">
                 <label for="exampleInputPassword1">Hora Inicial e Final</label>
-                <input type="text" size="90" maxlength="90" class="form-control" placeholder="Ex: 18:30 ás 19:20" required="required" name="hora_inicial">
+                <input type="text" size="90" maxlength="90" class="form-control" placeholder="Ex: 18:30 ás 19:20" required="required" name="hora_inicial_hora_final">
               </div>
             </div><br>
           <div class="row">
@@ -44,44 +45,36 @@
       </div><br>
       <!-- Fim cadastro -->
 
-      <!-- Tabela de cadastrados -->
+      <!-- Tabela de horarios -->
       <table class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Ordem</th>
             <th scope="col">Posição</th>
-            <th scope="col">Descrição</th>
-            <th scope="col">Ação</th>
+            <th scope="col">Dia da Semana</th>
+            <th scope="col">Hora Inicial e Final</th>
           </tr>
         </thead>
         <tbody>
+          
           <?php
-            $cod_escola = $_SESSION['cod_escola'];
-            $consulta = "SELECT * FROM horarios WHERE cod_escola = '$cod_escola'";
+             
+            $consulta = "SELECT * FROM horarios";
             $resultado = mysqli_query($conexao, $consulta);
-            if (mysqli_num_rows($resultado) == 0) {
-          ?>
-            <tr>
-              <td colspan="5" class="text-center"><?php echo "Nenhum horário cadastrado."; ?></td>
-            </tr>
-          <?php
-            } else {
-              while ($array = mysqli_fetch_assoc($resultado)) {
+            $array = mysqli_fetch_array($resultado);
+             while ($array = mysqli_fetch_assoc($resultado)) {
           ?>
             <tr>
               <form action="../exe/excluir_horario_exe.php" method="get">
-                <td><?php echo $array['cod_horarios']; ?></td>
-                <td><?php echo $array['ordem']; ?></td>
-                <td><?php echo $array['posicao']; ?></td>
-                <td><?php echo $array['descricao']; ?></td>
+                 <td><?php echo $array['cod_horarios']; ?></td>
+                 <td><?php echo $array['posicao']; ?></td>
+                 <td><?php echo $array['dia_da_semana']; ?></td>
+                 <td><?php echo $array['hora_inicial_hora_final']; ?></td>
                 <td><button type="submit" class="btn btn-danger" name="cod_horarios" value=<?php echo $array['cod_horarios']; ?>>Excluir</button></td>
-              </form>
+             
             </tr>
-          <?php
-              }
-            }
-          ?>
+           <?php } ?>
+         
         </tbody>
       </table>
       <!-- Fim tabela de cadastrados -->
