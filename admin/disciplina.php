@@ -4,30 +4,11 @@
   ============================-->
 <main>
   <!-- Cadastro -->
-  <h1 align="center">Cadastro de Disciplinas</h1>
+  <h1 align="center">Disciplinas</h1>
   <section class="img_cadastros">
     <div class="container font">
       <div class="font">
-        <form action="../exe/cadastro_disciplina_exe.php" method="post">
-          <div class="row">
-            <div class="col">
-              <label for="exampleInputPassword1">Nome</label>
-              <input type="text" class="form-control" placeholder="Digite o nome disciplina" required="required" name="nome">
-            </div>
-          </div><br>
-          <div class="row">
-            <div class="col">
-              <div class="right_button">
-                <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-              </div>
-            </div>
-          </div>
-        </form>
-      </div><br>
-      <!-- Fim cadastro -->
-
-      <!-- Tabela de cadastrados -->
-      <table class="table">
+ <table class="table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>

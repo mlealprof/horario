@@ -7,8 +7,6 @@
         &copy; Copyright <strong>TimeTable</strong>. Todos os Direitos Reservados
       </div>
       <div class="credits">
-        </a>
-
       </div>
     </div>
   </footer><!-- #footer -->

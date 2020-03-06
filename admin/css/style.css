@@ -1,3 +1,198 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*
+*::-moz-selection {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #ef4836;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  color: #fff;
+}
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0px;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+.body {
+    font-size: 14px;
+}
+
+.wrapper {
+    position: relative;
+    height: 100%;
+}
+
+.left-side {
+    background-color: #212121;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 300px;
+}
+
+.logo {
+    background-color: #ffffff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.4) inset;
+    height: 174px;
+    line-height: 160px;
+    text-align: center;
+}
+
+.left-content {
+    text-align: right;
+}
+
+.left-content {}
+
+.left-content ul {}
+
+.left-content ul li {
+    border-bottom: 1px solid #70a1ff;
+    display: block;
+    height: 50px;
+}
+
+.left-content ul li.active {
+    background-color: #70a1ff;
+}
+
+.left-content ul li.active a span {
+    border-color: #ffffff;
+}
+
+.left-content ul li a {
+    color: #fff;
+    line-height: 50px;
+    padding-right: 30px;
+    display: block;
+    text-decoration: none;
+}
+
+.left-content ul li a span {
+    border-right: 1px solid #70a1ff;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    height: 49px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+}
+
+.copyright {
+    background-color: #70a1ff;
+    bottom: 0;
+    color: #ffffff;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    text-align: right;
+    width: 100%;
+}
+
+.copyright p {
+    margin-bottom: 0px;
+}
+
+.copyright p a {
+    color: #212121;
+    font-weight: 700;
+}
+
+.copyright p span {
+    display: block;
+}
+
+.right-side {
+    padding-left: 300px;
+}
+
+.right-content {
+    padding: 50px;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+
+pre {
+    background: url(../img/pre_bg.png);
+    line-height: 19px;
+    text-align: left;
+    padding: 0px;
+    margin-top: 35px;
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+
+.content {}
+
+.content a {
+    color: #70a1ff;
+}
+
+.content h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #ddd;
+}
+
+#one span {
+    color: #70a1ff;
+}
+
+.content#source {}
+
+.content#source > ul li {}
+
+.content#source > ul li span {
+    font-weight: 700;
+    display: block;
+}
+
+.content#source > ul li > ul {
+    padding-left: 25px;
+}
+.logo h1 {
+  padding: 65px 0;
+}
+.tree-viewer-pd{
+	padding:30px;
+}
 /*
   Theme Name: Reveal
   Theme URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
@@ -12,11 +207,11 @@
 body {
   background: #fff;
   color: #444;
-  font-family: Arial;
+  font-family: Marvel;
 }
 
 a {
-  color: #5a8aff;
+  color: #50d8af;
   transition: 0.5s;
 }
 
@@ -50,7 +245,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #2be7c5;
+  background: #50d8af;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -61,13 +256,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #2be7c5;
+  background: #50d8af;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #5d97fe;
+  background: #0c2e8a;
   color: #fff;
 }
 
@@ -88,11 +283,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 #topbar .contact-info i {
-  color: #2be7c5;
+  color: #50d8af;
   padding: 4px;
 }
 
@@ -111,7 +306,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 #topbar .social-links a:first-child {
@@ -123,18 +318,12 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  padding: 60px 0;
+  padding: 20px 0;
   height: 84px;
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
-}
-
-
-#header #logo a img{
-  width: 95px;
-  height: 105px;
 }
 
 #header #logo h1 {
@@ -147,23 +336,19 @@ h6 {
 }
 
 #header #logo h1 a {
-  color: #5d97fe;
+  color: #0c2e8a;
   line-height: 1;
   display: inline-block;
 }
 
 #header #logo h1 a span {
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 #header #logo img {
-  margin-left: 200px;
-  margin-top: -50px;
-
+  padding: 0;
+  margin: 0;
 }
-
-
-
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -205,7 +390,7 @@ h6 {
 }
 
 #intro .intro-content h2 {
-  color: #5d97fe;
+  color: #0c2e8a;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
@@ -213,49 +398,43 @@ h6 {
 }
 
 #intro .intro-content h2 span {
-  color: #2be7c5;
+  color: #50d8af;
   text-decoration: underline;
   border-radius: 20px;
 }
 
 #intro .intro-content .btn-get-started,
 #intro .intro-content .btn-projects {
-  font-family: Marvel;
+  font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
   letter-spacing: 1px;
   display: inline-block;
   padding: 5px 10px;
-  border-radius: 2px;
+  border-radius: 20px;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
 }
 
 #intro .intro-content .btn-get-started {
-  background: #5d97fe;
-  border: 2px solid #5d97fe;
+  background: #0c2e8a;
+  border: 2px solid #0c2e8a;
 }
 
 #intro .intro-content .btn-get-started:hover {
   background: none;
-  color: #5d97fe;
+  color: #0c2e8a;
 }
 
 #intro .intro-content .btn-projects {
-<<<<<<< HEAD
-  background: #2be7c5;
-  border: 2px solid #2be7c5;
-=======
+  background: #50d8af;
   border: 2px solid #50d8af;
-  background-color: #007bff;
-  border-color: #007bff;
->>>>>>> f2e2001653413887bd51aaed0ca6e64aff51af58
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 #intro #intro-carousel {
@@ -371,7 +550,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 .nav-menu > li {
@@ -399,7 +578,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 .nav-menu ul ul {
@@ -482,11 +661,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 #mobile-body-overly {
@@ -527,7 +706,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h2 {
   font-size: 32px;
-  color: #5d97fe;
+  color: #0c2e8a;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -540,7 +719,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #2be7c5;
+  background: #50d8af;
   bottom: 0;
   left: 0;
 }
@@ -567,7 +746,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h2 {
-  color: #5d97fe;
+  color: #0c2e8a;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -592,7 +771,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 #about .content ul {
@@ -639,8 +818,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box .icon i:before {
-  background: #5d97fe;
-  background: linear-gradient(45deg, #2be7c5 0%, #a3ebd5 100%);
+  background: #0c2e8a;
+  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -698,7 +877,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #2be7c5;
+  background-color: #50d8af;
 }
 
 /* Our Portfolio Section
@@ -706,7 +885,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #portfolio {
   background: #fff;
-  padding: 30px 50;
+  padding: 30px 0;
 }
 
 #portfolio .portfolio-overlay {
@@ -832,7 +1011,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #2be7c5;
+  background-color: #50d8af;
 }
 
 /* Call To Action Section
@@ -869,8 +1048,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #2be7c5;
-  border: 3px solid #2be7c5;
+  background: #50d8af;
+  border: 3px solid #50d8af;
 }
 
 /* Our Team Section
@@ -893,11 +1072,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #team .member .pic img {
   max-width: 100%;
-      height: 500px;
 }
 
 #team .member .details {
-  background: #2be7c5;
+  background: #50d8af;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -944,7 +1122,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 #contact .contact-info address,
@@ -966,7 +1144,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #2be7c5;
+  color: #50d8af;
 }
 
 #contact .contact-address,
@@ -981,8 +1159,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #2be7c5;
-  border: 1px solid #2be7c5;
+  color: #50d8af;
+  border: 1px solid #50d8af;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1023,7 +1201,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #2be7c5;
+  background: #50d8af;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1059,7 +1237,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .credits a {
-  color: #5d97fe;
+  color: #0c2e8a;
 }
 
 @media (min-width: 768px) {
@@ -1164,34 +1342,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color:#D8D8D8;
  
 }
-.right_button{
+.center_button{
    text-align: right;
 }
-.center_button{
-   margin-left: 777px; 
-   text-align:right;
-}
 .tamanho_button{
-    margin-top: 60px;
     width: 120px;
     height: 45px;
     background-color: #43dadaf7;
 }
 .font{
-  font-size: 19px;
+  font-size: 7px;
   font-family: arial;
 }
-<<<<<<< HEAD
-
-
-/*-------------------------------------------------------------------------------------------------------------------------*/
-=======
-.tamanho_input{
-  width: 500px;
-  margin-left: 250px;
-}
-.tamanho_fontlabel label{
-  margin-left: 460px;
-  font-size: 20px;
-}
->>>>>>> upstream/master

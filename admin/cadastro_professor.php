@@ -91,7 +91,7 @@
           <div class="row">
             <div class="col">
               <div class="right_button">
-                <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+                <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
               </div>
             </div>
           </div>
@@ -100,33 +100,7 @@
       <!-- Fim cadastro -->
       
       <!-- indisponibilidades-->
-      <h3>Indisponibilidades</h3><br>
-      <div class="indisp">
-        <table class="table">
-          <tr>
-            <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-              <th scope="col"><label for="indisponibilidades">Dia</label>
-                <select id="dias">
-                  <option value=""></option>  
-                  <option value=""></option>  
-                  <option value=""></option>  
-                  <option value=""></option>  
-                  <option value=""></option>  
-                </select>
-              </th>
-              <th scope="col"><label>Horários</label>
-                <select id="horario-proff">
-                  <option></option>  
-                  <option></option>  
-                  <option></option>  
-                  <option></option>  
-                  <option></option>  
-                </select>
-              </th>
-            <th scope="col"><button type="button" class="btn btn-success">Adicionar</button></th>
-          </tr>
-        </table>
-      </div><br>
+      <br>
       <!-- FIM indisponibilidades-->
 
       <!-- Tabela de cadastrados -->
@@ -138,6 +112,7 @@
             <th scope="col">Telefone</th>
             <th scope="col">Endereço</th>
             <th scope="col">Ação</th>
+            <th scope="col">indisponibilidade</th>
           </tr>
         </thead>
         <tbody>
@@ -160,8 +135,11 @@
                 <td><?php echo $array['nome']; ?></td>
                 <td><?php echo $array['telefone']; ?></td>
                 <td><?php echo $array['endereco']; ?></td>
-                <td><button type="submit" class="btn btn-danger" name="cod_professor" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
-              </form>
+                <td><button type="submit" class="btn btn-danger" name="cod_professor" style="margin-left: -16px" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
+                </form>
+                <form>
+                  <td><a href="cadastro_indisponibilidade.php"><button type="" class="btn btn-primary" name="indisponibilidades" style="margin-left: -15px">indisponibilidade</button></a></td> <!-- linkar essa merda aq -->
+                </form>
             </tr>
           <?php
               }
