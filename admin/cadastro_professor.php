@@ -9,38 +9,38 @@
         <form action="../exe/cadastro_professor_exe.php" method="post">
           <div class="row">
             <div class="col">
-              <label for="exampleInputPassword1">Nome</label>
-              <input type="text" class="form-control" placeholder="Digite o Nome Completo" required="required" name="nome">
+             <label for="exampleInputPassword1">Nome</label>
+              <input type="text" class="form-control" placeholder="Digite o seu nome" required="required" name="professor">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Telefone</label>
-              <input type="text" class="form-control" placeholder="Telefone para contato" required="required" name="telefone">
+              <input type="text" class="form-control" placeholder="Telefone para contato" name="telefone">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">CPF</label>
-              <input type="text" class="form-control" placeholder="Digite o CPF" required="required" name="cpf">
+              <input type="text" class="form-control" placeholder="Digite o CPF" name="cpf">
             </div> 
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Endereço</label>
-              <input type="text" class="form-control" placeholder="Digite o Endereço" required="required" name="endereco">
+              <input type="text" class="form-control" placeholder="Digite o Endereço" name="endereco">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Número</label>
-              <input type="text" class="form-control" placeholder="Digite o número da casa" required="required" name="numero">
+              <input type="text" class="form-control" placeholder="Digite o número da casa" name="numero">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">País</label>
-              <input type="text" class="form-control" placeholder="Digite o País" required="required" name="pais">
+              <input type="text" class="form-control" placeholder="Digite o País" name="pais">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Cidade</label>
-              <input type="text" class="form-control" placeholder="Digite a Cidade" required="required" name="cidade">
+              <input type="text" class="form-control" placeholder="Digite a Cidade" name="cidade">
             </div>
           </div><br>
           <div class="row">
@@ -79,13 +79,13 @@
             </div>
             <div class="col">
               <label for="exampleInputPassword1">CEP</label>
-              <input type="text" class="form-control" placeholder="Digite o CEP" required="required" name="cep">
+              <input type="text" class="form-control" placeholder="Digite o CEP" name="cep">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Masp</label>
-              <input type="text" class="form-control" placeholder="Insira o Masp Do Professor" required="required" name="masp">
+              <input type="text" class="form-control" placeholder="Insira o Masp Do Professor" name="masp">
             </div>
           </div><br>  
           <div class="row">
