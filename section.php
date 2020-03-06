@@ -40,7 +40,7 @@
       
       <div class="container">
         <div class="section-header">
-          <h2>TimeTible</h2>
+          <h2>TimeTable</h2>
           <h4><p>Nossa plataforma consiste em, criar horarios para as escolas de forma mais fácil e eficiente, para que não hajam conflitos na hora de organizar os horários.</p></h4>
         </div>
       </div>
