@@ -47,7 +47,6 @@
                   <th scope="col">Ação</th>
                 </tr>
                </thead>
-<<<<<<< HEAD
                 <tbody>
                   <?php
                     $cod_escola = $_SESSION['cod_escola'];
@@ -77,7 +76,6 @@
                   ?>
                 </tbody>
        </table>   
-=======
               <tbody>
                 <?php
                   $cod_escola = $_SESSION['cod_escola'];
@@ -107,7 +105,6 @@
                 ?>
               </tbody>
        </table>
->>>>>>> upstream/master
       <!-- Fim tabela de cadastrados -->
     </div>
   </section>
