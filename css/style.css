@@ -563,7 +563,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-img img {
   margin-left: -15px;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 #about .content h2 {
