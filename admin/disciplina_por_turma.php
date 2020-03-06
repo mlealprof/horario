@@ -26,9 +26,7 @@
                 ?>
               </select>
             </div>
-          </div><br>
-          <div class="row">
-            <div class="col">
+             <div class="col">
               <label for="exampleInputPassword1" >Disciplina</label>
                 <select name="cod_disciplina" id="inputEstado" class="form-control">
                   <option selected>Disciplina</option>
@@ -43,7 +41,14 @@
                     }
                   ?>
                 </select>
+              </div>
+              <div class="col">
+              <label for="exampleInputPassword1" >Professor</label>
+                <select name="cod_disciplina" id="inputEstado" class="form-control">
+                  <option selected>Professor da Disciplina</option>               
+                </select>
             </div>
+<<<<<<< HEAD
             <div class="col">
               <label for="exampleInputPassword1" >Professor</label>
               <select name="cod_professor" id="inputEstado" class="form-control">
@@ -61,6 +66,12 @@
               </select>
             </div>
           </div><br>
+=======
+
+ 
+           
+          </div><br><br>
+>>>>>>> upstream/master
           <div class="right_button">
              <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
           </div>
@@ -102,12 +113,17 @@
                 $resultado_ = mysqli_query($conexao, $selecionar);
                 $array_professor = mysqli_fetch_array($resultado_);
           ?>
+
             <tr>
               <form action="../exe/excluir_disciplina_turma_exe.php" method="get">
                 <td><?php echo $array['cod_disciplina_por_turma']; ?></td>
                 <td><?php echo $array_turma['nome']; ?></td>
                 <td><?php echo $array_disciplina['nome']; ?></td>
+<<<<<<< HEAD
                 <td><?php echo $array_professor['nome']; ?></td>
+=======
+                <td></td>
+>>>>>>> upstream/master
                 <td><button type="submit" class="btn btn-danger" name="cod_disciplina_por_turma" value=<?php echo $array['cod_disciplina_por_turma']; ?>>Excluir</button></td>
               </form>
             </tr>

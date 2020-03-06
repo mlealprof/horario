@@ -1,5 +1,5 @@
 ﻿1 -
-2 - ambas partes do cadastre sua escola e login nÃ£o estÃ£o centralizadas fora do padrao .CSS.
+2 - 
 3 - 
 4 - 
 5 - 
@@ -9,20 +9,20 @@
 9 - 
 10 - 
 11 - 
-11.5 - Refazer o back end do cadastro cliente pois apos alterar o campo para um combo box o back end apresentou um bug .
+11.5 - 
 12 - 
 12.5 - (Pierre) Refazer o back end do cadastro de horarios pois apos alterar o campo para um combo box o back end apresentou um bug .
 13 -
 14 - 
-15 - Fazer a tela de cadastro de professores e suas indisponibilidades
-16 - Faze o cadastro de disciplinas por turma.
+15 - 
+16 - (Miguel)Fazer o cadastro de disciplinas por turma.
 17 - 
 18 - 
 19 - 
-20 - No Cpanel, o link que mostra os dados do usuario nao esta funcionando
-21 - No Cpanel, editar dados do usuario e da escolha nao esta pronto
-22 - Criar tela de gerar horÃ¡rio (A principal)
-23 - Fundo da tela de login esta misturando com os campos, colocar uma div com fundo de cor diferente
+20 - Back End - Colocar o alteração de usuário funcionando
+21 - No Cpanel, criar edição de dados da escola
+22 - Criar tela de gerar horario (A principal)
+23 - 
 24 - Criar tela de cadastro de turno e colocar de forma automática no cadastro de turma, aparecer os turnos cadastrados
 25 - (Laura) Colocar conteudos releventes na pagina inicial
 26 - (Paulo Cesar) Colocar o carrosel de imagens dos alunos funcionando na pagina inicial
@@ -34,7 +34,7 @@
 32 - 
 33 - 
 34 - 
-35 - 
+35 - Tirar o campo posicao ou ordem no cadastro de horario, e o campo hora inicio e fim e um campo só, não dois. E atualizar os dados da lista com os alterados.
 36 - 
 37-  Cadastro de professore, completar os dois campos de indisponibilidades com os dados do cadastro de horario
 38 - A lista de indisponibilidade dos professores.
