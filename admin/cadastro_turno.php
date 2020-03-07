@@ -1,84 +1,79 @@
-
+<?php require '../exe/conexao_exe.php'; ?>
 <!--==========================
-  Cadastro de Turno
+  Cadastro de Usuario
   ============================-->
-  
-
-    <br>
-    <section class="img_cadastros">
-  
-     <div class="container font">
-
-        <div class=" font">
-        <form action="" method="post">
-           
-          <div class="form-group">
-            <label for="exampleInputPassword1">Código de Turno</label>
-            <input type="text" name="nome" class="form-control" id="exampleInputPassword1" placeholder="Digite o Código de Turno">
-
-          </div>
-
+<main>
+  <!-- Cadastro -->
+  <h1 align="center">Cadastro de Turno</h1>
+  <section class="img_cadastros">
+    <div class="container font">
+      <div class="font">
+        <form action="../exe/cadastro_curso_exe.php" method="post">
           <div class="row">
-          <div class="col">
-              <label for="exampleInputPassword1">Código de Escola</label>
+            <div class="col">
+              <label for="exampleInputPassword1">Tipo de turno:</label>
 
-              <input type="text" class="form-control" placeholder="Digite o Código de Escola" name="nome">
+              <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                ao selecionar uma das options no select abaixo o campo "outro tipo de turno" ficara hidden assim nao podendo 
+                inserir dados nele- ele é apenas para caso o turno que a pessoa deseja listar nao esteja no select-->
+                  <select class="browser-default custom-select">  
+                  <option value="none" style="color: #DCDCDC">Selecione o turno desejado</option>               
+                  <option value="verspertino">Vespertino</option>
+                  <option value="matutino">Matutino</option>
+                  <option value="noturno">Noturno</option>
+                  <option value="verspertino">Vespertino/Matutino</option>
+                  <option value="noturno">Vespertino/Matutino/Noturno</option>
+                </select>
+            </div>
+          </div><br>
+          <div class="row">
+            <div class="col">
+              <div class="right_button">
+                <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
+              </div>
+            </div>
           </div>
-          <div class="form-group">
-             <label for="exampleFormControlTextarea1">Descrição</label>
-             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          
+      </form><br>
+      <!-- Fim cadastro -->
 
-        </form>
-        <br>
-        <br>
-        <br>
-        <br> 
-
-  </div>
+      <!-- Tabela de cadastrados -->
+      <table class="table">
+        <thead class="thead-dark">
           <tr>
-            <div class="right_button">
-             <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-          </div>
-
+            <th scope="col">#</th>
+            <th scope="col">Tipo de ensino</th>
+            <th scope="col">Ação</th>
           </tr>
-       
-  </section>      
+        </thead>
+        <tbody>
+          <?php
+            $cod_escola = $_SESSION['cod_escola'];
+            $consulta = "SELECT * FROM tipo_ensino WHERE cod_escola = '$cod_escola'";
+            $resultado = mysqli_query($conexao, $consulta);
+            if (mysqli_num_rows($resultado) == 0) {
+          ?>
+            <tr>
+              <td colspan="3" class="text-center"><?php echo "Nenhum turno cadastrado."; ?></td>
+            </tr>
+          <?php
+            } else {
+              while ($array = mysqli_fetch_assoc($resultado)) {
+          ?>
+            <tr>
+              <form action="../exe/excluir_curso_exe.php" method="get">
+                <td><?php echo $array['cod_tipo_ensino']; ?></td>
+                <td><?php echo $array['tipo_ensino']; ?></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_tipo_ensino" value=<?php echo $array['cod_tipo_ensino']; ?>>Excluir</button></td>
+              </form>
+            </tr>
+          <?php
+              }
+            }
+          ?>
+        </tbody>
+      </table>
+      <!-- Fim tabela de cadastrados -->
+    </div>
+  </section>
+</main>
 
-  </main>
-  <br>
-        <br>
-        
-<table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Codigo</th>
-      <th scope="col">Descrição</th>
-      <th scope="col">Ação</th>    
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td><button type="button" class="btn btn-danger">Excluir</button></td>
-
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td><button type="button" class="btn btn-danger">Excluir</button></td>
-
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td><button type="button" class="btn btn-danger">Excluir</button></td>
-    </tr>
-  </tbody>
-</table>

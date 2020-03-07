@@ -20,9 +20,10 @@
 43 - 
 44 - 
 45 - Lista de Cadastro de turma, mostrando uma linha errada no final
-46 - Atualizar o banco de dados na tabela horario com os campos certos
+46 - 
 47 - Back End - Fazer o cadastro de horario funcionar
 48 - Cadastro de Disciplina por turma, tem um campo professor a mais.
 49 - Excluir campo desnecessário no cadastro de turno
+50 - Back end -  No cadatro curso, não está sendo salvo no banco de dados,(olhar o parametro name
 
 PRINCIPAL - Criar tela de gerar horario
