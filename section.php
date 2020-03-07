@@ -3,7 +3,6 @@
    Introduçao + botoes destaque login e Cadastro
   ============================-->
   <section id="intro">
-
     <div class="intro-content">
       <h2>Crie seus <span>Horários</span><br></h2>
       <h2>Com o TimeTable</h2>
