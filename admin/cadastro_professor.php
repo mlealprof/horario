@@ -9,38 +9,38 @@
         <form action="../exe/cadastro_professor_exe.php" method="post">
           <div class="row">
             <div class="col">
-              <label for="exampleInputPassword1">Nome</label>
-              <input type="text" class="form-control" placeholder="Digite o Nome Completo" required="required" name="nome">
+             <label for="exampleInputPassword1">Nome</label>
+              <input type="text" class="form-control" placeholder="Digite o seu nome" required="required" name="nome">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Telefone</label>
-              <input type="text" class="form-control" placeholder="Telefone para contato" required="required" name="telefone">
+              <input type="text" class="form-control" placeholder="Telefone para contato" name="telefone">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">CPF</label>
-              <input type="text" class="form-control" placeholder="Digite o CPF" required="required" name="cpf">
+              <input type="text" class="form-control" placeholder="Digite o CPF" name="cpf">
             </div> 
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Endereço</label>
-              <input type="text" class="form-control" placeholder="Digite o Endereço" required="required" name="endereco">
+              <input type="text" class="form-control" placeholder="Digite o Endereço" name="endereco">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Número</label>
-              <input type="text" class="form-control" placeholder="Digite o número da casa" required="required" name="numero">
+              <input type="text" class="form-control" placeholder="Digite o número da casa" name="numero">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">País</label>
-              <input type="text" class="form-control" placeholder="Digite o País" required="required" name="pais">
+              <input type="text" class="form-control" placeholder="Digite o País" name="pais">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Cidade</label>
-              <input type="text" class="form-control" placeholder="Digite a Cidade" required="required" name="cidade">
+              <input type="text" class="form-control" placeholder="Digite a Cidade" name="cidade">
             </div>
           </div><br>
           <div class="row">
@@ -79,19 +79,19 @@
             </div>
             <div class="col">
               <label for="exampleInputPassword1">CEP</label>
-              <input type="text" class="form-control" placeholder="Digite o CEP" required="required" name="cep">
+              <input type="text" class="form-control" placeholder="Digite o CEP" name="cep">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Masp</label>
-              <input type="text" class="form-control" placeholder="Insira o Masp Do Professor" required="required" name="masp">
+              <input type="text" class="form-control" placeholder="Insira o Masp Do Professor" name="masp">
             </div>
           </div><br>  
           <div class="row">
             <div class="col">
               <div class="right_button">
-                <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+                <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
               </div>
             </div>
           </div>
@@ -136,9 +136,13 @@
                 <td><?php echo $array['telefone']; ?></td>
                 <td><?php echo $array['endereco']; ?></td>
                 <td><button type="submit" class="btn btn-danger" name="cod_professor" style="margin-left: -16px" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
-                </form>
-                <form>
-                  <td><a href="cadastro_indisponibilidade.php"><button type="" class="btn btn-primary" name="indisponibilidades" style="margin-left: -15px">indisponibilidade</button></a></td> <!-- linkar essa merda aq -->
+              </form>
+                <form action="index.php" method="GET">
+                  <td>
+                    <input type="hidden" name="tela" value="indisponibilidades"></input>
+                    <input type="hidden" name="cod_professor" value=<?php echo $array['cod_professor'];?>></input>
+
+                    <button type="submit" class="btn btn-primary" name="<?php    $array['cod_professor'];?>" style="margin-left: -15px">Indisponibilidade</button></a></td> 
                 </form>
             </tr>
           <?php

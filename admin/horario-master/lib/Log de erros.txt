@@ -1,0 +1,31 @@
+1 -
+2 - ambas partes do cadastre sua escola e login nÃ£o estÃ£o centralizadas fora do padrao .CSS.
+3 - Input do login esta com uma fonte diferente da aba cadastre sua escola saindon do padrao do site//resolvido Sérgio//
+4 - Esqueceu senha nao funciona.//Sérgio front end criado falta o back end//
+5 - Titulo do cpanel estranho//Resolvido Sérgio//
+6 - (Resolvido) No cadastro de usuario a lista de usuarios cadastrados nao esta funcionando.
+7 - 
+8 - (Resolvido) Cadastro de Curso fora do padrÃ£o de cadastros e sem lista de cadastrados//resolvido Sérgio//
+9 - 
+10 - (Resolvido) Os botoes Excluir dos cadastrados nao estao funcionando
+11 - (Resolvido) O campo Tipo de usuÃ¡rio no cadastro de cliente, tem que ser padrÃ£o, o usuario nao digita e sim escolhe em uma combobox//resolvido Sérgio//.
+11.5 - Refazer o back end do cadastro cliente pois apos alterar o campo para um combo box o back end apresentou um bug .
+12 - (Resolvido) Mudar a tela de cadastro de horÃ¡rio deve ficar os campos (Posisao, Dia da Semana, hora inicial e final).//Sérgio resolvido//
+12.5 - Refazer o back end do cadastro de horarios pois apos alterar o campo para um combo box o back end apresentou um bug .
+13 -
+14 - (Resolvido) Erro de portugues na tela inicial (horario sem acento).//resolvido Sergio//
+15 - Fazer a tela de cadastro de professores e suas indisponibilidades
+16 - Faze o cadastro de disciplinas por turma.
+17 - 
+18 - (Resolvido) No Cpanel, a palavra horÃ¡rio do Menu estÃ¡ sem acento//resolvido Sérgio//
+19 - (Resolvido) No Cpanel, a palavra usuÃ¡rio no menu estÃ¡ sem acento//resolvido Sérgio//
+20 - No Cpanel, o link que mostra os dados do usuÃ¡rio nÃ£o estÃ¡ funcionando
+21 - No Cpanel, editar dados do usuÃ¡rio e da escolha nÃ£o estÃ¡ pronto
+22 - Criar tela de gerar horÃ¡rio (A principal)
+23 - Fundo da tela de login esta misturando com os campos, colocar uma div com fundo de cor diferente
+24 - Criar tela de cadastro de turno e colocar de forma automática no cadastro de turma, aparecer os turnos cadastrados
+25 - Colocar conteudos releventes na pagina inicial
+26 - Colocar o carrosel de imagens dos alunos funcionando na pagina inicial
+27 - Criar tela de alterar dados da escola
+28 - Criar tela de alterar dados do usuario
+29 - 

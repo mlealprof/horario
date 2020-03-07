@@ -203,6 +203,9 @@
                                 case 'disciplina_turma':
                                     include 'disciplina_por_turma.php';
                                     break;
+                                case 'indisponibilidades':
+                                    include 'cadastro_indisponibilidade.php';
+                                    break;
                                 case 'turno':
                                     include 'turno.php';
                                     break;
@@ -221,7 +224,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                         Copyright © 2018 Concept. All rights reserved. Dashboard by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                         &copy; Copyright <strong>TimeTable</strong>. Todos os Direitos Reservados</a>.
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <div class="text-md-right footer-links d-none d-sm-block">
