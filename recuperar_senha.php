@@ -6,7 +6,7 @@
 <body>
 	<section id="intro">
 
-	   <form action="exe/login_exe.php" method="Post">
+	   <form action="exe/test.php" method="Post">
 		<div class="babado-container intro-content">
 		<h2>Digite seu Email</h2>
 		Informe o Email cadastrado e enviaremos sua senha temporaria.
