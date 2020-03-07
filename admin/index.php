@@ -207,7 +207,9 @@
                                     include 'cadastro_indisponibilidade.php';
                                     break;
                                 case 'turno':
+
                                     include 'cadastro_turno.php';
+
                                     break;
                                 default:
                                     include 'cadastro_usuario.php';

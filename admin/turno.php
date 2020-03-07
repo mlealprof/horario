@@ -23,7 +23,10 @@
                   <option value="noturno">Noturno</option>
                   <option value="verspertino">Vespertino/Matutino</option>
                   <option value="noturno">Vespertino/Matutino/Noturno</option>
-                </select>
+                </select><br><br>
+                <label for="exampleInputPassword1">Outro tipo de turno?</label>
+                <label for="exampleInputPassword1"></label>
+              <input type="text" class="form-control" placeholder="" required="required" name="">
             </div>
           </div><br>
           <div class="row">
@@ -76,4 +79,3 @@
     </div>
   </section>
 </main>
-
