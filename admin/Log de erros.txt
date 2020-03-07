@@ -1,0 +1,43 @@
+1 -
+2 - 
+3 - 
+4 - 
+5 - 
+6 - 
+7 - 
+8 - 
+9 - 
+10 - 
+11 - 
+11.5 - 
+12 - 
+12.5 - Refazer o back end do cadastro de horarios pois apos alterar o campo para um combo box o back end apresentou um bug .
+13 -
+14 -
+15 - 
+16 - (Miguel)Fazer o cadastro de disciplinas por turma.
+17 - 
+18 - 
+19 - 
+20 - Back End - Colocar o alteração de usuário funcionando
+21 - No Cpanel, criar edição de dados da escola
+22 - Criar tela de gerar horario (A principal)
+23 - 
+24 - Criar tela de cadastro de turno e colocar de forma automática no cadastro de turma, aparecer os turnos cadastrados
+25 - Colocar conteudos releventes na pagina inicial
+26 - 
+27 - Criar tela de alterar dados da escola
+28 -
+29 - 
+30 - Botão sair no CPanel está feio
+31 - Colocar no tipo de usuário (Cadastro de Usuário)- Diretor, Supervisor, Coordenador, Professor
+32 - Colocar um combobox com sujestoes no campo tipo de ensino no cadastro de curso
+33 - A lista no cadastro de turmas está fora do padrão
+34 - 
+35 - Tirar o campo posicao ou ordem no cadastro de horario, e o campo hora inicio e fim e um campo só, não dois. E atualizar os dados da lista com os alterados.
+36 - 
+37- Cadastro de professore, completar os dois campos de indisponibilidades com os dados do cadastro de horario
+38 - A lista de indisponibilidade dos professores.
+39 - Cadastro de disciplinas por turma: o campo turma deve buscar as turmas cadastradas, o campo disciplina deve buscar as disciplinas cadastradas, e está faltando um campo professor, que deve buscar os professores cadastrados de acordo com a disciplina escolhida. 
+40 - Arrumar botão salvar do cadastro de usuário
+

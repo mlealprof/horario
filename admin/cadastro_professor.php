@@ -9,90 +9,89 @@
         <form action="../exe/cadastro_professor_exe.php" method="post">
           <div class="row">
             <div class="col">
-              <label for="exampleInputPassword1">Nome</label>
-              <input type="text" class="form-control" placeholder="Digite o Nome Completo" required="required" name="nome">
+             <label for="exampleInputPassword1">Nome</label>
+              <input type="text" class="form-control" placeholder="Digite o seu nome" required="required" name="nome">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Telefone</label>
-              <input type="text" class="form-control" placeholder="Telefone para contato" required="required" name="telefone">
+              <input type="text" class="form-control" placeholder="Telefone para contato" name="telefone">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">CPF</label>
-              <input type="text" class="form-control" placeholder="Digite o CPF" required="required" name="cpf">
+              <input type="text" class="form-control" placeholder="Digite o CPF" name="cpf">
             </div> 
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Endereço</label>
-              <input type="text" class="form-control" placeholder="Digite o Endereço" required="required" name="endereco">
+              <input type="text" class="form-control" placeholder="Digite o Endereço" name="endereco">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Número</label>
-              <input type="text" class="form-control" placeholder="Digite o número da casa" required="required" name="numero">
+              <input type="text" class="form-control" placeholder="Digite o número da casa" name="numero">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">País</label>
-              <input type="text" class="form-control" placeholder="Digite o País" required="required" name="pais">
+              <input type="text" class="form-control" placeholder="Digite o País" name="pais">
             </div>
             <div class="col">
               <label for="exampleInputPassword1">Cidade</label>
-              <input type="text" class="form-control" placeholder="Digite a Cidade" required="required" name="cidade">
+              <input type="text" class="form-control" placeholder="Digite a Cidade" name="cidade">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
-               <label for="exampleInputPassword1">Estado</label>
-                <select name="estado" id="inputEstado" class="form-control">
-                         <option selected>Estado...
-                                <option value="AC">Acre</option>
-                                <option value="AL">Alagoas</option>
-                                <option value="AP">Amapá</option>
-                                <option value="AM">Amazonas</option>
-                                <option value="BA">Bahia</option>
-                                <option value="CE">Ceará</option>
-                                <option value="DF">Distrito Federal</option>
-                                <option value="ES">Espírito Santo</option>
-                                <option value="GO">Goiás</option>
-                                <option value="MA">Maranhão</option>
-                                <option value="MT">Mato Grosso</option>
-                                <option value="MS">Mato Grosso do Sul</option>
-                                <option value="MG">Minas Gerais</option>
-                                <option value="PA">Pará</option>
-                                <option value="PB">Paraíba</option>
-                                <option value="PR">Paraná</option>
-                                <option value="PE">Pernambuco</option>
-                                <option value="PI">Piauí</option>
-                                <option value="RJ">Rio de Janeiro</option>
-                                <option value="RN">Rio Grande do Norte</option>
-                                <option value="RS">Rio Grande do Sul</option>
-                                <option value="RO">Rondônia</option>
-                                <option value="RR">Roraima</option>
-                                <option value="SC">Santa Catarina</option>
-                                <option value="SP">São Paulo</option>
-                                <option value="SE">Sergipe</option>
-                                <option value="TO">Tocantins</option> 
-                         </option>       
+              <label for="exampleInputPassword1">Estado</label>
+                <select class="browser-default custom-select">                 
+                 <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+                  <option value="EX">Estrangeiro</option>
                 </select>
             </div>
             <div class="col">
               <label for="exampleInputPassword1">CEP</label>
-              <input type="text" class="form-control" placeholder="Digite o CEP" required="required" name="cep">
+              <input type="text" class="form-control" placeholder="Digite o CEP" name="cep">
             </div>
           </div><br>
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Masp</label>
-              <input type="text" class="form-control" placeholder="Insira o Masp Do Professor" required="required" name="masp">
+              <input type="text" class="form-control" placeholder="Insira o Masp Do Professor" name="masp">
             </div>
           </div><br>  
           <div class="row">
             <div class="col">
               <div class="right_button">
-                <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
+                <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
               </div>
             </div>
           </div>
@@ -101,33 +100,7 @@
       <!-- Fim cadastro -->
       
       <!-- indisponibilidades-->
-      <h3>Indisponibilidades</h3><br>
-      <div class="indisp">
-        <table class="table">
-          <tr>
-            <th scope="col">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-              <th scope="col"><label for="indisponibilidades">Dia</label>
-                <select id="dias">
-                  <option value=""></option>  
-                  <option value=""></option>  
-                  <option value=""></option>  
-                  <option value=""></option>  
-                  <option value=""></option>  
-                </select>
-              </th>
-              <th scope="col"><label>Horários</label>
-                <select id="horario-proff">
-                  <option></option>  
-                  <option></option>  
-                  <option></option>  
-                  <option></option>  
-                  <option></option>  
-                </select>
-              </th>
-            <th scope="col"><button type="button" class="btn btn-success">Adicionar</button></th>
-          </tr>
-        </table>
-      </div><br>
+      <br>
       <!-- FIM indisponibilidades-->
 
       <!-- Tabela de cadastrados -->
@@ -139,6 +112,7 @@
             <th scope="col">Telefone</th>
             <th scope="col">Endereço</th>
             <th scope="col">Ação</th>
+            <th scope="col">indisponibilidade</th>
           </tr>
         </thead>
         <tbody>
@@ -161,8 +135,15 @@
                 <td><?php echo $array['nome']; ?></td>
                 <td><?php echo $array['telefone']; ?></td>
                 <td><?php echo $array['endereco']; ?></td>
-                <td><button type="submit" class="btn btn-danger" name="cod_professor" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
+                <td><button type="submit" class="btn btn-danger" name="cod_professor" style="margin-left: -16px" value=<?php echo $array['cod_professor']; ?>>Excluir</button></td>
               </form>
+                <form action="index.php" method="GET">
+                  <td>
+                    <input type="hidden" name="tela" value="indisponibilidades"></input>
+                    <input type="hidden" name="cod_professor" value=<?php echo $array['cod_professor'];?>></input>
+
+                    <button type="submit" class="btn btn-primary" name="<?php    $array['cod_professor'];?>" style="margin-left: -15px">Indisponibilidade</button></a></td> 
+                </form>
             </tr>
           <?php
               }
