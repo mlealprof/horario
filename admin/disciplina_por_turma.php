@@ -44,12 +44,7 @@
                   ?>
                 </select>
               </div>
-              <div class="col">
-              <label for="exampleInputPassword1" >Professor</label>
-                <select name="cod_disciplina" id="inputEstado" class="form-control">
-                  <option selected>Professor da Disciplina</option>               
-                </select>
-            </div>
+          
             <div class="col">
               <label for="exampleInputPassword1" >Professor</label>
               <select name="cod_professor" id="inputEstado" class="form-control">
