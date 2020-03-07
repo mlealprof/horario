@@ -44,7 +44,7 @@
                   ?>
                 </select>
               </div>
-          fhg
+          
             <div class="col">
               <label for="exampleInputPassword1" >Professor</label>
               <select name="cod_professor" id="inputEstado" class="form-control">
